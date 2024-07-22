@@ -1,0 +1,1156 @@
+.container{
+    z-index: 5;
+    display:flex;
+    flex-direction: row;
+align-items: center;
+justify-content: space-between;
+}
+
+
+.name{
+
+    cursor: pointer;
+
+    width: 17%;
+height: 5%;
+flex-shrink: 0;
+
+position:absolute;
+left:2.5vw;
+top:2.75vh;
+
+font-family: Inter;
+font-size: 2.25vw; 
+/* 32px = 2.343vw */
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+background: linear-gradient(90deg, #000 0%, #BDB2B2 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+
+.name-light-mode{
+
+    cursor: pointer;
+
+    width: 17%;
+height: 5%;
+flex-shrink: 0;
+
+position:absolute;
+left:2.5vw;
+top:2.75vh;
+
+font-family: Inter;
+font-size: 2.25vw; 
+/* 32px = 2.343vw */
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+background: linear-gradient(90deg, #ffffff 0%, #808080 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+
+.name-dark-mode{
+
+    cursor: pointer;
+
+    width: 17%;
+height: 5%;
+flex-shrink: 0;
+
+position:absolute;
+left:2.5vw;
+top:2.75vh;
+
+font-family: Inter;
+font-size: 2.25vw; 
+/* 32px = 2.343vw */
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+background: linear-gradient(90deg, #000 0%, #BDB2B2 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+
+.wobble{
+    text-shadow: 0px 0px 1vw #00FF09;
+    background-color: #0DF;
+    background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+    animation: glowtext 4s linear infinite;
+
+}
+@keyframes glowtext {
+    0% {
+      filter: hue-rotate(0deg);
+    }
+    100% {
+   filter: hue-rotate(360deg);
+    }
+  }
+
+  
+
+
+.navbar{
+    z-index: 100;
+    color:aliceblue;
+   display:flex;
+   align-items: center;
+   justify-content: space-around;
+
+   width:61.5%;
+   height:7.8%;
+   position:fixed;
+   top:1.5%;
+   left:19.25%;
+
+   border-radius: 5vw;
+background: #000;
+box-shadow: 0px 1.3vh 3vh 0px #000;
+
+/* font-size: 16px; */
+font-size: 1.125vw;
+}
+
+
+.navbar-light-mode{
+    z-index: 100;
+    color:aliceblue;
+   display:flex;
+   align-items: center;
+   justify-content: space-around;
+
+   width:61.5%;
+   height:7.8%;
+   position:fixed;
+   top:1.5%;
+   left:19.25%;
+
+   border-radius: 5vw;
+background: #000;
+box-shadow: 0px 1.3vh 3vh 0px rgba(246, 0, 255,0.25);
+
+/* font-size: 16px; */
+font-size: 1.125vw;
+}
+
+
+
+
+.navbar-dark-mode{
+    z-index: 100;
+    color:aliceblue;
+   display:flex;
+   align-items: center;
+   justify-content: space-around;
+
+   width:61.5%;
+   height:7.8%;
+   position:fixed;
+   top:1.5%;
+   left:19.25%;
+
+   border-radius: 5vw;
+background: #000;
+box-shadow: 0px 1.3vh 3vh 0px #101010;
+
+/* font-size: 16px; */
+font-size: 1.125vw;
+}
+
+
+
+.elem{
+    transition: font-size 0.25s;
+}
+.elem:hover{
+    font-size: 1vw;
+}
+
+
+.social{
+width:10.5%;
+height:6.5%;
+position:absolute;
+right:4.8125%;
+top:2.25%;
+
+display:flex;
+align-items:center;
+justify-content: space-around;
+}
+
+
+.instagram-icon-light-mode{
+    color:#000;
+    border-radius: 25%;
+    /* width:40px;
+    height:40px; */
+    width:2.7vw;
+    height:5.20833vh;
+  /* background: linear-gradient(0deg, #fff 0%, #808080 100%); */
+
+box-shadow: 0px 0.5vh 1vh 0px rgba(246, 0, 255,0.5);
+
+transition: all 0.5s;
+transform-origin: 50% 50%;
+}
+.instagram-icon-light-mode:hover{
+   
+    width:2.2vw;
+    height:4.5vh;
+    background:linear-gradient(120deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+	background-size: 400% 400%;
+    animation-name: icons-hover;
+    animation-duration: 2s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+    box-shadow: 0px 0.5vh 1vh 0px rgba(246, 0, 255,1);
+}
+
+.instagram-icon-dark-mode{
+    color:#000;
+    border-radius: 25%;
+    /* width:40px;
+    height:40px; */
+    width:2.7vw;
+    height:5.20833vh;
+  /* background: linear-gradient(0deg, #fff 0%, #808080 100%); */
+
+box-shadow: 0px 0.5vh 1vh 0px #ffffff;
+
+transition: all 0.5s;
+transform-origin: 50% 50%;
+}
+.instagram-icon-dark-mode:hover{
+   
+    width:2.2vw;
+    height:4.5vh;
+    background:linear-gradient(120deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+	background-size: 400% 400%;
+    animation-name: icons-hover;
+    animation-duration: 2s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+}
+
+.linkedin-icon-light-mode{
+    color:#000;
+    /* width:40px;
+    height:40px; */
+
+    width:2.7vw;
+    height:5.20833vh;
+
+box-shadow: 0px 0.5vh 1vh 0px rgba(246, 0, 255,0.5);
+/* background: linear-gradient(0deg, #fff 0%, #808080 100%); */
+
+transition: all 0.5s;
+transform-origin: 50% 50%;
+}
+.linkedin-icon-light-mode:hover{
+    width:2.2vw;
+    height:4.5vh;
+    background:linear-gradient(120deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+	background-size: 400% 400%;
+    animation-name: icons-hover;
+    animation-duration: 2s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+    box-shadow: 0px 0.5vh 1vh 0px rgba(246, 0, 255,1);
+}
+
+.linkedin-icon-dark-mode{
+    color:#000;
+    /* width:40px;
+    height:40px; */
+
+    width:2.7vw;
+    height:5.20833vh;
+
+box-shadow: 0px 0.5vh 1vh 0px #ffffff;
+/* background: linear-gradient(0deg, #fff 0%, #808080 100%); */
+
+transition: all 0.5s;
+transform-origin: 50% 50%;
+}
+.linkedin-icon-dark-mode:hover{
+    width:2.2vw;
+    height:4.5vh;
+    background:linear-gradient(120deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+	background-size: 400% 400%;
+    animation-name: icons-hover;
+    animation-duration: 2s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+}
+
+.github-icon-light-mode{
+    border-radius: 50%;
+    /* width:40px;
+    height:40px; */
+
+    width:2.7vw;
+    height:5.20833vh;
+
+box-shadow: 0px 0.5vh 1vh 0px rgba(246, 0, 255,0.5);
+color:#000;
+/* background: linear-gradient(0deg, #fff 0%, #808080 100%); */
+
+transition: all 0.5s;
+transform-origin: 50% 50%;
+}
+.github-icon-light-mode:hover{
+width:2.2vw;
+    height:4.5vh;
+    background:linear-gradient(120deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+	background-size: 400% 400%;
+    animation-name: icons-hover;
+    animation-duration: 2s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+    box-shadow: 0px 0.5vh 1vh 0px rgba(246, 0, 255,1);
+}
+
+.github-icon-dark-mode{
+    border-radius: 50%;
+    /* width:40px;
+    height:40px; */
+
+    width:2.7vw;
+    height:5.20833vh;
+
+box-shadow: 0px 0.5vh 1vh 0px #ffffff;
+color:#000;
+/* background: linear-gradient(0deg, #fff 0%, #808080 100%); */
+
+transition: all 0.5s;
+transform-origin: 50% 50%;
+}
+.github-icon-dark-mode:hover{
+width:2.2vw;
+    height:4.5vh;
+    background:linear-gradient(120deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+	background-size: 400% 400%;
+    animation-name: icons-hover;
+    animation-duration: 2s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+}
+
+.elem-text{
+    backdrop-filter: blur(400px);
+}
+
+@keyframes icons-hover{
+	0% {
+		background-position: 0% 0%;
+	}
+    50%{
+        background-position: 25% 25%;
+    }
+	100% {
+		background-position: 100% 100%;
+	}
+}
+
+
+@media (max-aspect-ratio: 10/16){
+
+    .container{
+        z-index: 5;
+        display:flex;
+        flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    }
+    
+    
+    .name{
+    
+        cursor: pointer;
+    
+        width: 93.5vw;
+    height: 5vh;
+    flex-shrink: 0;
+    
+    position:absolute;
+    left:2.5vw;
+    top:2.75vh;
+    
+    font-family: Inter;
+    font-size: 2.25vw; 
+    /* 32px = 2.343vw */
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    
+    background: linear-gradient(90deg, #000 0%, #BDB2B2 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    }
+    
+    .name-light-mode{
+    
+        cursor: pointer;
+    
+        width: 31vw;
+    height: 5%;
+    flex-shrink: 0;
+    position:absolute;
+    left:7vw;
+    top:11vh;
+    
+    font-family: Inter;
+    font-size: 2.25vh; 
+    /* 32px = 2.343vw */
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    
+    background: linear-gradient(90deg, #ffffff 0%, #808080 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    }
+    
+    .name-dark-mode{
+    
+        cursor: pointer;
+    
+        width: 31vw;
+    height: 5%;
+    flex-shrink: 0;
+    
+    position:absolute;
+    left:7vw;
+    top:11vh;
+    
+    font-family: Inter;
+    font-size: 2.25vh; 
+    /* 32px = 2.343vw */
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    
+    background: linear-gradient(90deg, #000 0%, #BDB2B2 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    }
+    
+    .wobble{
+        text-shadow: 0px 0px 1vw #00FF09;
+        background-color: #0DF;
+        background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+        animation: glowtext 4s linear infinite;
+    
+    }
+    @keyframes glowtext {
+        0% {
+          filter: hue-rotate(0deg);
+        }
+        100% {
+       filter: hue-rotate(360deg);
+        }
+      }
+    
+      
+    
+    
+    .navbar{
+        z-index: 100;
+        color:aliceblue;
+       display:flex;
+       align-items: center;
+       justify-content: space-around;
+    
+       width:61.5%;
+       height:7.8%;
+       position:fixed;
+       top:1.5%;
+       left:19.25%;
+    
+       border-radius: 5vw;
+    background: #000;
+    box-shadow: 0px 1.3vh 3vh 0px #000;
+    
+    /* font-size: 16px; */
+    font-size: 1.125vw;
+    }
+    
+    
+    .navbar-light-mode{
+        z-index: 100;
+        color:aliceblue;
+       display:flex;
+       align-items: center;
+       justify-content: space-around;
+    
+       width:93.5vw;
+       height:5vh;
+       position:fixed;
+       top:2.5%;
+       left:3.25%;
+    
+       border-radius: 5vh;
+    background: #000;
+    box-shadow: 0px 1.3vh 3vh 0px rgba(246, 0, 255,0.25);
+
+    font-size: 1.125vh;
+
+    }
+    
+    
+    
+    
+    .navbar-dark-mode{
+        z-index: 100;
+        color:aliceblue;
+       display:flex;
+       align-items: center;
+       justify-content: space-around;
+    
+       width:93.5vw;
+       height:5vh;
+       position:fixed;
+       top:2.5%;
+       left:3.25%;
+    
+       border-radius: 5vh;
+    background: #000;
+    box-shadow: 0px 1.3vh 3vh 0px #101010;
+    
+    /* font-size: 16px; */
+    font-size: 1.125vh;
+    }
+    
+    
+    
+    .elem{
+        transition: font-size 0.25s;
+    }
+    .elem:hover{
+        font-size: 1vh;
+    }
+    
+    
+    .instagram-icon-light-mode{
+        color:#000;
+        border-radius: 25%;
+        /* width:40px;
+        height:40px; */
+        width:2.7vh;
+        height:5.20833vw;
+      /* background: linear-gradient(0deg, #fff 0%, #808080 100%); */
+      position: relative;
+      top: 6.5vh;
+        right: 18vw;
+    box-shadow: 0px 0.5vh 1vh 0px rgba(246, 0, 255,0.5);
+    transform: scale(1.5);
+    transition: all 0.5s;
+    transform-origin: 50% 50%;
+    }
+    .instagram-icon-light-mode:hover{
+        background:linear-gradient(120deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+        background-size: 400% 400%;
+        animation-name: icons-hover;
+        animation-duration: 2s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+        animation-direction:alternate-reverse;
+        box-shadow: 0px 0.5vh 1vh 0px rgba(246, 0, 255,1);
+        /* transform: scale(1.2); */
+        width:2vh;
+        height:3.5vw;
+    }
+    
+    .instagram-icon-dark-mode{
+        color:#000;
+        border-radius: 25%;
+        /* width:40px;
+        height:40px; */
+        width:2.7vh;
+        height:5.20833vw;
+      /* background: linear-gradient(0deg, #fff 0%, #808080 100%); */
+    
+        position: relative;
+        top: 6.5vh;
+        right: 18vw;
+    box-shadow: 0px 0.5vh 1vh 0px #ffffff;
+    transform: scale(1.5);
+    transition: all 0.5s;
+    transform-origin: 50% 50%;
+    }
+    .instagram-icon-dark-mode:hover{
+       
+        background:linear-gradient(120deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+        background-size: 400% 400%;
+        animation-name: icons-hover;
+        animation-duration: 2s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+        animation-direction:alternate-reverse;
+        /* transform: scale(1.2); */
+        width:2vh;
+        height:3.5vw;
+    }
+    
+    .linkedin-icon-light-mode{
+        color:#000;
+        /* width:40px;
+        height:40px; */
+    
+        width:2.7vh;
+        height:5.20833vw;
+        position: relative;
+        top: 6.5vh;
+        right: 14vw;
+    box-shadow: 0px 0.5vh 1vh 0px rgba(246, 0, 255,0.5);
+    /* background: linear-gradient(0deg, #fff 0%, #808080 100%); */
+    transform: scale(1.5);
+    transition: all 0.5s;
+    transform-origin: 50% 50%;
+    }
+    .linkedin-icon-light-mode:hover{
+        background:linear-gradient(120deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+        background-size: 400% 400%;
+        animation-name: icons-hover;
+        animation-duration: 2s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+        animation-direction:alternate-reverse;
+        box-shadow: 0px 0.5vh 1vh 0px rgba(246, 0, 255,1);
+        /* transform: scale(1.2); */
+              width:2vh;
+        height:3.5vw;
+    }
+    
+    .linkedin-icon-dark-mode{
+        color:#000;
+        /* width:40px;
+        height:40px; */
+    
+        width:2.7vh;
+        height:5.20833vw;
+        position: relative;
+        top: 6.5vh;
+        right:14vw;
+    box-shadow: 0px 0.5vh 1vh 0px #ffffff;
+    /* background: linear-gradient(0deg, #fff 0%, #808080 100%); */
+    transform: scale(1.5);
+    transition: all 0.5s;
+    transform-origin: 50% 50%;
+    }
+    .linkedin-icon-dark-mode:hover{
+      
+        background:linear-gradient(120deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+        background-size: 400% 400%;
+        animation-name: icons-hover;
+        animation-duration: 2s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+        animation-direction:alternate-reverse;
+        /* transform: scale(1.2); */
+        width:2vh;
+        height:3.5vw;
+    }
+    
+    .github-icon-light-mode{
+        border-radius: 50%;
+        /* width:40px;
+        height:40px; */
+    
+        width:2.7vh;
+        height:5.20833vw;
+        position: relative;
+        top: 6.5vh;
+        right: 10vw;
+    box-shadow: 0px 0.5vh 1vh 0px rgba(246, 0, 255,0.5);
+    color:#000;
+    /* background: linear-gradient(0deg, #fff 0%, #808080 100%); */
+    transform: scale(1.5);
+    transition: all 0.5s;
+    transform-origin: 50% 50%;
+    }
+    .github-icon-light-mode:hover{
+  
+        background:linear-gradient(120deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+        background-size: 400% 400%;
+        animation-name: icons-hover;
+        animation-duration: 2s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+        animation-direction:alternate-reverse;
+        box-shadow: 0px 0.5vh 1vh 0px rgba(246, 0, 255,1);
+        /* transform: scale(1.2); */
+        width:2vh;
+        height:3.5vw;
+    }
+    
+    .github-icon-dark-mode{
+        border-radius: 50%;
+        /* width:40px;
+        height:40px; */
+    
+        width:2.7vh;
+        height:5.20833vw;
+        position: relative;
+        top: 6.5vh;
+        right:10vw;
+    box-shadow: 0px 0.5vh 1vh 0px #ffffff;
+    color:#000;
+    /* background: linear-gradient(0deg, #fff 0%, #808080 100%); */
+    
+    transform: scale(1.5);
+    transition: all 0.5s;
+    transform-origin: 50% 50%;
+    }
+    .github-icon-dark-mode:hover{
+        background:linear-gradient(120deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+        background-size: 400% 400%;
+        animation-name: icons-hover;
+        animation-duration: 2s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+        animation-direction:alternate-reverse;
+        /* transform: scale(1.2); */
+        width:2vh;
+        height:3.5vw;
+    }
+    
+    .elem-text{
+        backdrop-filter: blur(400px);
+    }
+    
+    @keyframes icons-hover{
+        0% {
+            background-position: 0% 0%;
+        }
+        50%{
+            background-position: 25% 25%;
+        }
+        100% {
+            background-position: 100% 100%;
+        }
+    }
+    
+
+}
+
+
+
+@media (min-aspect-ratio:10/16) and (max-aspect-ratio: 1){
+
+    .container{
+        z-index: 5;
+        display:flex;
+        flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    }
+    
+    
+    .name{
+    
+        cursor: pointer;
+    
+        width: 93.5vw;
+    height: 5vh;
+    flex-shrink: 0;
+    
+    position:absolute;
+    left:2.5vw;
+    top:2.75vh;
+    
+    font-family: Inter;
+    font-size: 2.25vw; 
+    /* 32px = 2.343vw */
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    
+    background: linear-gradient(90deg, #000 0%, #BDB2B2 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    }
+    
+    .name-light-mode{
+    
+        cursor: pointer;
+    
+        width: 31vw;
+    height: 5%;
+    flex-shrink: 0;
+    position:absolute;
+    left:7vw;
+    top:11vh;
+    
+    font-family: Inter;
+    font-size: 3vh; 
+    /* 32px = 2.343vw */
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    
+    background: linear-gradient(90deg, #ffffff 0%, #808080 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    }
+    
+    .name-dark-mode{
+    
+        cursor: pointer;
+    
+        width: 31vw;
+    height: 5%;
+    flex-shrink: 0;
+    
+    position:absolute;
+    left:7vw;
+    top:11vh;
+    
+    font-family: Inter;
+    font-size: 3vh; 
+    /* 32px = 2.343vw */
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    
+    background: linear-gradient(90deg, #000 0%, #BDB2B2 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    }
+    
+    .wobble{
+        text-shadow: 0px 0px 1vw #00FF09;
+        background-color: #0DF;
+        background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+        animation: glowtext 4s linear infinite;
+    
+    }
+    @keyframes glowtext {
+        0% {
+          filter: hue-rotate(0deg);
+        }
+        100% {
+       filter: hue-rotate(360deg);
+        }
+      }
+    
+      
+    
+    
+    .navbar{
+        z-index: 100;
+        color:aliceblue;
+       display:flex;
+       align-items: center;
+       justify-content: space-around;
+    
+       width:61.5%;
+       height:7.8%;
+       position:fixed;
+       top:1.5%;
+       left:19.25%;
+    
+       border-radius: 5vw;
+    background: #000;
+    box-shadow: 0px 1.3vh 3vh 0px #000;
+    
+    /* font-size: 16px; */
+    font-size: 1.125vw;
+    }
+    
+    
+    .navbar-light-mode{
+        z-index: 100;
+        color:aliceblue;
+       display:flex;
+       align-items: center;
+       justify-content: space-around;
+    
+       width:93.5vw;
+       height:5vh;
+       position:fixed;
+       top:2.5%;
+       left:3.25%;
+    
+       border-radius: 5vh;
+    background: #000;
+    box-shadow: 0px 1.3vh 3vh 0px rgba(246, 0, 255,0.25);
+
+    font-size: 1.25vh;
+
+    }
+    
+    
+    
+    
+    .navbar-dark-mode{
+        z-index: 100;
+        color:aliceblue;
+       display:flex;
+       align-items: center;
+       justify-content: space-around;
+    
+       width:93.5vw;
+       height:5vh;
+       position:fixed;
+       top:2.5%;
+       left:3.25%;
+    
+       border-radius: 5vh;
+    background: #000;
+    box-shadow: 0px 1.3vh 3vh 0px #101010;
+    
+    /* font-size: 16px; */
+    font-size: 1.25vh;
+    }
+    
+    
+    
+    .elem{
+        transition: font-size 0.25s;
+    }
+    .elem:hover{
+        font-size: 1vh;
+    }
+    
+    
+    .instagram-icon-light-mode{
+        color:#000;
+        border-radius: 25%;
+        /* width:40px;
+        height:40px; */
+        width:2.7vh;
+        height:4.5vw;
+      /* background: linear-gradient(0deg, #fff 0%, #808080 100%); */
+      position: relative;
+      top: 6.5vh;
+        right: 10vw;
+    box-shadow: 0px 0.5vh 1vh 0px rgba(246, 0, 255,0.5);
+    transform: scale(1.5);
+    transition: all 0.5s;
+    transform-origin: 50% 50%;
+    }
+    .instagram-icon-light-mode:hover{
+        background:linear-gradient(120deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+        background-size: 400% 400%;
+        animation-name: icons-hover;
+        animation-duration: 2s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+        animation-direction:alternate-reverse;
+        box-shadow: 0px 0.5vh 1vh 0px rgba(246, 0, 255,1);
+        width:2vh;
+        height:3.5vw;
+    }
+    
+    .instagram-icon-dark-mode{
+        color:#000;
+        border-radius: 25%;
+        /* width:40px;
+        height:40px; */
+        width:2.7vh;
+        height:4.5vw;
+      /* background: linear-gradient(0deg, #fff 0%, #808080 100%); */
+    
+        position: relative;
+        top: 6.5vh;
+        right: 10vw;
+    box-shadow: 0px 0.5vh 1vh 0px #ffffff;
+    transform: scale(1.5);
+    transition: all 0.5s;
+    transform-origin: 50% 50%;
+    }
+    .instagram-icon-dark-mode:hover{
+       
+        background:linear-gradient(120deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+        background-size: 400% 400%;
+        animation-name: icons-hover;
+        animation-duration: 2s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+        animation-direction:alternate-reverse;
+        /* transform: scale(1.2); */
+        width:2vh;
+        height:3.5vw;
+    }
+    
+    .linkedin-icon-light-mode{
+        color:#000;
+        /* width:40px;
+        height:40px; */
+    
+        width:2.7vh;
+        height:4.5vw;
+        position: relative;
+        top: 6.5vh;
+        right: 6vw;
+    box-shadow: 0px 0.5vh 1vh 0px rgba(246, 0, 255,0.5);
+    /* background: linear-gradient(0deg, #fff 0%, #808080 100%); */
+    transform: scale(1.5);
+    transition: all 0.5s;
+    transform-origin: 50% 50%;
+    }
+    .linkedin-icon-light-mode:hover{
+        background:linear-gradient(120deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+        background-size: 400% 400%;
+        animation-name: icons-hover;
+        animation-duration: 2s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+        animation-direction:alternate-reverse;
+        box-shadow: 0px 0.5vh 1vh 0px rgba(246, 0, 255,1);
+        /* transform: scale(1.2); */
+        width:2vh;
+        height:3.5vw;
+    }
+    
+    .linkedin-icon-dark-mode{
+        color:#000;
+        /* width:40px;
+        height:40px; */
+    
+        width:2.7vh;
+        height:4.5vw;
+        position: relative;
+        top: 6.5vh;
+        right:6vw;
+    box-shadow: 0px 0.5vh 1vh 0px #ffffff;
+    /* background: linear-gradient(0deg, #fff 0%, #808080 100%); */
+    transform: scale(1.5);
+    transition: all 0.5s;
+    transform-origin: 50% 50%;
+    }
+    .linkedin-icon-dark-mode:hover{
+      
+        background:linear-gradient(120deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+        background-size: 400% 400%;
+        animation-name: icons-hover;
+        animation-duration: 2s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+        animation-direction:alternate-reverse;
+        /* transform: scale(1.2); */
+        width:2vh;
+        height:3.5vw;
+    }
+    
+    .github-icon-light-mode{
+        border-radius: 50%;
+        /* width:40px;
+        height:40px; */
+    
+        width:2.7vh;
+        height:3vh;
+        position: relative;
+        top: 6.5vh;
+        right: 2vw;
+    box-shadow: 0px 0.5vh 1vh 0px rgba(246, 0, 255,0.5);
+    color:#000;
+    /* background: linear-gradient(0deg, #fff 0%, #808080 100%); */
+    transform: scale(1.5);
+    transition: all 0.5s;
+    transform-origin: 50% 50%;
+    }
+    .github-icon-light-mode:hover{
+  
+        background:linear-gradient(120deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+        background-size: 400% 400%;
+        animation-name: icons-hover;
+        animation-duration: 2s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+        animation-direction:alternate-reverse;
+        box-shadow: 0px 0.5vh 1vh 0px rgba(246, 0, 255,1);
+        /* transform: scale(1.2); */
+        width:2vh;
+        height:3.5vw;
+    }
+    
+    .github-icon-dark-mode{
+        border-radius: 50%;
+        /* width:40px;
+        height:40px; */
+    
+        width:2.7vh;
+        height:3vh;
+        position: relative;
+        top: 6.5vh;
+        right:2vw;
+    box-shadow: 0px 0.5vh 1vh 0px #ffffff;
+    color:#000;
+    /* background: linear-gradient(0deg, #fff 0%, #808080 100%); */
+    
+    transform: scale(1.5);
+    transition: all 0.5s;
+    transform-origin: 50% 50%;
+    }
+    .github-icon-dark-mode:hover{
+        background:linear-gradient(120deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+        background-size: 400% 400%;
+        animation-name: icons-hover;
+        animation-duration: 2s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+        animation-direction:alternate-reverse;
+        /* transform: scale(1.2); */
+        width:2vh;
+        height:3.5vw;
+    }
+    
+    .elem-text{
+        backdrop-filter: blur(400px);
+    }
+    
+    @keyframes icons-hover{
+        0% {
+            background-position: 0% 0%;
+        }
+        50%{
+            background-position: 25% 25%;
+        }
+        100% {
+            background-position: 100% 100%;
+        }
+    }
+    
+
+}

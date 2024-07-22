@@ -1,0 +1,2652 @@
+.AboutMe{
+    background: linear-gradient(90deg, #FFF 25%, #808080 100%);
+    overflow: hidden;
+    width: 98.75vw;
+    height:99vh;
+}
+
+.AboutMe-light-mode{
+    background: linear-gradient(90deg, #101010 25%, #808080 100%);
+    overflow: hidden;
+    width: 98.75vw;
+    height:99vh;
+}
+
+.AboutMe-dark-mode{
+    background: linear-gradient(90deg, #FFF 25%, #808080 100%);
+    overflow: hidden;
+    width: 98.75vw;
+    height:99vh;
+}
+
+
+
+.text-about-light-mode{
+  width:16vw;
+  height:10.75vh;
+
+position:absolute;
+top:114.75vh;
+left:8vw;
+
+    color: #efefef;
+font-family: Inter;
+font-size: 4.5vw;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.text-about-dark-mode{
+    width:16vw;
+    height:10.75vh;
+  
+  position:absolute;
+  top:114.75vh;
+  left:8vw;
+  
+      color: #000;
+  font-family: Inter;
+  font-size: 4.5vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  }
+  
+
+
+.text-me{
+    position:absolute;
+top:114.75vh;
+left:23.25vw;
+
+    height:10.75vh;
+    width: 7.5vw;
+
+    font-family: Inter;
+font-size: 4.5vw;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+background: linear-gradient(305deg, #0DF 15.55%, #F600FF 50%, #00FF09 87.92%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.full-text-light-mode{
+position: absolute;
+left:8vw;
+top:129vh;
+
+    color: #efefef;
+font-family: Inter;
+font-size: 1.25vw;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+.full-text-dark-mode{
+    position: absolute;
+    left:8vw;
+    top:129vh;
+    
+        color: #000;
+    font-family: Inter;
+    font-size: 1.25vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    
+
+.button-skills-light-mode{
+position: absolute;
+left:8vw;
+top:178vh;
+    cursor: pointer;
+    width: 16.67vw;
+    height: 8.33vh;
+    flex-shrink: 0;
+    
+box-shadow: 0px 1vh 2vh 0 rgba(246, 0, 255,0.25);
+
+    border-radius: 5vw;
+    background: #000;
+    text-align: center;
+
+    transition: all 0.5s;
+    transform-origin: 50% 50%;
+}
+.button-skills-light-mode:hover{
+    transform:scale(0.9);
+box-shadow: 0px 1vh 2vh 0 rgba(246, 0, 255,0.5);
+}
+
+.button-skills-dark-mode{
+    position: absolute;
+    left:8vw;
+    top:178vh;
+        cursor: pointer;
+        width: 16.67vw;
+        height: 8.33vh;
+        flex-shrink: 0;
+        
+    box-shadow: 0px 1vh 2vh 0 #313131;
+    
+        border-radius: 5vw;
+        background: #000;
+        text-align: center;
+    
+        transition: all 0.5s;
+        transform-origin: 50% 50%;
+    }
+    .button-skills-dark-mode:hover{
+        transform:scale(0.9)
+    }
+
+
+.text-skills{
+    position:relative;
+    top:1vh;
+
+
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 1.125vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.code-branch{
+    position: relative;
+    top:1.5vh;
+    left:2.5vw;
+    width:2.2vw;
+    height:3.9vh;
+}
+
+
+
+.button-contact-light-mode{
+    position: absolute;
+    left:26.5vw;
+    top:178vh;
+
+    cursor: pointer;
+    width: 16.67vw;
+    height: 8.33vh;
+    flex-shrink: 0;
+    
+    border-radius: 5vw;
+    background: #000;
+box-shadow: 0px 1vh 2vh 0 rgba(246, 0, 255,0.25);
+
+    
+    
+    text-align: center;
+    transition: all 0.5s;
+    transform-origin: 50% 50%;
+}
+.button-contact-light-mode:hover{
+    transform:scale(0.9);
+box-shadow: 0px 1vh 2vh 0 rgba(246, 0, 255,0.5);
+
+}
+
+.button-contact-dark-mode{
+    position: absolute;
+    left:26.5vw;
+    top:178vh;
+
+    cursor: pointer;
+    width: 16.67vw;
+    height: 8.33vh;
+    flex-shrink: 0;
+    
+    border-radius: 5vw;
+    background: #000;
+box-shadow: 0px 1vh 2vh 0 #313131;
+    
+    
+    text-align: center;
+    transition: all 0.5s;
+    transform-origin: 50% 50%;
+}
+.button-contact-dark-mode:hover{
+    transform:scale(0.9)
+}
+
+.text-contact{
+    position:relative;
+    top:-1vh;
+    left:0.5vw;
+   
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 1.125vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.aboutme-contact{
+    position: relative;
+    top:2.2vh;
+    left:1.5vw;
+    width:3.3vw;
+    height:5.85vh;
+}
+
+
+.text-ucation-light-mode{
+    position:absolute;
+    top:114.75vh;
+    right:14.25vw;
+
+    height:10.75vh;
+    width:25.6vw;
+
+
+    color: #efefef;
+font-family: Inter;
+font-size: 4.5vw;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.text-ucation-dark-mode{
+    position:absolute;
+    top:114.75vh;
+    right:14.25vw;
+
+    height:10.75vh;
+    width:25.6vw;
+
+
+    color: #000;
+font-family: Inter;
+font-size: 4.5vw;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.text-ed{
+    position: absolute;
+    top:114.75vh;
+    right:40vw;
+
+    font-family: Inter;
+font-size: 4.5vw;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+background: linear-gradient(114deg, #0DF 20.16%, #F600FF 50%, #00FF09 82.85%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+
+.box1-light-mode{
+    z-index: 1;
+position: absolute;
+top:129vh;
+right:39vw;
+
+width: 7vw;
+height: 13vh;
+
+border-radius: 1.4vw;
+background: #000;
+
+/* box-shadow: 0px 1vh 2vh 0 #313131; */
+box-shadow: 0px 1vh 2vh 0 rgba(246, 0, 255,0.5);
+
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+
+transition: all 2s;
+transform-origin: 50% 50%;
+}
+
+.box1-light-mode:hover{
+    background:linear-gradient(120deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+	background-size: 400% 400%;
+    animation-name: hover2;
+    animation-duration: 2s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+    transform: scale(0.9);
+
+}
+
+.box1-dark-mode{
+    z-index: 1;
+position: absolute;
+top:129vh;
+right:39vw;
+
+width: 7vw;
+height: 13vh;
+
+border-radius: 1.4vw;
+background: #000;
+
+box-shadow: 0px 1vh 2vh 0 #313131;
+/* box-shadow: 0px 1vh 2vh 0 #efefef; */
+
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+
+transition: all 2s;
+transform-origin: 50% 50%;
+}
+
+.box1-dark-mode:hover{
+    background:linear-gradient(120deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+	background-size: 400% 400%;
+    animation-name: hover2;
+    animation-duration: 2s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+    transform: scale(0.9);
+
+}
+
+
+.logo-grad{
+    width:3.5vw;
+    height:6vh;
+    color: #FFF;
+}
+
+
+
+.box2-light-mode{
+    position: absolute;
+    right:9vw;
+    top:132vh;
+
+    width: 35vw;
+height: 14vh;
+flex-shrink: 0;
+
+border-radius: 1vw;
+background: linear-gradient(180deg, #808080 0%, #101010 100%);
+}
+
+.box2-light-mode:hover{
+box-shadow: 0vw 0 4vh 1vh #101010;
+
+}
+
+.box2-dark-mode{
+    position: absolute;
+    right:9vw;
+    top:132vh;
+
+    width: 35vw;
+height: 14vh;
+flex-shrink: 0;
+
+border-radius: 1vw;
+background: linear-gradient(180deg, #FFF 0%, #808080 100%);
+}
+
+.box2-dark-mode:hover{
+box-shadow: 0vw 0 4vh 0 #fff;
+
+}
+
+.text-name1-light-mode{
+    position: relative;
+    left:6vw;
+    top:2vh;
+
+    color: #efefef;
+    font-family: Inter;
+    font-size: 1.25vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.extra1-light-mode{
+    position: relative;
+    left:28vw;
+    bottom:1.7vh;
+    font-size: 0.84375vw;
+
+    color: #efefef;
+    
+}
+.extra2-light-mode{
+    position: relative;
+    left:6vw;
+    top:1.8vh;
+    font-size: 0.84375vw;
+
+    color: #efefef;
+}
+
+.extra3-light-mode{
+    position: relative;
+    left:6vw;
+    top:1.8vh;
+    font-size: 0.84375vw;
+
+    color: #efefef;
+}
+
+.text-name1-dark-mode{
+    position: relative;
+    left:6vw;
+    top:2vh;
+
+    color: #000000;
+    font-family: Inter;
+    font-size: 1.25vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.extra1-dark-mode{
+    position: relative;
+    left:28vw;
+    bottom:1.7vh;
+    font-size: 0.84375vw;
+
+    color: #000000;
+    
+}
+.extra2-dark-mode{
+    position: relative;
+    left:6vw;
+    top:1.8vh;
+    font-size: 0.84375vw;
+
+    color: #000000;
+}
+
+.extra3-dark-mode{
+    position: relative;
+    left:6vw;
+    top:1.8vh;
+    font-size: 0.84375vw;
+
+    color: #000000;
+}
+
+
+.box3-light-mode{
+    z-index: 1;
+    position: absolute;
+top:150vh;
+right:7vw;
+box-shadow: 0px 1vh 2vh 0 rgba(246, 0, 255,0.5);
+
+width: 7vw;
+height: 13vh;
+
+border-radius: 1.4vw;
+
+background: #000;
+
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+
+transition: all 2s;
+transform-origin: 50% 50%;
+}
+.box3-light-mode:hover{
+    
+    background:linear-gradient(-60deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+	background-size: 400% 400%;
+    animation-name: hover2;
+    animation-duration: 2s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+    transform: scale(0.9);
+}
+
+
+.box3-dark-mode{
+    z-index: 1;
+    position: absolute;
+top:150vh;
+right:7vw;
+box-shadow: 0px 1vh 2vh 0 #313131;
+
+width: 7vw;
+height: 13vh;
+
+border-radius: 1.4vw;
+
+background: #000;
+
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+
+transition: all 2s;
+transform-origin: 50% 50%;
+}
+.box3-dark-mode:hover{
+    
+    background:linear-gradient(-60deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+	background-size: 400% 400%;
+    animation-name: hover2;
+    animation-duration: 2s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+    transform: scale(0.9);
+}
+
+.logo-school{
+    width:3vw;
+    height:6vh;
+    color: #FFF;
+}
+
+
+.box4-light-mode{
+    position: absolute;
+    right:9vw;
+    top:153vh;
+    font-size: 0.84375vw;
+
+    width: 35vw;
+height: 14vh;
+flex-shrink: 0;
+
+border-radius: 1vw;
+background: linear-gradient(0deg, #101010 0%, #808080 100%);
+}
+
+.box4-light-mode:hover{
+    box-shadow: 0vw 0 4vh 1vh #101010;
+    
+    }
+
+
+    .box4-dark-mode{
+        position: absolute;
+        right:9vw;
+        top:153vh;
+        font-size: 0.84375vw;
+    
+        width: 35vw;
+    height: 14vh;
+    flex-shrink: 0;
+    
+    border-radius: 1vw;
+    background: linear-gradient(180deg, #FFF 0%, #808080 100%);
+    }
+    
+    .box4-dark-mode:hover{
+        box-shadow: 0vw 0 4vh 0 #fff;
+        
+        }
+
+.text-name2-light-mode{
+    position: relative;
+    left:1.5vw;
+    top:2vh;
+
+    color: #efefef;
+    font-family: Inter;
+    font-size: 1.25vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.extra4-light-mode{
+    position: relative;
+    left:24.5vw;
+    bottom:0.7vh;
+    font-size: 0.84375vw;
+
+    color: #efefef;
+    
+}
+.extra5-light-mode{
+    position: relative;
+    left:1.5vw;
+
+    font-size: 0.84375vw;
+
+    color: #efefef;
+}
+
+.extra6-light-mode{
+    position: relative;
+    left:1.5vw;
+
+    font-size: 0.84375vw;
+
+    color: #efefef;
+}
+
+.text-name2-dark-mode{
+    position: relative;
+    left:1.5vw;
+    top:2vh;
+
+    color: #000000;
+    font-family: Inter;
+    font-size: 1.25vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.extra4-dark-mode{
+    position: relative;
+    left:24.5vw;
+    bottom:0.7vh;
+    font-size: 0.84375vw;
+
+    color: #000000;
+    
+}
+.extra5-dark-mode{
+    position: relative;
+    left:1.5vw;
+
+    font-size: 0.84375vw;
+
+    color: #000000;
+}
+
+.extra6-dark-mode{
+    position: relative;
+    left:1.5vw;
+
+    font-size: 0.84375vw;
+
+    color: #000000;
+}
+
+
+.box5-light-mode{
+    z-index: 1;
+
+    position: absolute;
+top:171vh;
+right:39vw;
+
+width: 7vw;
+height: 13vh;
+
+border-radius: 1.4vw;
+box-shadow: 0px 1vh 2vh 0 rgba(246, 0, 255,0.5);
+
+background: #000;
+
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+transition: all 2s;
+transform-origin: 50% 50%;
+
+}
+.box5-light-mode:hover{
+    background:linear-gradient(120deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+	background-size: 400% 400%;
+    animation-name: hover2;
+    animation-duration: 2s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+    transform: scale(0.9);
+}
+
+.box5-dark-mode{
+    z-index: 1;
+
+    position: absolute;
+top:171vh;
+right:39vw;
+
+width: 7vw;
+height: 13vh;
+
+border-radius: 1.4vw;
+box-shadow: 0px 1vh 2vh 0 #313131;
+
+background: #000;
+
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+transition: all 2s;
+transform-origin: 50% 50%;
+
+}
+.box5-dark-mode:hover{
+    background:linear-gradient(120deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+	background-size: 400% 400%;
+    animation-name: hover2;
+    animation-duration: 2s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+    transform: scale(0.9);
+}
+
+
+@keyframes hover2{
+	0% {
+		background-position: 0% 0%;
+	}
+    50%{
+        background-position: 25% 25%;
+    }
+	100% {
+		background-position: 100% 100%;
+	}
+}
+
+
+.box6-light-mode{
+    position: absolute;
+    right:9vw;
+    top:174vh;
+
+    width: 35vw;
+height: 14vh;
+flex-shrink: 0;
+
+border-radius: 1vw;
+background: linear-gradient(0deg, #101010 0%, #808080 100%);
+}
+
+.box6-light-mode:hover{
+    box-shadow: 0vw 0 4vh 1vh #101010;
+    
+    }
+
+    .box6-dark-mode{
+        position: absolute;
+        right:9vw;
+        top:174vh;
+    
+        width: 35vw;
+    height: 14vh;
+    flex-shrink: 0;
+    
+    border-radius: 1vw;
+    background: linear-gradient(180deg, #FFF 0%, #808080 100%);
+    }
+    
+    .box6-dark-mode:hover{
+        box-shadow: 0vw 0 4vh 0 #ffffff;
+        
+        }
+    
+
+.text-name3-light-mode{
+    position: relative;
+    left:6vw;
+    top:2vh;
+
+    color: #efefef;
+    font-family: Inter;
+    font-size: 1.25vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.extra7-light-mode{
+    position: relative;
+    left:28vw;
+    bottom:0.7vh;
+    font-size: 0.84375vw;
+
+    color: #efefef;
+    
+}
+.extra8-light-mode{
+    position: relative;
+    left:6vw;
+
+    font-size: 0.84375vw;
+    color: #efefef;
+}
+
+.extra9-light-mode{
+    position: relative;
+    left:6vw;
+
+    font-size: 0.84375vw;
+
+    color: #efefef;
+}
+
+.text-name3-dark-mode{
+    position: relative;
+    left:6vw;
+    top:2vh;
+
+    color: #000000;
+    font-family: Inter;
+    font-size: 1.25vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.extra7-dark-mode{
+    position: relative;
+    left:28vw;
+    bottom:0.7vh;
+    font-size: 0.84375vw;
+
+    color: #000000;
+    
+}
+.extra8-dark-mode{
+    position: relative;
+    left:6vw;
+
+    font-size: 0.84375vw;
+    color: #000000;
+}
+
+.extra9-dark-mode{
+    position: relative;
+    left:6vw;
+
+    font-size: 0.84375vw;
+
+    color: #000000;
+}
+
+
+
+@media (max-aspect-ratio: 10/16){
+
+    
+    .AboutMe{
+        background: linear-gradient(90deg, #FFF 25%, #808080 100%);
+        overflow: hidden;
+        width: 98.75vw;
+        height:99vh;
+    }
+    
+    .AboutMe-light-mode{
+        background: linear-gradient(90deg, #101010 25%, #808080 100%);
+        overflow: hidden;
+        width: 98.75vw;
+        height:90vh;
+    }
+    
+    .AboutMe-dark-mode{
+        background: linear-gradient(90deg, #FFF 25%, #808080 100%);
+        overflow: hidden;
+        width: 98.75vw;
+        height:90vh;
+    }
+    
+    
+    
+    .text-about-light-mode{
+      width:16vw;
+      height:10.75vh;
+    
+    position:absolute;
+    top:102.75vh;
+    left:8vw;
+    
+        color: #efefef;
+    font-family: Inter;
+    font-size: 4.5vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    }
+    
+    .text-about-dark-mode{
+        width:16vw;
+        height:10.75vh;
+      
+      position:absolute;
+      top:102.75vh;
+      left:8vw;
+      
+          color: #000;
+      font-family: Inter;
+      font-size: 4.5vh;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      }
+      
+    
+    
+    .text-me{
+        position:absolute;
+    top:102.75vh;
+    left:40vw;
+    
+        height:10.75vh;
+        width: 15vw;
+    
+        font-family: Inter;
+    font-size: 4.5vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    
+    background: linear-gradient(305deg, #0DF 15.55%, #F600FF 50%, #00FF09 87.92%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+    
+    .full-text-light-mode{
+    position: absolute;
+    left:8vw;
+    top:110vh;
+    
+        color: #efefef;
+    font-family: Inter;
+    font-size: 1.25vh;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    }
+    
+    .full-text-dark-mode{
+        position: absolute;
+        left:8vw;
+        top:110vh;
+        
+            color: #000;
+        font-family: Inter;
+        font-size: 1.25vh;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        }
+        
+    
+    .button-skills-light-mode{
+    position: absolute;
+    left:9.3vw;
+    top:134vh;
+        cursor: pointer;
+        width: 16.67vh;
+        height: 8.33vw;
+        flex-shrink: 0;
+        
+    box-shadow: 0px 1vh 2vh 0 rgba(246, 0, 255,0.25);
+    
+        border-radius: 5vh;
+        background: #000;
+        text-align: center;
+    
+        transition: all 0.5s;
+        transform-origin: 50% 50%;
+    }
+    .button-skills-light-mode:hover{
+        transform:scale(0.9);
+    box-shadow: 0px 1vh 2vh 0 rgba(246, 0, 255,0.5);
+    }
+    
+    .button-skills-dark-mode{
+        position: absolute;
+        left:9.3vw;
+    top:134vh;
+                cursor: pointer;
+            width: 16.67vh;
+            height: 8.33vw;
+            flex-shrink: 0;
+            
+        box-shadow: 0px 1vh 2vh 0 #313131;
+        
+            border-radius: 5vh;
+            background: #000;
+            text-align: center;
+        
+            transition: all 0.5s;
+            transform-origin: 50% 50%;
+        }
+        .button-skills-dark-mode:hover{
+            transform:scale(0.9)
+        }
+    
+    
+    .text-skills{
+        position:relative;
+        top:0.5vh;
+        left:1vw;
+    
+    
+        color: #ffffff;
+        font-family: Inter;
+        font-size: 1.125vh;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    .code-branch{
+        position: relative;
+        top:0.5vh;
+        left:6vw;
+        width:2.2vh;
+        height:3.9vw;
+    }
+    
+    
+    
+    .button-contact-light-mode{
+        position: absolute;
+        left:54vw;
+        top:134vh;
+    
+        cursor: pointer;
+        width: 16.67vh;
+        height: 8.33vw;
+        flex-shrink: 0;
+        
+        border-radius: 5vh;
+        background: #000;
+    box-shadow: 0px 1vh 2vh 0 rgba(246, 0, 255,0.25);
+    
+        
+        
+        text-align: center;
+        transition: all 0.5s;
+        transform-origin: 50% 50%;
+    }
+    .button-contact-light-mode:hover{
+        transform:scale(0.9);
+    box-shadow: 0px 1vh 2vh 0 rgba(246, 0, 255,0.5);
+    
+    }
+    
+    .button-contact-dark-mode{
+        position: absolute;
+        left:54vw;
+        top:134vh;
+    
+        cursor: pointer;
+        width: 16.67vh;
+        height: 8.33vw;
+        flex-shrink: 0;
+        
+        border-radius: 5vh;
+        background: #000;
+    box-shadow: 0px 1vh 2vh 0 #313131;
+        
+        
+        text-align: center;
+        transition: all 0.5s;
+        transform-origin: 50% 50%;
+    }
+    .button-contact-dark-mode:hover{
+        transform:scale(0.9)
+    }
+    
+    .text-contact{
+        position:relative;
+        top:-0.4vh;
+        left:0.5vw;
+       
+        color: #ffffff;
+        font-family: Inter;
+        font-size: 1.125vh;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    .aboutme-contact{
+        position: relative;
+        top:1vh;
+        left:3vw;
+        width:3.3vh;
+        height:5.85vw;
+    }
+    
+    
+    .text-ucation-light-mode{
+        position:absolute;
+        top:142.75vh;
+        left:20.5vw;
+    
+        height:10.75vh;
+        width:25.6vw;
+    
+    
+        color: #efefef;
+    font-family: Inter;
+    font-size: 4.5vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    }
+    
+    .text-ucation-dark-mode{
+        position:absolute;
+        top:142.75vh;
+        left:20.5vw;
+    
+        height:10.75vh;
+        width:25.6vw;
+    
+    
+        color: #000;
+    font-family: Inter;
+    font-size: 4.5vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    }
+    
+    .text-ed{
+        position: absolute;
+        top:142.75vh;
+        left:8vw;
+    
+        font-family: Inter;
+    font-size: 4.5vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    
+    background: linear-gradient(9deg, #0DF 20.16%, #F600FF 50%, #00FF09 82.85%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+    
+    
+    .box1-light-mode{
+        z-index: 1;
+    position: absolute;
+    top:150vh;
+    left:9vw;
+    
+    width: 7vh;
+    height: 13vw;
+    
+    border-radius: 1.4vh;
+    background: #000;
+    
+    /* box-shadow: 0px 1vh 2vh 0 #313131; */
+    box-shadow: 0px 1vh 2vh 0 rgba(246, 0, 255,0.5);
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    transition: all 2s;
+    transform-origin: 50% 50%;
+    }
+    
+    .box1-light-mode:hover{
+        background:linear-gradient(120deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+        background-size: 400% 400%;
+        animation-name: hover2;
+        animation-duration: 2s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+        animation-direction:alternate-reverse;
+        transform: scale(0.9);
+    
+    }
+    
+    .box1-dark-mode{
+        z-index: 1;
+    position: absolute;
+    top:150vh;
+    left:9vw;
+    
+    width: 7vh;
+    height: 13vw;
+    
+    border-radius: 1.4vh;
+    background: #000;
+    
+    box-shadow: 0px 1vh 2vh 0 #313131;
+    /* box-shadow: 0px 1vh 2vh 0 #efefef; */
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    transition: all 2s;
+    transform-origin: 50% 50%;
+    }
+    
+    .box1-dark-mode:hover{
+        background:linear-gradient(120deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+        background-size: 400% 400%;
+        animation-name: hover2;
+        animation-duration: 2s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+        animation-direction:alternate-reverse;
+        transform: scale(0.9);
+    
+    }
+    
+    
+    .logo-grad{
+        width:3.5vh;
+        height:6vw;
+        color: #FFF;
+    }
+    
+    
+    
+    .box2-light-mode{
+        position: absolute;
+        left:14vw;
+        top:152vh;
+    
+        width: 35vh;
+    height: 14vw;
+    flex-shrink: 0;
+    
+    border-radius: 1vh;
+    background: linear-gradient(180deg, #808080 0%, #101010 100%);
+    }
+    
+    .box2-light-mode:hover{
+    box-shadow: 0vw 0 4vh 1vh #101010;
+    
+    }
+    
+    .box2-dark-mode{
+        position: absolute;
+        left:14vw;
+        top:152vh;
+    
+        width: 35vh;
+    height: 14vw;
+    flex-shrink: 0;
+    
+    border-radius: 1vh;
+    background: linear-gradient(180deg, #FFF 0%, #808080 100%);
+    }
+    
+    .box2-dark-mode:hover{
+    box-shadow: 0vw 0 4vh 0 #fff;
+    
+    }
+    
+    .text-name1-light-mode{
+        position: relative;
+        left:12vw;
+        top:1vh;
+    
+        color: #efefef;
+        font-family: Inter;
+        font-size: 1.25vh;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .extra1-light-mode{
+        position: relative;
+        left:28vw;
+        bottom:1.7vh;
+        font-size: 0.84375vh;
+    
+        color: #efefef;
+        
+    }
+    .extra2-light-mode{
+        position: relative;
+        left:12vw;
+        top:1.4vh;
+        font-size: 0.84375vh;
+    
+        color: #efefef;
+    }
+    
+    .extra3-light-mode{
+        position: relative;
+        left:12vw;
+        top:1.8vh;
+        font-size: 0.84375vh;
+    
+        color: #efefef;
+    }
+    
+    .text-name1-dark-mode{
+        position: relative;
+        left:12vw;
+        top:1vh;
+    
+        color: #000000;
+        font-family: Inter;
+        font-size: 1.25vh;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    .extra1-dark-mode{
+        position: relative;
+        left:28vw;
+        bottom:1.7vh;
+        font-size: 0.84375vh;
+    
+        color: #000000;
+        
+    }
+    .extra2-dark-mode{
+        position: relative;
+        left:12vw;
+        top:1.4vh;
+        font-size: 0.84375vh;
+    
+        color: #000000;
+    }
+    
+    .extra3-dark-mode{
+        position: relative;
+        left:12vw;
+        top:1.8vh;
+        font-size: 0.84375vh;
+    
+        color: #000000;
+    }
+    
+    
+    .box3-light-mode{
+        z-index: 1;
+        position: absolute;
+    top:160vh;
+    right:9vw;
+    box-shadow: 0px 1vh 2vh 0 rgba(246, 0, 255,0.5);
+    
+    width: 7vh;
+    height: 13vw;
+    
+    border-radius: 1.4vh;
+    
+    background: #000;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    transition: all 2s;
+    transform-origin: 50% 50%;
+    }
+    .box3-light-mode:hover{
+        
+        background:linear-gradient(-60deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+        background-size: 400% 400%;
+        animation-name: hover2;
+        animation-duration: 2s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+        animation-direction:alternate-reverse;
+        transform: scale(0.9);
+    }
+    
+    
+    .box3-dark-mode{
+        z-index: 1;
+        position: absolute;
+    top:160vh;
+    right:9vw;
+    box-shadow: 0px 1vh 2vh 0 #313131;
+    
+    width: 7vh;
+    height: 13vw;
+    
+    border-radius: 1.4vh;
+    
+    background: #000;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    transition: all 2s;
+    transform-origin: 50% 50%;
+    }
+    .box3-dark-mode:hover{
+        
+        background:linear-gradient(-60deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+        background-size: 400% 400%;
+        animation-name: hover2;
+        animation-duration: 2s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+        animation-direction:alternate-reverse;
+        transform: scale(0.9);
+    }
+    
+    .logo-school{
+        width:3vh;
+        height:6vw;
+        color: #FFF;
+    }
+    
+    
+    .box4-light-mode{
+        position: absolute;
+        right:13vw;
+        top:162vh;
+        font-size: 0.84375vh;
+    
+        width: 35vh;
+    height: 14vw;
+    flex-shrink: 0;
+    
+    border-radius: 1vh;
+    background: linear-gradient(0deg, #101010 0%, #808080 100%);
+    }
+    
+    .box4-light-mode:hover{
+        box-shadow: 0vw 0 4vh 1vh #101010;
+        
+        }
+    
+    
+        .box4-dark-mode{
+            position: absolute;
+            right:13vw;
+            top:162vh;
+            font-size: 0.84375vh;
+        
+            width: 35vh;
+        height: 14vw;
+        flex-shrink: 0;
+        
+        border-radius: 1vh;
+        background: linear-gradient(180deg, #FFF 0%, #808080 100%);
+        }
+        
+        .box4-dark-mode:hover{
+            box-shadow: 0vw 0 4vh 0 #fff;
+            
+            }
+    
+    .text-name2-light-mode{
+        position: relative;
+        left:4vw;
+        top:1vh;
+    
+        color: #efefef;
+        font-family: Inter;
+        font-size: 1.25vh;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .extra4-light-mode{
+        position: relative;
+        left: 51.5vw;
+        bottom:0.7vh;
+        font-size: 0.84375vh;
+    
+        color: #efefef;
+        
+    }
+    .extra5-light-mode{
+        position: relative;
+        left:4vw;
+        top:0.5vh;
+    
+        font-size: 0.84375vh;
+    
+        color: #efefef;
+    }
+    
+    .extra6-light-mode{
+        position: relative;
+        left:4vw;
+        top:0.7vh;
+    
+        font-size: 0.84375vh;
+    
+        color: #efefef;
+    }
+    
+    .text-name2-dark-mode{
+        position: relative;
+        left:4vw;
+        top:1vh;
+    
+        color: #000000;
+        font-family: Inter;
+        font-size: 1.25vh;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    .extra4-dark-mode{
+        position: relative;
+        left: 51.5vw;
+        bottom:0.7vh;
+        font-size: 0.84375vh;
+    
+        color: #000000;
+        
+    }
+    .extra5-dark-mode{
+        position: relative;
+        left:4vw;
+        top:0.5vh;
+    
+        font-size: 0.84375vh;
+    
+        color: #000000;
+    }
+    
+    .extra6-dark-mode{
+        position: relative;
+        left:4vw;
+        top:0.7vh;
+    
+        font-size: 0.84375vh;
+    
+        color: #000000;
+    }
+    
+    
+    .box5-light-mode{
+        z-index: 1;
+    
+        position: absolute;
+    top:170vh;
+    left:9vw;
+    
+    width: 7vh;
+    height: 13vw;
+    
+    border-radius: 1.4vh;
+    box-shadow: 0px 1vh 2vh 0 rgba(246, 0, 255,0.5);
+    
+    background: #000;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 2s;
+    transform-origin: 50% 50%;
+    
+    }
+    .box5-light-mode:hover{
+        background:linear-gradient(120deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+        background-size: 400% 400%;
+        animation-name: hover2;
+        animation-duration: 2s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+        animation-direction:alternate-reverse;
+        transform: scale(0.9);
+    }
+    
+    .box5-dark-mode{
+        z-index: 1;
+    
+        position: absolute;
+    top:170vh;
+    left:9vw;
+    
+    width: 7vh;
+    height: 13vw;
+    
+    border-radius: 1.4vh;
+    box-shadow: 0px 1vh 2vh 0 #313131;
+    
+    background: #000;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 2s;
+    transform-origin: 50% 50%;
+    
+    }
+    .box5-dark-mode:hover{
+        background:linear-gradient(120deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+        background-size: 400% 400%;
+        animation-name: hover2;
+        animation-duration: 2s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+        animation-direction:alternate-reverse;
+        transform: scale(0.9);
+    }
+    
+    
+    @keyframes hover2{
+        0% {
+            background-position: 0% 0%;
+        }
+        50%{
+            background-position: 25% 25%;
+        }
+        100% {
+            background-position: 100% 100%;
+        }
+    }
+    
+    
+    .box6-light-mode{
+        position: absolute;
+        left:14vw;
+        top:172vh;
+    
+        width: 35vh;
+    height: 14vw;
+    flex-shrink: 0;
+    
+    border-radius: 1vh;
+    background: linear-gradient(0deg, #101010 0%, #808080 100%);
+    }
+    
+    .box6-light-mode:hover{
+        box-shadow: 0vw 0 4vh 1vh #101010;
+        
+        }
+    
+        .box6-dark-mode{
+            position: absolute;
+            left:14vw;
+            top:172vh;
+        
+            width: 35vh;
+        height: 14vw;
+        flex-shrink: 0;
+        
+        border-radius: 1vh;
+        background: linear-gradient(180deg, #FFF 0%, #808080 100%);
+        }
+        
+        .box6-dark-mode:hover{
+            box-shadow: 0vw 0 4vh 0 #ffffff;
+            
+            }
+        
+    
+    .text-name3-light-mode{
+        position: relative;
+        left:12vw;
+        top:1vh;
+    
+        color: #efefef;
+        font-family: Inter;
+        font-size: 1.25vh;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .extra7-light-mode{
+        position: relative;
+        left:60vw;
+        bottom:1vh;
+        font-size: 0.84375vh;
+    
+        color: #efefef;
+        
+    }
+    .extra8-light-mode{
+        position: relative;
+        left:12vw;
+        bottom:0.7vh;
+    
+        font-size: 0.84375vh;
+        color: #efefef;
+    }
+    
+    .extra9-light-mode{
+        position: relative;
+        left:12vw;
+        bottom:0.3vh;
+    
+        font-size: 0.84375vh;
+    
+        color: #efefef;
+    }
+    
+    .text-name3-dark-mode{
+        position: relative;
+        left:12vw;
+        top:1vh;
+    
+        color: #000000;
+        font-family: Inter;
+        font-size: 1.25vh;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    .extra7-dark-mode{
+        position: relative;
+        left:60vw;
+        bottom:1vh;
+        font-size: 0.84375vh;
+    
+        color: #000000;
+        
+    }
+    .extra8-dark-mode{
+        position: relative;
+        left:12vw;
+        bottom:0.7vh;
+    
+        font-size: 0.84375vh;
+        color: #000000;
+    }
+    
+    .extra9-dark-mode{
+        position: relative;
+        left:12vw;
+        bottom:0.3vh;
+    
+        font-size: 0.84375vh;
+    
+        color: #000000;
+    }
+
+
+}
+
+
+@media (min-aspect-ratio:10/16) and (max-aspect-ratio:1){
+
+
+    .AboutMe{
+        background: linear-gradient(90deg, #FFF 25%, #808080 100%);
+        overflow: hidden;
+        width: 98.75vw;
+        height:99vh;
+    }
+    
+    .AboutMe-light-mode{
+        background: linear-gradient(90deg, #101010 25%, #808080 100%);
+        overflow: hidden;
+        width: 98.75vw;
+        height:99vh;
+    }
+    
+    .AboutMe-dark-mode{
+        background: linear-gradient(90deg, #FFF 25%, #808080 100%);
+        overflow: hidden;
+        width: 98.75vw;
+        height:99vh;
+    }
+    
+    
+    
+    .text-about-light-mode{
+      width:16vw;
+      height:10.75vh;
+    
+    position:absolute;
+    top:110vh;
+    left:8vw;
+    
+        color: #efefef;
+    font-family: Inter;
+    font-size: 4.5vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    }
+    
+    .text-about-dark-mode{
+        width:16vw;
+        height:10.75vh;
+      
+      position:absolute;
+      top:110vh;
+      left:8vw;
+      
+          color: #000;
+      font-family: Inter;
+      font-size: 4.5vh;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      }
+      
+    
+    
+    .text-me{
+        position:absolute;
+    top:110vh;
+    left:30vw;
+    
+        height:10.75vh;
+        width: 15vw;
+    
+        font-family: Inter;
+    font-size: 4.5vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    
+    background: linear-gradient(305deg, #0DF 15.55%, #F600FF 50%, #00FF09 87.92%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+    
+    .full-text-light-mode{
+    position: absolute;
+    left:8vw;
+    top:118vh;
+    
+        color: #efefef;
+    font-family: Inter;
+    font-size: 1.5vh;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    }
+    
+    .full-text-dark-mode{
+        position: absolute;
+        left:8vw;
+        top:118vh;
+        
+            color: #000;
+        font-family: Inter;
+        font-size: 1.5vh;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        }
+        
+    
+    .button-skills-light-mode{
+    position: absolute;
+    left:70vw;
+    top:118vh;
+        cursor: pointer;
+        width: 36vw;
+        height: 3.85vh;
+        flex-shrink: 0;
+        
+    box-shadow: 0px 1vh 2vh 0 rgba(246, 0, 255,0.25);
+    
+        border-radius: 5vh;
+        background: #000;
+        text-align: center;
+    
+        transition: all 0.5s;
+        transform-origin: 50% 50%;
+    }
+    .button-skills-light-mode:hover{
+        transform:scale(0.9);
+    box-shadow: 0px 1vh 2vh 0 rgba(246, 0, 255,0.5);
+    }
+    
+    .button-skills-dark-mode{
+        position: absolute;
+        left:70vw;
+    top:118vh;
+                cursor: pointer;
+                width: 36vw;
+                height: 3.85vh;
+            flex-shrink: 0;
+            
+        box-shadow: 0px 1vh 2vh 0 #313131;
+        
+            border-radius: 5vh;
+            background: #000;
+            text-align: center;
+        
+            transition: all 0.5s;
+            transform-origin: 50% 50%;
+        }
+        .button-skills-dark-mode:hover{
+            transform:scale(0.9)
+        }
+    
+    
+    .text-skills{
+        position:relative;
+        top:0.5vh;
+        left:1vw;
+    
+    
+        color: #ffffff;
+        font-family: Inter;
+        font-size: 1.25vh;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    .code-branch{
+        position: relative;
+        top:1vh;
+        left:2vw;
+        width:2.2vh;
+        height:3.9vw;
+    }
+    
+    
+    
+    .button-contact-light-mode{
+        position: absolute;
+        left:70vw;
+        top:127vh;
+    
+        cursor: pointer;
+        width: 36vw;
+        height: 3.85vh;
+        flex-shrink: 0;
+        
+        border-radius: 5vh;
+        background: #000;
+    box-shadow: 0px 1vh 2vh 0 rgba(246, 0, 255,0.25);
+    
+        
+        
+        text-align: center;
+        transition: all 0.5s;
+        transform-origin: 50% 50%;
+    }
+    .button-contact-light-mode:hover{
+        transform:scale(0.9);
+    box-shadow: 0px 1vh 2vh 0 rgba(246, 0, 255,0.5);
+    
+    }
+    
+    .button-contact-dark-mode{
+        position: absolute;
+        left:70vw;
+        top:127vh;
+    
+        cursor: pointer;
+        width: 36vw;
+        height: 3.85vh;
+        flex-shrink: 0;
+        
+        border-radius: 5vh;
+        background: #000;
+    box-shadow: 0px 1vh 2vh 0 #313131;
+        
+        
+        text-align: center;
+        transition: all 0.5s;
+        transform-origin: 50% 50%;
+    }
+    .button-contact-dark-mode:hover{
+        transform:scale(0.9)
+    }
+    
+    .text-contact{
+        position:relative;
+        top:-0.8vh;
+        left:0.5vw;
+       
+        color: #ffffff;
+        font-family: Inter;
+        font-size: 1.25vh;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    .aboutme-contact{
+        position: relative;
+        top:1.8vh;
+        left:1vw;
+        width:3.3vh;
+        height:5.85vw;
+    }
+    
+    
+    .text-ucation-light-mode{
+        position:absolute;
+        top:145vh;
+        left:17vw;
+    
+        height:10.75vh;
+        width:25.6vw;
+    
+    
+        color: #efefef;
+    font-family: Inter;
+    font-size: 4.5vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    }
+    
+    .text-ucation-dark-mode{
+        position:absolute;
+        top:145vh;
+        left:17vw;
+    
+        height:10.75vh;
+        width:25.6vw;
+    
+    
+        color: #000;
+    font-family: Inter;
+    font-size: 4.5vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    }
+    
+    .text-ed{
+        position: absolute;
+        top:145vh;
+        left:8vw;
+    
+        font-family: Inter;
+    font-size: 4.5vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    
+    background: linear-gradient(9deg, #0DF 20.16%, #F600FF 50%, #00FF09 82.85%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+    
+    
+    .box1-light-mode{
+        z-index: 1;
+    position: absolute;
+    top:152vh;
+    left:9vw;
+    
+    width: 9vh;
+    height: 13vw;
+    
+    border-radius: 1.4vh;
+    background: #000;
+    
+    /* box-shadow: 0px 1vh 2vh 0 #313131; */
+    box-shadow: 0px 1vh 2vh 0 rgba(246, 0, 255,0.5);
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    transition: all 2s;
+    transform-origin: 50% 50%;
+    }
+    
+    .box1-light-mode:hover{
+        background:linear-gradient(120deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+        background-size: 400% 400%;
+        animation-name: hover2;
+        animation-duration: 2s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+        animation-direction:alternate-reverse;
+        transform: scale(0.9);
+    
+    }
+    
+    .box1-dark-mode{
+        z-index: 1;
+    position: absolute;
+    top:152vh;
+    left:9vw;
+    
+    width: 9vh;
+    height: 13vw;
+    
+    border-radius: 1.4vh;
+    background: #000;
+    
+    box-shadow: 0px 1vh 2vh 0 #313131;
+    /* box-shadow: 0px 1vh 2vh 0 #efefef; */
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    transition: all 2s;
+    transform-origin: 50% 50%;
+    }
+    
+    .box1-dark-mode:hover{
+        background:linear-gradient(120deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+        background-size: 400% 400%;
+        animation-name: hover2;
+        animation-duration: 2s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+        animation-direction:alternate-reverse;
+        transform: scale(0.9);
+    
+    }
+    
+    
+    .logo-grad{
+        width:4.5vh;
+        height:6vw;
+        color: #FFF;
+    }
+    
+    
+    
+    .box2-light-mode{
+        position: absolute;
+        left:14vw;
+        top:154vh;
+    
+        width: 75vw;
+    height: 14vw;
+    flex-shrink: 0;
+    
+    border-radius: 1vh;
+    background: linear-gradient(180deg, #808080 0%, #101010 100%);
+    }
+    
+    .box2-light-mode:hover{
+    box-shadow: 0vw 0 4vh 1vh #101010;
+    
+    }
+    
+    .box2-dark-mode{
+        position: absolute;
+        left:14vw;
+        top:154vh;
+    
+        width: 75vw;
+    height: 14vw;
+    flex-shrink: 0;
+    
+    border-radius: 1vh;
+    background: linear-gradient(180deg, #FFF 0%, #808080 100%);
+    }
+    
+    .box2-dark-mode:hover{
+    box-shadow: 0vw 0 4vh 0 #fff;
+    
+    }
+    
+    .text-name1-light-mode{
+        position: relative;
+        left:12vw;
+        top:2vh;
+    
+        color: #efefef;
+        font-family: Inter;
+        font-size: 1.5vh;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .extra1-light-mode{
+        position: relative;
+        left:28vw;
+        bottom:0vh;
+        font-size: 0.84375vh;
+    
+        color: #efefef;
+        
+    }
+    .extra2-light-mode{
+        position: relative;
+        left:12vw;
+        top:2vh;
+        font-size: 1.25vh;
+    
+        color: #efefef;
+    }
+    
+    .extra3-light-mode{
+        position: relative;
+        left:12vw;
+        top:2vh;
+        font-size: 1.25vh;
+    
+        color: #efefef;
+    }
+    
+    .text-name1-dark-mode{
+        position: relative;
+        left:12vw;
+        top:2vh;
+    
+        color: #000000;
+        font-family: Inter;
+        font-size: 1.5vh;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    .extra1-dark-mode{
+        position: relative;
+        left:28vw;
+        bottom:1.7vh;
+        font-size: 0.84375vh;
+    
+        color: #000000;
+        
+    }
+    .extra2-dark-mode{
+        position: relative;
+        left:12vw;
+        top:2vh;
+        font-size: 1.25vh;
+    
+        color: #000000;
+    }
+    
+    .extra3-dark-mode{
+        position: relative;
+        left:12vw;
+        top:2vh;
+        font-size: 1.25vh;
+    
+        color: #000000;
+    }
+    
+    
+    .box3-light-mode{
+        z-index: 1;
+        position: absolute;
+    top:165vh;
+    right:9vw;
+    box-shadow: 0px 1vh 2vh 0 rgba(246, 0, 255,0.5);
+    
+    width: 9vh;
+    height: 13vw;
+    
+    border-radius: 1.4vh;
+    
+    background: #000;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    transition: all 2s;
+    transform-origin: 50% 50%;
+    }
+    .box3-light-mode:hover{
+        
+        background:linear-gradient(-60deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+        background-size: 400% 400%;
+        animation-name: hover2;
+        animation-duration: 2s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+        animation-direction:alternate-reverse;
+        transform: scale(0.9);
+    }
+    
+    
+    .box3-dark-mode{
+        z-index: 1;
+        position: absolute;
+    top:165vh;
+    right:9vw;
+    box-shadow: 0px 1vh 2vh 0 #313131;
+    
+    width: 9vh;
+    height: 13vw;
+    
+    border-radius: 1.4vh;
+    
+    background: #000;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    transition: all 2s;
+    transform-origin: 50% 50%;
+    }
+    .box3-dark-mode:hover{
+        
+        background:linear-gradient(-60deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+        background-size: 400% 400%;
+        animation-name: hover2;
+        animation-duration: 2s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+        animation-direction:alternate-reverse;
+        transform: scale(0.9);
+    }
+    
+    .logo-school{
+        width:4.5vh;
+        height:6vw;
+        color: #FFF;
+    }
+    
+    
+    .box4-light-mode{
+        position: absolute;
+        right:13vw;
+        top:167vh;
+        font-size: 0.84375vh;
+    
+        width: 75vw;
+    height: 14vw;
+    flex-shrink: 0;
+    
+    border-radius: 1vh;
+    background: linear-gradient(0deg, #101010 0%, #808080 100%);
+    }
+    
+    .box4-light-mode:hover{
+        box-shadow: 0vw 0 4vh 1vh #101010;
+        
+        }
+    
+    
+        .box4-dark-mode{
+            position: absolute;
+            right:13vw;
+            top:167vh;
+            font-size: 0.84375vh;
+        
+            width: 75vw;
+        height: 14vw;
+        flex-shrink: 0;
+        
+        border-radius: 1vh;
+        background: linear-gradient(180deg, #FFF 0%, #808080 100%);
+        }
+        
+        .box4-dark-mode:hover{
+            box-shadow: 0vw 0 4vh 0 #fff;
+            
+            }
+    
+    .text-name2-light-mode{
+        position: relative;
+        left:4vw;
+        top:2vh;
+    
+        color: #efefef;
+        font-family: Inter;
+        font-size: 1.5vh;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .extra4-light-mode{
+        position: relative;
+        left: 53vw;
+        bottom:0vh;
+        font-size: 1.25vh;
+    
+        color: #efefef;
+        
+    }
+    .extra5-light-mode{
+        position: relative;
+        left:4vw;
+        top:1vh;
+    
+        font-size: 1.25vh;
+    
+        color: #efefef;
+    }
+    
+    .extra6-light-mode{
+        position: relative;
+        left:4vw;
+        top:1vh;
+    
+        font-size: 1.25vh;
+    
+        color: #efefef;
+    }
+    
+    .text-name2-dark-mode{
+        position: relative;
+        left:4vw;
+        top:2vh;
+    
+        color: #000000;
+        font-family: Inter;
+        font-size: 1.5vh;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    .extra4-dark-mode{
+        position: relative;
+        left: 53vw;
+        bottom:0vh;
+        font-size: 1.25vh;
+    
+        color: #000000;
+        
+    }
+    .extra5-dark-mode{
+        position: relative;
+        left:4vw;
+        top:1vh;
+    
+        font-size: 1.25vh;
+    
+        color: #000000;
+    }
+    
+    .extra6-dark-mode{
+        position: relative;
+        left:4vw;
+        top:1vh;
+    
+        font-size: 1.25vh;
+    
+        color: #000000;
+    }
+    
+    
+    .box5-light-mode{
+        z-index: 1;
+    
+        position: absolute;
+    top:178vh;
+    left:9vw;
+    
+    width: 9vh;
+    height: 13vw;
+    
+    border-radius: 1.4vh;
+    box-shadow: 0px 1vh 2vh 0 rgba(246, 0, 255,0.5);
+    
+    background: #000;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 2s;
+    transform-origin: 50% 50%;
+    
+    }
+    .box5-light-mode:hover{
+        background:linear-gradient(120deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+        background-size: 400% 400%;
+        animation-name: hover2;
+        animation-duration: 2s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+        animation-direction:alternate-reverse;
+        transform: scale(0.9);
+    }
+    
+    .box5-dark-mode{
+        z-index: 1;
+    
+        position: absolute;
+    top:178vh;
+    left:9vw;
+    
+    width: 9vh;
+    height: 13vw;
+    
+    border-radius: 1.4vh;
+    box-shadow: 0px 1vh 2vh 0 #313131;
+    
+    background: #000;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 2s;
+    transform-origin: 50% 50%;
+    
+    }
+    .box5-dark-mode:hover{
+        background:linear-gradient(120deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+        background-size: 400% 400%;
+        animation-name: hover2;
+        animation-duration: 2s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+        animation-direction:alternate-reverse;
+        transform: scale(0.9);
+    }
+    
+    
+    @keyframes hover2{
+        0% {
+            background-position: 0% 0%;
+        }
+        50%{
+            background-position: 25% 25%;
+        }
+        100% {
+            background-position: 100% 100%;
+        }
+    }
+    
+    
+    .box6-light-mode{
+        position: absolute;
+        left:14vw;
+        top:180vh;
+    
+        width: 75vw;
+    height: 14vw;
+    flex-shrink: 0;
+    
+    border-radius: 1vh;
+    background: linear-gradient(0deg, #101010 0%, #808080 100%);
+    }
+    
+    .box6-light-mode:hover{
+        box-shadow: 0vw 0 4vh 1vh #101010;
+        
+        }
+    
+        .box6-dark-mode{
+            position: absolute;
+            left:14vw;
+            top:180vh;
+        
+            width: 75vw;
+        height: 14vw;
+        flex-shrink: 0;
+        
+        border-radius: 1vh;
+        background: linear-gradient(180deg, #FFF 0%, #808080 100%);
+        }
+        
+        .box6-dark-mode:hover{
+            box-shadow: 0vw 0 4vh 0 #ffffff;
+            
+            }
+        
+    
+    .text-name3-light-mode{
+        position: relative;
+        left:12vw;
+        top:2vh;
+    
+        color: #efefef;
+        font-family: Inter;
+        font-size: 1.5vh;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .extra7-light-mode{
+        position: relative;
+        left:60vw;
+        bottom:0vh;
+        font-size: 1.25vh;
+    
+        color: #efefef;
+        
+    }
+    .extra8-light-mode{
+        position: relative;
+        left:12vw;
+        bottom:-1vh;
+    
+        font-size: 1.25vh;
+        color: #efefef;
+    }
+    
+    .extra9-light-mode{
+        position: relative;
+        left:12vw;
+        bottom:-1vh;
+    
+        font-size: 1.25vh;
+    
+        color: #efefef;
+    }
+    
+    .text-name3-dark-mode{
+        position: relative;
+        left:12vw;
+        top:2vh;
+    
+        color: #000000;
+        font-family: Inter;
+        font-size: 1.5vh;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    .extra7-dark-mode{
+        position: relative;
+        left:60vw;
+        bottom:0vh;
+        font-size: 1.25vh;
+    
+        color: #000000;
+        
+    }
+    .extra8-dark-mode{
+        position: relative;
+        left:12vw;
+        bottom:-1vh;
+    
+        font-size: 1.25vh;
+        color: #000000;
+    }
+    
+    .extra9-dark-mode{
+        position: relative;
+        left:12vw;
+        bottom:-1vh;
+    
+        font-size: 1.25vh;
+    
+        color: #000000;
+    }
+
+
+
+}

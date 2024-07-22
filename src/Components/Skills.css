@@ -1,0 +1,3426 @@
+.Skills{
+    background: linear-gradient(90deg, #FFF 25%, #808080 100%);
+
+    width: 98.75vw;
+    height:99vh;
+}
+
+.Skills-light-mode{
+    background: linear-gradient(90deg, #101010 25%, #808080 100%);
+
+    width: 98.75vw;
+    height:99vh;
+}
+.Skills-dark-mode{
+    background: linear-gradient(90deg, #FFF 25%, #808080 100%);
+
+    width: 98.75vw;
+    height:99vh;
+}
+
+.leetcode-light-mode{
+    position:absolute;
+    top:202.25vh;
+    right:10vw;
+
+    width:3vw;
+    height:6vh;
+    transition: all 0.5s;
+    transform-origin: 50% 50%;
+color:#ffffff;
+    background: #000;
+box-shadow: 0px 0.5vh 1vh 0px rgba(246, 0, 255,0.5);
+border-radius: 50%;
+}
+
+.leetcode-light-mode:hover {
+    transform: scale(0.8);
+    background:linear-gradient(120deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+	background-size: 400% 400%;
+    animation-name: icons-hover;
+    animation-duration: 2s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+box-shadow: 0px 0.5vh 1vh 0px rgba(246, 0, 255,0.75);
+
+  }
+
+.leetcode-dark-mode{
+    position:absolute;
+    top:202.25vh;
+    right:10vw;
+
+    width:3vw;
+    height:6vh;
+    transition: all 0.5s;
+    transform-origin: 50% 50%;
+color:#ffffff;
+    background: #000;
+box-shadow: 0px 0.5vh 1vh 0px #ffffff;
+border-radius: 50%;
+}
+
+.leetcode-dark-mode:hover {
+    transform: scale(0.8);
+    background:linear-gradient(120deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+	background-size: 400% 400%;
+    animation-name: icons-hover;
+    animation-duration: 2s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+  }
+
+@keyframes icons-hover{
+	0% {
+		background-position: 0% 0%;
+	}
+    50%{
+        background-position: 25% 25%;
+    }
+	100% {
+		background-position: 100% 100%;
+	}
+}
+
+
+
+.github-light-mode{
+    position:absolute;
+    top:202.25vh;
+    right:6vw;
+
+    width:3vw;
+    height:6vh;
+    transition: all 0.5s;
+    transform-origin: 50% 50%;
+color:#000;
+    
+box-shadow: 0px 0.5vh 1vh 0px rgba(246, 0, 255,0.5);
+border-radius: 50%;
+}
+
+.github-light-mode:hover {
+    transform: scale(0.8);
+    background:linear-gradient(120deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+	background-size: 400% 400%;
+    animation-name: icons-hover;
+    animation-duration: 2s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+box-shadow: 0px 0.5vh 1vh 0px rgba(246, 0, 255,0.75);
+
+  }
+
+  .github-dark-mode{
+    position:absolute;
+    top:202.25vh;
+    right:6vw;
+
+    width:3vw;
+    height:6vh;
+    transition: all 0.5s;
+    transform-origin: 50% 50%;
+color:#000;
+    
+box-shadow: 0px 0.5vh 1vh 0px #ffffff;
+border-radius: 50%;
+}
+
+.github-dark-mode:hover {
+    transform: scale(0.8);
+    background:linear-gradient(120deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+	background-size: 400% 400%;
+    animation-name: icons-hover;
+    animation-duration: 2s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+  }
+
+  .text-development{
+    position: relative;
+    top:25vh;
+    left:5vw;
+  }
+
+.text-bracket1{
+    position: relative;
+  /* top:112.25vh;
+    left:0.5vw; */
+
+
+    font-family: Inter;
+    font-size: 3.375vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    
+        background: linear-gradient(180deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-bracket2{
+    position: relative;
+    /* top:112.25vh;
+      left:26.5vw; */
+
+    font-family: Inter;
+    font-size: 3.375vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    
+        background: linear-gradient(180deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-develop-light-mode{
+  position: relative;
+  /* top:112.25vh;
+  left:4vw; */
+
+
+    color: #efefef;
+font-family: Inter;
+font-size: 3.375vw;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.text-develop-dark-mode{
+    /* position: absolute;
+    top:112.25vh;
+    left:4vw;
+   */
+  
+      color: #000;
+  font-family: Inter;
+  font-size: 3.375vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  }
+
+.text-my-skills-light-mode{
+
+color: #efefef;
+font-family: Inter;
+font-size: 4.5vw;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.text-my-skills-dark-mode{
+
+    color: #000;
+    font-family: Inter;
+    font-size: 4.5vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    }
+
+.text-M{
+        position: absolute;
+        top:210.75vh;
+        left:5vw;
+
+
+    font-family: Inter;
+font-size: 4.5vw;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+background: linear-gradient(30deg, #0DF 18.23%, #F600FF 50%, #00FF09 84.97%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.text-y{
+    position: absolute;
+    top:210.75vh;
+    left:9.5vw;
+
+}
+
+.text-S{
+    position: absolute;
+    top:210.75vh;
+    left:14vw;
+
+
+font-family: Inter;
+font-size: 4.5vw;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+background: linear-gradient(150deg, #0DF 18.23%, #F600FF 50%, #00FF09 84.97%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.text-kills{
+    position: absolute;
+    top:210.75vh;
+    left:17.25vw;
+}
+
+
+.text-design{
+    position: absolute;
+    top:224.5vh;
+      left:55vw;
+
+    display: flex;
+    align-items: center;
+}
+
+.text-D{
+
+    /* position: absolute;
+    top:224.5vh;
+      left:55vw; */
+
+    font-family: Inter;
+    font-size: 3.375vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    
+        background: linear-gradient(100deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-esign-light-mode{
+    /* position: absolute;
+    top:224.5vh;
+      left:57.3vw; */
+
+color: #efefef;
+font-family: Inter;
+font-size: 3.375vw;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.text-esign-dark-mode{
+    /* position: absolute;
+    top:224.5vh;
+      left:57.3vw; */
+
+color: #000;
+font-family: Inter;
+font-size: 3.375vw;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.circle-svg{
+    position: relative;
+    top:0.5vh;
+}
+
+
+
+.text-java-light-mode{
+    position: absolute;
+    left:8.5vw;
+    top:237vh;
+    
+    color: #efefef;
+    font-family: Inter;
+    font-size: 1.125vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.text-java-dark-mode{
+    position: absolute;
+    left:8.5vw;
+    top:237vh;
+    
+    color: #000;
+    font-family: Inter;
+    font-size: 1.125vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.text-javap-light-mode{
+    position: absolute;
+    left:41vw;
+    top:237vh;
+
+    color: #efefef;
+font-family: Inter;
+font-size: 0.984375vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.text-javap-dark-mode{
+    position: absolute;
+    left:41vw;
+    top:237vh;
+
+    color: #000;
+font-family: Inter;
+font-size: 0.984375vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+.status-bar1{
+    position: absolute;
+    left:8.2vw;
+    top:240vh;
+
+    border-radius: 15px;
+
+    width:35vw;
+    height:2vh;
+    background-color: #000;
+}
+.status-fill1{
+    z-index: 1;
+    position: absolute;
+    left:8.1vw;
+    top:240vh;
+    box-shadow: 0px 1vh 2vh 0 #313131;
+
+    border-radius: 15px;
+
+    width:31.5vw;
+    height:2vh;
+    background-image: linear-gradient(270deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+
+    background-size: 400% 100%;
+    animation-name: status-fill;
+    animation-duration: 4s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-direction:reverse;
+}
+
+
+
+
+.text-javascript-light-mode{
+    position: absolute;
+    left:8.5vw;
+    top:245vh;
+    
+    color: #efefef;
+    font-family: Inter;
+    font-size: 1.125vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text-javascript-dark-mode{
+    position: absolute;
+    left:8.5vw;
+    top:245vh;
+    
+    color: #000;
+    font-family: Inter;
+    font-size: 1.125vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.text-javascriptp-light-mode{
+    position: absolute;
+    left:41vw;
+    top:245vh;
+
+    color: #efefef;
+font-family: Inter;
+font-size: 0.984375vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.text-javascriptp-dark-mode{
+    position: absolute;
+    left:41vw;
+    top:245vh;
+
+    color: #000;
+font-family: Inter;
+font-size: 0.984375vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.status-bar2{
+    position: absolute;
+    left:8.2vw;
+    top:248vh;
+
+    border-radius: 15px;
+
+    width:35vw;
+    height:2vh;
+    background-color: #000;
+}
+.status-fill2{
+    z-index: 1;
+    position: absolute;
+    left:8.1vw;
+    top:248vh;
+    box-shadow: 0px 1vh 2vh 0 #313131;
+
+    border-radius: 15px;
+
+    width:33.25vw;
+    height:2vh;
+    background-image: linear-gradient(270deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+
+    background-size: 400% 100%;
+    animation-name: status-fill;
+    animation-duration: 4s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-direction:reverse;
+}
+
+
+.text-react-light-mode{
+    position: absolute;
+    left:8.5vw;
+    top:253vh;
+    
+    color: #efefef;
+    font-family: Inter;
+    font-size: 1.125vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text-react-dark-mode{
+    position: absolute;
+    left:8.5vw;
+    top:253vh;
+    
+    color: #000;
+    font-family: Inter;
+    font-size: 1.125vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.text-reactp-light-mode{
+    position: absolute;
+    left:41vw;
+    top:253vh;
+
+    color: #efefef;
+font-family: Inter;
+font-size: 0.984375vw;
+
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.text-reactp-dark-mode{
+    position: absolute;
+    left:41vw;
+    top:253vh;
+
+    color: #000;
+font-family: Inter;
+font-size: 0.984375vw;
+
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.status-bar3{
+    position: absolute;
+    left:8.2vw;
+    top:256vh;
+
+    border-radius: 15px;
+
+    width:35vw;
+    height:2vh;
+    background-color: #000;
+}
+.status-fill3{
+    z-index: 1;
+    position: absolute;
+    left:8.1vw;
+    top:256vh;
+
+    border-radius: 15px;
+
+    width:31.5vw;
+    height:2vh;
+    background-image: linear-gradient(270deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+    box-shadow: 0px 1vh 2vh 0 #313131;
+
+    background-size: 400% 100%;
+    animation-name: status-fill;
+    animation-duration: 4s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-direction:reverse;
+}
+
+
+
+.text-css-light-mode{
+    position: absolute;
+    left:8.5vw;
+    top:261vh;
+    
+    color: #efefef;
+    font-family: Inter;
+    font-size: 1.125vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text-css-dark-mode{
+    position: absolute;
+    left:8.5vw;
+    top:261vh;
+    
+    color: #000;
+    font-family: Inter;
+    font-size: 1.125vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.text-cssp-light-mode{
+    position: absolute;
+    left:41vw;
+    top:261vh;
+
+    color: #efefef;
+font-family: Inter;
+font-size: 0.984375vw;
+
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.text-cssp-dark-mode{
+    position: absolute;
+    left:41vw;
+    top:261vh;
+
+    color: #000;
+font-family: Inter;
+font-size: 0.984375vw;
+
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.status-bar4{
+    position: absolute;
+    left:8.2vw;
+    top:264vh;
+
+    border-radius: 15px;
+
+    width:35vw;
+    height:2vh;
+    background-color: #000;
+}
+.status-fill4{
+    z-index: 1;
+    position: absolute;
+    left:8.1vw;
+    top:264vh;
+
+    border-radius: 15px;
+    box-shadow: 0px 1vh 2vh 0 #313131;
+
+    width:31.5vw;
+    height:2vh;
+    background-image: linear-gradient(270deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+
+    background-size: 400% 100%;
+    animation-name: status-fill;
+    animation-duration: 4s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-direction:reverse;
+}
+
+
+.text-nodejs-light-mode{
+    position: absolute;
+    left:8.5vw;
+    top:269vh;
+    
+    color: #efefef;
+    font-family: Inter;
+    font-size: 1.125vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text-nodejs-dark-mode{
+    position: absolute;
+    left:8.5vw;
+    top:269vh;
+    
+    color: #000;
+    font-family: Inter;
+    font-size: 1.125vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.text-nodejsp-light-mode{
+    position: absolute;
+    left:41vw;
+    top:269vh;
+
+    color: #efefef;
+font-family: Inter;
+font-size: 0.984375vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.text-nodejsp-dark-mode{
+    position: absolute;
+    left:41vw;
+    top:269vh;
+
+    color: #000;
+font-family: Inter;
+font-size: 0.984375vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.status-bar5{
+    position: absolute;
+    left:8.2vw;
+    top:272vh;
+
+    border-radius: 15px;
+
+    width:35vw;
+    height:2vh;
+    background-color: #000;
+}
+.status-fill5{
+    z-index: 1;
+    position: absolute;
+    left:8.1vw;
+    top:272vh;
+    box-shadow: 0px 1vh 2vh 0 #313131;
+
+    border-radius: 15px;
+
+    width:33.25vw;
+    height:2vh;
+    background-image: linear-gradient(270deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+
+    background-size: 400% 100%;
+    animation-name: status-fill;
+    animation-duration: 4s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-direction:reverse;
+}
+
+
+
+.text-html-light-mode{
+    position: absolute;
+    left:8.5vw;
+    top:277vh;
+    
+    color: #efefef;
+    font-family: Inter;
+    font-size: 1.125vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text-html-dark-mode{
+    position: absolute;
+    left:8.5vw;
+    top:277vh;
+    
+    color: #000;
+    font-family: Inter;
+    font-size: 1.125vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.text-htmlp-light-mode{
+    position: absolute;
+    left:41vw;
+    top:277vh;
+
+    color: #efefef;
+font-family: Inter;
+font-size: 0.984375vw;
+
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.text-htmlp-dark-mode{
+    position: absolute;
+    left:41vw;
+    top:277vh;
+
+    color: #000;
+font-family: Inter;
+font-size: 0.984375vw;
+
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.status-bar6{
+    position: absolute;
+    left:8.2vw;
+    top:280vh;
+
+    border-radius: 15px;
+
+    width:35vw;
+    height:2vh;
+    background-color: #000;
+}
+.status-fill6{
+    z-index: 1;
+    position: absolute;
+    left:8.1vw;
+    top:280vh;
+    box-shadow: 0px 1vh 2vh 0 #313131;
+
+    border-radius: 15px;
+
+    width:35.15vw;
+    height:2vh;
+    background-image: linear-gradient(270deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+
+    background-size: 400% 100%;
+    animation-name: status-fill;
+    animation-duration: 4s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-direction:reverse;
+}
+
+
+.text-photoshop-light-mode{
+    position: absolute;
+    left:57.3vw;
+    top:237vh;
+    
+    color: #efefef;
+    font-family: Inter;
+    font-size: 1.125vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.text-photoshop-dark-mode{
+    position: absolute;
+    left:57.3vw;
+    top:237vh;
+    
+    color: #000;
+    font-family: Inter;
+    font-size: 1.125vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.text-photoshopp-light-mode{
+    position: absolute;
+    left:89.7vw;
+    top:237vh;
+
+    color: #efefef;
+font-family: Inter;
+font-size: 0.984375vw;
+
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.text-photoshopp-dark-mode{
+    position: absolute;
+    left:89.7vw;
+    top:237vh;
+
+    color: #000;
+font-family: Inter;
+font-size: 0.984375vw;
+
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.status-bar7{
+    position: absolute;
+    left:57vw;
+    top:240vh;
+
+    border-radius: 15px;
+
+    width:35vw;
+    height:2vh;
+    background-color: #000;
+}
+
+.status-fill7{
+    z-index: 1;
+    position: absolute;
+    left:56.9vw;
+    top:240vh;
+    box-shadow: 0px 1vh 2vh 0 #313131;
+
+    border-radius: 15px;
+
+    width:29.75vw;
+    height:2vh;
+    background-image: linear-gradient(270deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+
+    background-size: 400% 100%;
+    animation-name: status-fill;
+    animation-duration: 4s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-direction:reverse;
+}
+
+
+.text-figma-light-mode{
+    position: absolute;
+    left:57.3vw;
+    top:245vh;
+    
+    color: #efefef;
+    font-family: Inter;
+    font-size: 1.125vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.text-figma-dark-mode{
+    position: absolute;
+    left:57.3vw;
+    top:245vh;
+    
+    color: #000;
+    font-family: Inter;
+    font-size: 1.125vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.text-figmap-light-mode{
+    position: absolute;
+    left:89.7vw;
+    top:245vh;
+
+    color: #efefef;
+font-family: Inter;
+font-size: 0.984375vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.text-figmap-dark-mode{
+    position: absolute;
+    left:89.7vw;
+    top:245vh;
+
+    color: #000;
+font-family: Inter;
+font-size: 0.984375vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.status-bar8{
+    position: absolute;
+    left:57vw;
+    top:248vh;
+
+    border-radius: 15px;
+
+    width:35vw;
+    height:2vh;
+    background-color: #000;
+}
+.status-fill8{
+    z-index: 1;
+    position: absolute;
+    left:56.9vw;
+    top:248vh;
+    box-shadow: 0px 1vh 2vh 0 #313131;
+
+    border-radius: 15px;
+
+    width:33.25vw;
+    height:2vh;
+    background-image: linear-gradient(270deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+
+    background-size: 400% 100%;
+    animation-name: status-fill;
+    animation-duration: 4s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-direction:reverse;
+}
+
+
+.text-illustrator-light-mode{
+    position: absolute;
+    left:57.3vw;
+    top:253vh;
+    
+    color: #efefef;
+    font-family: Inter;
+    font-size: 1.125vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text-illustrator-dark-mode{
+    position: absolute;
+    left:57.3vw;
+    top:253vh;
+    
+    color: #000;
+    font-family: Inter;
+    font-size: 1.125vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.text-illustratorp-light-mode{
+    position: absolute;
+    left:89.7vw;
+    top:253vh;
+
+    color: #efefef;
+font-family: Inter;
+font-size: 0.984375vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.text-illustratorp-dark-mode{
+    position: absolute;
+    left:89.7vw;
+    top:253vh;
+
+    color: #000;
+font-family: Inter;
+font-size: 0.984375vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.status-bar9{
+    position: absolute;
+    left:57vw;
+    top:256vh;
+
+    border-radius: 15px;
+
+    width:35vw;
+    height:2vh;
+    background-color: #000;
+}
+
+.status-fill9{
+    z-index: 1;
+    position: absolute;
+    left:56.9vw;
+    top:256vh;
+    box-shadow: 0px 1vh 2vh 0 #313131;
+
+    border-radius: 15px;
+
+    width:28vw;
+    height:2vh;
+    background-image: linear-gradient(270deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+
+    background-size: 400% 100%;
+    animation-name: status-fill;
+    animation-duration: 4s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-direction:reverse;
+}
+
+
+
+@keyframes status-fill{
+	0% {
+		background-position: 0% 0%;
+	}
+    50%{
+        background-position: 25% 25%;
+    }
+	100% {
+		background-position: 100% 100%;
+	}
+}
+
+
+
+
+@media (max-aspect-ratio: 10/16){
+
+
+    .Skills{
+        background: linear-gradient(90deg, #FFF 25%, #808080 100%);
+    
+        width: 98.75vw;
+        height:90vh;
+    }
+    
+    .Skills-light-mode{
+        background: linear-gradient(90deg, #101010 25%, #808080 100%);
+    
+        width: 98.75vw;
+        height:90vh;
+    }
+    .Skills-dark-mode{
+        background: linear-gradient(90deg, #FFF 25%, #808080 100%);
+    
+        width: 98.75vw;
+        height:90vh;
+    }
+    
+    .leetcode-light-mode{
+        position:absolute;
+        top:192.25vh;
+        right:20vw;
+    
+        width:3vh;
+        height:6vw;
+        transition: all 0.5s;
+        transform-origin: 50% 50%;
+    color:#ffffff;
+        background: #000;
+    box-shadow: 0px 0.5vh 1vh 0px rgba(246, 0, 255,0.5);
+    border-radius: 50%;
+    transform: scale(1.5);
+    }
+    
+    .leetcode-light-mode:hover {
+        transform: scale(1.2);
+        background:linear-gradient(120deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+        background-size: 400% 400%;
+        animation-name: icons-hover;
+        animation-duration: 2s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+        animation-direction:alternate-reverse;
+    box-shadow: 0px 0.5vh 1vh 0px rgba(246, 0, 255,0.75);
+    
+      }
+    
+    .leetcode-dark-mode{
+        position:absolute;
+        top:192.25vh;
+        right:20vw;
+    
+        width:3vh;
+        height:6vw;
+        transition: all 0.5s;
+        transform-origin: 50% 50%;
+    color:#ffffff;
+        background: #000;
+    box-shadow: 0px 0.5vh 1vh 0px #ffffff;
+    border-radius: 50%;
+    transform: scale(1.5);
+    }
+    
+    .leetcode-dark-mode:hover {
+        transform: scale(1.2);
+        background:linear-gradient(120deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+        background-size: 400% 400%;
+        animation-name: icons-hover;
+        animation-duration: 2s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+        animation-direction:alternate-reverse;
+      }
+    
+    @keyframes icons-hover{
+        0% {
+            background-position: 0% 0%;
+        }
+        50%{
+            background-position: 25% 25%;
+        }
+        100% {
+            background-position: 100% 100%;
+        }
+    }
+    
+    
+    
+    .github-light-mode{
+        position:absolute;
+        top:192.25vh;
+        right:7vw;
+    
+        width:3vh;
+        height:6vw;
+        transition: all 0.5s;
+        transform-origin: 50% 50%;
+    color:#000;
+        transform: scale(1.55);
+    box-shadow: 0px 0.5vh 1vh 0px rgba(246, 0, 255,0.5);
+    border-radius: 50%;
+    }
+    
+    .github-light-mode:hover {
+        transform: scale(1.2);
+        background:linear-gradient(120deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+        background-size: 400% 400%;
+        animation-name: icons-hover;
+        animation-duration: 2s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+        animation-direction:alternate-reverse;
+    box-shadow: 0px 0.5vh 1vh 0px rgba(246, 0, 255,0.75);
+    
+      }
+    
+      .github-dark-mode{
+        position:absolute;
+        top:192.25vh;
+        right:7vw;
+    
+        width:3vh;
+        height:6vw;
+        transition: all 0.5s;
+        transform-origin: 50% 50%;
+    color:#000;
+    transform: scale(1.55);
+    box-shadow: 0px 0.5vh 1vh 0px #ffffff;
+    border-radius: 50%;
+    }
+    
+    .github-dark-mode:hover {
+        transform: scale(1.2);
+        background:linear-gradient(120deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+        background-size: 400% 400%;
+        animation-name: icons-hover;
+        animation-duration: 2s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+        animation-direction:alternate-reverse;
+      }
+    
+      .text-development{
+        position: relative;
+        top:25vh;
+        left:5vw;
+      }
+    
+    .text-bracket1{
+        position: relative;
+      /* top:112.25vh;
+        left:0.5vw; */
+        bottom: 8vh;
+    
+        font-family: Inter;
+        font-size: 3.375vh;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        
+            background: linear-gradient(180deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .text-bracket2{
+        position: relative;
+        /* top:112.25vh;
+          left:26.5vw; */
+            bottom: 8vh;
+
+        font-family: Inter;
+        font-size: 3.375vh;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        
+            background: linear-gradient(180deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .text-develop-light-mode{
+      position: relative;
+      /* top:112.25vh;
+      left:4vw; */
+        bottom: 8vh;
+    
+        color: #efefef;
+    font-family: Inter;
+    font-size: 3.375vh;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
+    
+    .text-develop-dark-mode{
+        /* position: absolute;
+        top:112.25vh;
+        left:4vw;
+       */
+       position: relative;
+      bottom: 8vh;
+          color: #000;
+      font-family: Inter;
+      font-size: 3.375vh;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      }
+    
+    .text-my-skills-light-mode{
+    
+    color: #efefef;
+    font-family: Inter;
+    font-size: 4.5vh;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
+    
+    .text-my-skills-dark-mode{
+    
+        color: #000;
+        font-family: Inter;
+        font-size: 4.5vh;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        }
+    
+    .text-M{
+            position: absolute;
+            top:191vh;
+            left:8vw;
+    
+    
+        font-family: Inter;
+    font-size: 4.5vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    
+    background: linear-gradient(30deg, #0DF 18.23%, #F600FF 50%, #00FF09 84.97%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+    
+    .text-y{
+        position: absolute;
+        top:191vh;
+        left:17.5vw;
+    
+    }
+    
+    .text-S{
+        position: absolute;
+        top:191vh;
+        left:27vw;
+    
+    
+    font-family: Inter;
+    font-size: 4.5vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    
+    background: linear-gradient(150deg, #0DF 18.23%, #F600FF 50%, #00FF09 84.97%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+    
+    .text-kills{
+        position: absolute;
+        top:191vh;
+        left:33.5vw;
+    }
+    
+    
+    .text-design{
+        position: absolute;
+        top:231vh;
+          left:16vw;
+    
+        display: flex;
+        align-items: center;
+    }
+    
+    .text-D{
+    
+        /* position: absolute;
+        top:224.5vh;
+          left:55vw; */
+    
+        font-family: Inter;
+        font-size: 3.375vh;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        
+            background: linear-gradient(100deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .text-esign-light-mode{
+        /* position: absolute;
+        top:224.5vh;
+          left:57.3vw; */
+    
+    color: #efefef;
+    font-family: Inter;
+    font-size: 3.375vh;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
+    .text-esign-dark-mode{
+        /* position: absolute;
+        top:224.5vh;
+          left:57.3vw; */
+    
+    color: #000;
+    font-family: Inter;
+    font-size: 3.375vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    }
+    
+    .circle-svg{
+        width:2.93vh;
+        height:5.2vw;
+        position: relative;
+        top:0.1vh;
+    }
+    
+    
+    
+    .text-java-light-mode{
+        position: absolute;
+        left:15vw;
+        top:205vh;
+        
+        color: #efefef;
+        font-family: Inter;
+        font-size: 1.125vh;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .text-java-dark-mode{
+        position: absolute;
+        left:15vw;
+        top:205vh;
+        
+        color: #000;
+        font-family: Inter;
+        font-size: 1.125vh;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    
+    .text-javap-light-mode{
+        position: absolute;
+        left:84vw;
+        top:205vh;
+    
+        color: #efefef;
+    font-family: Inter;
+    font-size: 0.984375vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    
+    .text-javap-dark-mode{
+        position: absolute;
+        left:84vw;
+        top:205vh;
+    
+        color: #000;
+    font-family: Inter;
+    font-size: 0.984375vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    
+    
+    .status-bar1{
+        position: absolute;
+        left:14vw;
+        top:207vh;
+    
+        border-radius: 15px;
+    
+        width:35vh;
+        height:2vw;
+        background-color: #000;
+    }
+    .status-fill1{
+        z-index: 1;
+        position: absolute;
+        left:14vw;
+        top:207vh;
+        box-shadow: 0px 1vh 2vh 0 #313131;
+    
+        border-radius: 15px;
+    
+        width:31.5vh;
+        height:2vw;
+        background-image: linear-gradient(270deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+    
+        background-size: 400% 100%;
+        animation-name: status-fill;
+        animation-duration: 4s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+        animation-direction:reverse;
+    }
+    
+    
+    
+    
+    .text-javascript-light-mode{
+        position: absolute;
+        left:15vw;
+        top:209vh;
+        
+        color: #efefef;
+        font-family: Inter;
+        font-size: 1.125vh;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .text-javascript-dark-mode{
+        position: absolute;
+        left:15vw;
+        top:209vh;
+        
+        color: #000;
+        font-family: Inter;
+        font-size: 1.125vh;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    
+    .text-javascriptp-light-mode{
+        position: absolute;
+        left:84vw;
+        top:209vh;
+    
+        color: #efefef;
+    font-family: Inter;
+    font-size: 0.984375vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    .text-javascriptp-dark-mode{
+        position: absolute;
+        left:84vw;
+        top:209vh;
+    
+        color: #000;
+    font-family: Inter;
+    font-size: 0.984375vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    
+    .status-bar2{
+        position: absolute;
+        left:14vw;
+        top:211vh;
+    
+        border-radius: 15px;
+    
+        width:35vh;
+        height:2vw;
+        background-color: #000;
+    }
+    .status-fill2{
+        z-index: 1;
+        position: absolute;
+        left:14vw;
+        top:211vh;
+        box-shadow: 0px 1vh 2vh 0 #313131;
+    
+        border-radius: 15px;
+    
+        width:33.25vh;
+        height:2vw;
+        background-image: linear-gradient(270deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+    
+        background-size: 400% 100%;
+        animation-name: status-fill;
+        animation-duration: 4s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+        animation-direction:reverse;
+    }
+    
+    
+    .text-react-light-mode{
+        position: absolute;
+        left:15vw;
+        top:213vh;
+        
+        color: #efefef;
+        font-family: Inter;
+        font-size: 1.125vh;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .text-react-dark-mode{
+        position: absolute;
+        left:15vw;
+        top:213vh;
+        
+        color: #000;
+        font-family: Inter;
+        font-size: 1.125vh;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    
+    .text-reactp-light-mode{
+        position: absolute;
+        left:84vw;
+        top:213vh;
+    
+        color: #efefef;
+    font-family: Inter;
+    font-size: 0.984375vh;
+    
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    
+    .text-reactp-dark-mode{
+        position: absolute;
+        left:84vw;
+        top:213vh;
+    
+        color: #000;
+    font-family: Inter;
+    font-size: 0.984375vh;
+    
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    
+    .status-bar3{
+        position: absolute;
+        left:14vw;
+        top:215vh;
+    
+        border-radius: 15px;
+    
+        width:35vh;
+        height:2vw;
+        background-color: #000;
+    }
+    .status-fill3{
+        z-index: 1;
+        position: absolute;
+        left:14vw;
+        top:215vh;
+    
+        border-radius: 15px;
+    
+        width:31.5vh;
+        height:2vw;
+        background-image: linear-gradient(270deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+        box-shadow: 0px 1vh 2vh 0 #313131;
+    
+        background-size: 400% 100%;
+        animation-name: status-fill;
+        animation-duration: 4s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+        animation-direction:reverse;
+    }
+    
+    
+    
+    .text-css-light-mode{
+        position: absolute;
+        left:15vw;
+        top:217vh;
+        
+        color: #efefef;
+        font-family: Inter;
+        font-size: 1.125vh;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .text-css-dark-mode{
+        position: absolute;
+        left:15vw;
+        top:217vh;
+        
+        color: #000;
+        font-family: Inter;
+        font-size: 1.125vh;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    
+    .text-cssp-light-mode{
+        position: absolute;
+        left:84vw;
+        top:217vh;
+    
+        color: #efefef;
+    font-family: Inter;
+    font-size: 0.984375vh;
+    
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    
+    .text-cssp-dark-mode{
+        position: absolute;
+        left:84vw;
+        top:217vh;
+    
+        color: #000;
+    font-family: Inter;
+    font-size: 0.984375vh;
+    
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    
+    .status-bar4{
+        position: absolute;
+        left:14vw;
+        top:219vh;
+    
+        border-radius: 15px;
+    
+        width:35vh;
+        height:2vw;
+        background-color: #000;
+    }
+    .status-fill4{
+        z-index: 1;
+        position: absolute;
+        left:14vw;
+        top:219vh;
+    
+        border-radius: 15px;
+        box-shadow: 0px 1vh 2vh 0 #313131;
+    
+        width:31.5vh;
+        height:2vw;
+        background-image: linear-gradient(270deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+    
+        background-size: 400% 100%;
+        animation-name: status-fill;
+        animation-duration: 4s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+        animation-direction:reverse;
+    }
+    
+    
+    .text-nodejs-light-mode{
+        position: absolute;
+        left:15vw;
+        top:221vh;
+        
+        color: #efefef;
+        font-family: Inter;
+        font-size: 1.125vh;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .text-nodejs-dark-mode{
+        position: absolute;
+        left:15vw;
+        top:221vh;
+        
+        color: #000;
+        font-family: Inter;
+        font-size: 1.125vh;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    
+    .text-nodejsp-light-mode{
+        position: absolute;
+        left:84vw;
+        top:221vh;
+    
+        color: #efefef;
+    font-family: Inter;
+    font-size: 0.984375vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    .text-nodejsp-dark-mode{
+        position: absolute;
+        left:84vw;
+        top:221vh;
+    
+        color: #000;
+    font-family: Inter;
+    font-size: 0.984375vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    
+    .status-bar5{
+        position: absolute;
+        left:14vw;
+        top:223vh;
+    
+        border-radius: 15px;
+    
+        width:35vh;
+        height:2vw;
+        background-color: #000;
+    }
+    .status-fill5{
+        z-index: 1;
+        position: absolute;
+        left:14vw;
+        top:223vh;
+        box-shadow: 0px 1vh 2vh 0 #313131;
+    
+        border-radius: 15px;
+    
+        width:33.25vh;
+        height:2vw;
+        background-image: linear-gradient(270deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+    
+        background-size: 400% 100%;
+        animation-name: status-fill;
+        animation-duration: 4s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+        animation-direction:reverse;
+    }
+    
+    
+    
+    .text-html-light-mode{
+        position: absolute;
+        left:15vw;
+        top:225vh;
+        
+        color: #efefef;
+        font-family: Inter;
+        font-size: 1.125vh;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .text-html-dark-mode{
+        position: absolute;
+        left:15vw;
+        top:225vh;
+        
+        color: #000;
+        font-family: Inter;
+        font-size: 1.125vh;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    
+    .text-htmlp-light-mode{
+        position: absolute;
+        left:84vw;
+        top:225vh;
+    
+        color: #efefef;
+    font-family: Inter;
+    font-size: 0.984375vh;
+    
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    
+    .text-htmlp-dark-mode{
+        position: absolute;
+        left:84vw;
+        top:225vh;
+    
+        color: #000;
+    font-family: Inter;
+    font-size: 0.984375vh;
+    
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    
+    .status-bar6{
+        position: absolute;
+        left:14vw;
+        top:227vh;
+    
+        border-radius: 15px;
+    
+        width:35vh;
+        height:2vw;
+        background-color: #000;
+    }
+    .status-fill6{
+        z-index: 1;
+        position: absolute;
+        left:14vw;
+        top:227vh;
+        box-shadow: 0px 1vh 2vh 0 #313131;
+    
+        border-radius: 15px;
+    
+        width:35.15vh;
+        height:2.2vw;
+        background-image: linear-gradient(270deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+    
+        background-size: 400% 100%;
+        animation-name: status-fill;
+        animation-duration: 4s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+        animation-direction:reverse;
+    }
+    
+    
+    .text-photoshop-light-mode{
+        position: absolute;
+        left:15vw;
+        top:237vh;
+        
+        color: #efefef;
+        font-family: Inter;
+        font-size: 1.125vh;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .text-photoshop-dark-mode{
+        position: absolute;
+        left:15vw;
+        top:237vh;
+        
+        color: #000;
+        font-family: Inter;
+        font-size: 1.125vh;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    
+    .text-photoshopp-light-mode{
+        position: absolute;
+        left:84vw;
+        top:237vh;
+    
+        color: #efefef;
+    font-family: Inter;
+    font-size: 0.984375vh;
+    
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    
+    .text-photoshopp-dark-mode{
+        position: absolute;
+        left:84vw;
+        top:237vh;
+    
+        color: #000;
+    font-family: Inter;
+    font-size: 0.984375vh;
+    
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    
+    .status-bar7{
+        position: absolute;
+        left:14vw;
+        top:239vh;
+    
+        border-radius: 15px;
+    
+        width:35vh;
+        height:2vw;
+        background-color: #000;
+    }
+    
+    .status-fill7{
+        z-index: 1;
+        position: absolute;
+        left:14vw;
+        top:239vh;
+        box-shadow: 0px 1vh 2vh 0 #313131;
+    
+        border-radius: 15px;
+    
+        width:29.75vh;
+        height:2vw;
+        background-image: linear-gradient(270deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+    
+        background-size: 400% 100%;
+        animation-name: status-fill;
+        animation-duration: 4s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+        animation-direction:reverse;
+    }
+    
+    
+    .text-figma-light-mode{
+        position: absolute;
+        left:15vw;
+        top:241vh;
+        
+        color: #efefef;
+        font-family: Inter;
+        font-size: 1.125vh;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    
+    .text-figma-dark-mode{
+        position: absolute;
+        left:15vw;
+        top:241vh;
+        
+        color: #000;
+        font-family: Inter;
+        font-size: 1.125vh;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    
+    .text-figmap-light-mode{
+        position: absolute;
+        left:84vw;
+        top:241vh;
+    
+        color: #efefef;
+    font-family: Inter;
+    font-size: 0.984375vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    
+    .text-figmap-dark-mode{
+        position: absolute;
+        left:84vw;
+        top:241vh;
+    
+        color: #000;
+    font-family: Inter;
+    font-size: 0.984375vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    
+    .status-bar8{
+        position: absolute;
+        left:14vw;
+        top:243vh;
+    
+        border-radius: 15px;
+    
+        width:35vh;
+        height:2vw;
+        background-color: #000;
+    }
+    .status-fill8{
+        z-index: 1;
+        position: absolute;
+        left:14vw;
+        top:243vh;
+        box-shadow: 0px 1vh 2vh 0 #313131;
+    
+        border-radius: 15px;
+    
+        width:33.25vh;
+        height:2vw;
+        background-image: linear-gradient(270deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+    
+        background-size: 400% 100%;
+        animation-name: status-fill;
+        animation-duration: 4s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+        animation-direction:reverse;
+    }
+    
+    
+    .text-illustrator-light-mode{
+        position: absolute;
+        left:15vw;
+        top:245vh;
+        
+        color: #efefef;
+        font-family: Inter;
+        font-size: 1.125vh;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .text-illustrator-dark-mode{
+        position: absolute;
+        left:15vw;
+        top:245vh;
+        
+        color: #000;
+        font-family: Inter;
+        font-size: 1.125vh;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    
+    .text-illustratorp-light-mode{
+        position: absolute;
+        left:84vw;
+        top:245vh;
+    
+        color: #efefef;
+    font-family: Inter;
+    font-size: 0.984375vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    
+    .text-illustratorp-dark-mode{
+        position: absolute;
+        left:84vw;
+        top:245vh;
+    
+        color: #000;
+    font-family: Inter;
+    font-size: 0.984375vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    
+    .status-bar9{
+        position: absolute;
+        left:14vw;
+        top:247vh;
+    
+        border-radius: 15px;
+    
+        width:35vh;
+        height:2vw;
+        background-color: #000;
+    }
+    
+    .status-fill9{
+        z-index: 1;
+        position: absolute;
+        left:14vw;
+        top:247vh;
+        box-shadow: 0px 1vh 2vh 0 #313131;
+    
+        border-radius: 15px;
+    
+        width:28vh;
+        height:2.2vw;
+        background-image: linear-gradient(270deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+    
+        background-size: 400% 100%;
+        animation-name: status-fill;
+        animation-duration: 4s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+        animation-direction:reverse;
+    }
+    
+    
+    
+    @keyframes status-fill{
+        0% {
+            background-position: 0% 0%;
+        }
+        50%{
+            background-position: 25% 25%;
+        }
+        100% {
+            background-position: 100% 100%;
+        }
+    }
+    
+    
+    
+    
+
+
+}
+
+
+
+@media (min-aspect-ratio:10/16) and (max-aspect-ratio: 1){
+
+
+    .Skills{
+        background: linear-gradient(90deg, #FFF 25%, #808080 100%);
+    
+        width: 98.75vw;
+        height:90vh;
+    }
+    
+    .Skills-light-mode{
+        background: linear-gradient(90deg, #101010 25%, #808080 100%);
+    
+        width: 98.75vw;
+        height:99vh;
+    }
+    .Skills-dark-mode{
+        background: linear-gradient(90deg, #FFF 25%, #808080 100%);
+    
+        width: 98.75vw;
+        height:99vh;
+    }
+    
+    .leetcode-light-mode{
+        position:absolute;
+        top:209vh;
+        right:20vw;
+    
+        width:4vh;
+        height:6vw;
+        transition: all 0.5s;
+        transform-origin: 50% 50%;
+    color:#ffffff;
+        background: #000;
+    box-shadow: 0px 0.5vh 1vh 0px rgba(246, 0, 255,0.5);
+    border-radius: 50%;
+    transform: scale(1.5);
+    }
+    
+    .leetcode-light-mode:hover {
+        transform: scale(1.2);
+        background:linear-gradient(120deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+        background-size: 400% 400%;
+        animation-name: icons-hover;
+        animation-duration: 2s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+        animation-direction:alternate-reverse;
+    box-shadow: 0px 0.5vh 1vh 0px rgba(246, 0, 255,0.75);
+    
+      }
+    
+    .leetcode-dark-mode{
+        position:absolute;
+        top:209vh;
+        right:20vw;
+    
+        width:4vh;
+        height:6vw;
+        transition: all 0.5s;
+        transform-origin: 50% 50%;
+    color:#ffffff;
+        background: #000;
+    box-shadow: 0px 0.5vh 1vh 0px #ffffff;
+    border-radius: 50%;
+    transform: scale(1.5);
+    }
+    
+    .leetcode-dark-mode:hover {
+        transform: scale(1.2);
+        background:linear-gradient(120deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+        background-size: 400% 400%;
+        animation-name: icons-hover;
+        animation-duration: 2s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+        animation-direction:alternate-reverse;
+      }
+    
+    @keyframes icons-hover{
+        0% {
+            background-position: 0% 0%;
+        }
+        50%{
+            background-position: 25% 25%;
+        }
+        100% {
+            background-position: 100% 100%;
+        }
+    }
+    
+    
+    
+    .github-light-mode{
+        position:absolute;
+        top:209vh;
+        right:7vw;
+    
+        width:4vh;
+        height:6vw;
+        transition: all 0.5s;
+        transform-origin: 50% 50%;
+    color:#000;
+        transform: scale(1.55);
+    box-shadow: 0px 0.5vh 1vh 0px rgba(246, 0, 255,0.5);
+    border-radius: 50%;
+    }
+    
+    .github-light-mode:hover {
+        transform: scale(1.2);
+        background:linear-gradient(120deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+        background-size: 400% 400%;
+        animation-name: icons-hover;
+        animation-duration: 2s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+        animation-direction:alternate-reverse;
+    box-shadow: 0px 0.5vh 1vh 0px rgba(246, 0, 255,0.75);
+    
+      }
+    
+      .github-dark-mode{
+        position:absolute;
+        top:209vh;
+        right:7vw;
+    
+        width:4vh;
+        height:6vw;
+        transition: all 0.5s;
+        transform-origin: 50% 50%;
+    color:#000;
+    transform: scale(1.55);
+    box-shadow: 0px 0.5vh 1vh 0px #ffffff;
+    border-radius: 50%;
+    }
+    
+    .github-dark-mode:hover {
+        transform: scale(1.2);
+        background:linear-gradient(120deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+        background-size: 400% 400%;
+        animation-name: icons-hover;
+        animation-duration: 2s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+        animation-direction:alternate-reverse;
+      }
+    
+      .text-development{
+        position: relative;
+        top:25vh;
+        left:5vw;
+      }
+    
+    .text-bracket1{
+        position: relative;
+      /* top:112.25vh;
+        left:0.5vw; */
+        bottom: 8vh;
+    
+        font-family: Inter;
+        font-size: 3.375vh;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        
+            background: linear-gradient(180deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .text-bracket2{
+        position: relative;
+        /* top:112.25vh;
+          left:26.5vw; */
+            bottom: 8vh;
+
+        font-family: Inter;
+        font-size: 3.375vh;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        
+            background: linear-gradient(180deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .text-develop-light-mode{
+      position: relative;
+      /* top:112.25vh;
+      left:4vw; */
+        bottom: 8vh;
+    
+        color: #efefef;
+    font-family: Inter;
+    font-size: 3.375vh;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
+    
+    .text-develop-dark-mode{
+        /* position: absolute;
+        top:112.25vh;
+        left:4vw;
+       */
+       position: relative;
+      bottom: 8vh;
+          color: #000;
+      font-family: Inter;
+      font-size: 3.375vh;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      }
+    
+    .text-my-skills-light-mode{
+    
+    color: #efefef;
+    font-family: Inter;
+    font-size: 4.5vh;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
+    
+    .text-my-skills-dark-mode{
+    
+        color: #000;
+        font-family: Inter;
+        font-size: 4.5vh;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        }
+    
+    .text-M{
+            position: absolute;
+            top:209vh;
+            left:8vw;
+    
+    
+        font-family: Inter;
+    font-size: 4.5vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    
+    background: linear-gradient(30deg, #0DF 18.23%, #F600FF 50%, #00FF09 84.97%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+    
+    .text-y{
+        position: absolute;
+        top:209vh;
+        left:14vw;
+    
+    }
+    
+    .text-S{
+        position: absolute;
+        top:209vh;
+        left:20vw;
+    
+    
+    font-family: Inter;
+    font-size: 4.5vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    
+    background: linear-gradient(150deg, #0DF 18.23%, #F600FF 50%, #00FF09 84.97%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+    
+    .text-kills{
+        position: absolute;
+        top:209vh;
+        left:24vw;
+    }
+    
+    
+    .text-design{
+        position: absolute;
+        top:250vh;
+          left:10.5vw;
+    
+        display: flex;
+        align-items: center;
+    }
+    
+    .text-D{
+    
+        /* position: absolute;
+        top:224.5vh;
+          left:55vw; */
+    
+        font-family: Inter;
+        font-size: 4vh;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        
+            background: linear-gradient(100deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .text-esign-light-mode{
+        /* position: absolute;
+        top:224.5vh;
+          left:57.3vw; */
+    
+    color: #efefef;
+    font-family: Inter;
+    font-size: 3.375vh;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
+    .text-esign-dark-mode{
+        /* position: absolute;
+        top:224.5vh;
+          left:57.3vw; */
+    
+    color: #000;
+    font-family: Inter;
+    font-size: 3.375vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    }
+    
+    .circle-svg{
+        width:2.93vh;
+        height:5.2vw;
+        position: relative;
+        top:0.6vh;
+    }
+    
+    
+    
+    .text-java-light-mode{
+        position: absolute;
+        left:15vw;
+        top:222vh;
+        
+        color: #efefef;
+        font-family: Inter;
+        font-size: 1.25vh;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .text-java-dark-mode{
+        position: absolute;
+        left:15vw;
+        top:222vh;
+        
+        color: #000;
+        font-family: Inter;
+        font-size: 1.25vh;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    
+    .text-javap-light-mode{
+        position: absolute;
+        left:84vw;
+        top:222vh;
+    
+        color: #efefef;
+    font-family: Inter;
+    font-size: 1vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    
+    .text-javap-dark-mode{
+        position: absolute;
+        left:84vw;
+        top:222vh;
+    
+        color: #000;
+    font-family: Inter;
+    font-size: 1vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    
+    
+    .status-bar1{
+        position: absolute;
+        left:14vw;
+        top:224vh;
+    
+        border-radius: 15px;
+    
+        width:75vw;
+        height:2vw;
+        background-color: #000;
+    }
+    .status-fill1{
+        z-index: 1;
+        position: absolute;
+        left:14vw;
+        top:224vh;
+        box-shadow: 0px 1vh 2vh 0 #313131;
+    
+        border-radius: 15px;
+    
+        width:67.5vw;
+        height:2vw;
+        background-image: linear-gradient(270deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+    
+        background-size: 400% 100%;
+        animation-name: status-fill;
+        animation-duration: 4s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+        animation-direction:reverse;
+    }
+    
+    
+    
+    
+    .text-javascript-light-mode{
+        position: absolute;
+        left:15vw;
+        top:226vh;
+        
+        color: #efefef;
+        font-family: Inter;
+        font-size: 1.25vh;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .text-javascript-dark-mode{
+        position: absolute;
+        left:15vw;
+        top:226vh;
+        
+        color: #000;
+        font-family: Inter;
+        font-size: 1.25vh;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    
+    .text-javascriptp-light-mode{
+        position: absolute;
+        left:84vw;
+        top:226vh;
+    
+        color: #efefef;
+    font-family: Inter;
+    font-size: 1vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    .text-javascriptp-dark-mode{
+        position: absolute;
+        left:84vw;
+        top:226vh;
+    
+        color: #000;
+    font-family: Inter;
+    font-size: 1vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    
+    .status-bar2{
+        position: absolute;
+        left:14vw;
+        top:228vh;
+    
+        border-radius: 15px;
+    
+        width:75vw;
+        height:2vw;
+        background-color: #000;
+    }
+    .status-fill2{
+        z-index: 1;
+        position: absolute;
+        left:14vw;
+        top:228vh;
+        box-shadow: 0px 1vh 2vh 0 #313131;
+    
+        border-radius: 15px;
+    
+        width:71.25vw;
+        height:2vw;
+        background-image: linear-gradient(270deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+    
+        background-size: 400% 100%;
+        animation-name: status-fill;
+        animation-duration: 4s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+        animation-direction:reverse;
+    }
+    
+    
+    .text-react-light-mode{
+        position: absolute;
+        left:15vw;
+        top:230vh;
+        
+        color: #efefef;
+        font-family: Inter;
+        font-size: 1.25vh;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .text-react-dark-mode{
+        position: absolute;
+        left:15vw;
+        top:230vh;
+        
+        color: #000;
+        font-family: Inter;
+        font-size: 1.25vh;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    
+    .text-reactp-light-mode{
+        position: absolute;
+        left:84vw;
+        top:230vh;
+    
+        color: #efefef;
+    font-family: Inter;
+    font-size: 1vh;
+    
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    
+    .text-reactp-dark-mode{
+        position: absolute;
+        left:84vw;
+        top:230vh;
+    
+        color: #000;
+    font-family: Inter;
+    font-size: 1vh;
+    
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    
+    .status-bar3{
+        position: absolute;
+        left:14vw;
+        top:232vh;
+    
+        border-radius: 15px;
+    
+        width:75vw;
+        height:2vw;
+        background-color: #000;
+    }
+    .status-fill3{
+        z-index: 1;
+        position: absolute;
+        left:14vw;
+        top:232vh;
+    
+        border-radius: 15px;
+    
+        width:67.5vw;
+        height:2vw;
+        background-image: linear-gradient(270deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+        box-shadow: 0px 1vh 2vh 0 #313131;
+    
+        background-size: 400% 100%;
+        animation-name: status-fill;
+        animation-duration: 4s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+        animation-direction:reverse;
+    }
+    
+    
+    
+    .text-css-light-mode{
+        position: absolute;
+        left:15vw;
+        top:234vh;
+        
+        color: #efefef;
+        font-family: Inter;
+        font-size: 1.25vh;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .text-css-dark-mode{
+        position: absolute;
+        left:15vw;
+        top:234vh;
+        
+        color: #000;
+        font-family: Inter;
+        font-size: 1.25vh;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    
+    .text-cssp-light-mode{
+        position: absolute;
+        left:84vw;
+        top:234vh;
+    
+        color: #efefef;
+    font-family: Inter;
+    font-size: 1vh;
+    
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    
+    .text-cssp-dark-mode{
+        position: absolute;
+        left:84vw;
+        top:234vh;
+    
+        color: #000;
+    font-family: Inter;
+    font-size: 1vh;
+    
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    
+    .status-bar4{
+        position: absolute;
+        left:14vw;
+        top:236vh;
+    
+        border-radius: 15px;
+    
+        width:75vw;
+        height:2vw;
+        background-color: #000;
+    }
+    .status-fill4{
+        z-index: 1;
+        position: absolute;
+        left:14vw;
+        top:236vh;
+    
+        border-radius: 15px;
+        box-shadow: 0px 1vh 2vh 0 #313131;
+    
+        width:67.5vw;
+        height:2vw;
+        background-image: linear-gradient(270deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+    
+        background-size: 400% 100%;
+        animation-name: status-fill;
+        animation-duration: 4s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+        animation-direction:reverse;
+    }
+    
+    
+    .text-nodejs-light-mode{
+        position: absolute;
+        left:15vw;
+        top:238vh;
+        
+        color: #efefef;
+        font-family: Inter;
+        font-size: 1.25vh;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .text-nodejs-dark-mode{
+        position: absolute;
+        left:15vw;
+        top:238vh;
+        
+        color: #000;
+        font-family: Inter;
+        font-size: 1.25vh;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    
+    .text-nodejsp-light-mode{
+        position: absolute;
+        left:84vw;
+        top:238vh;
+    
+        color: #efefef;
+    font-family: Inter;
+    font-size: 1vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    .text-nodejsp-dark-mode{
+        position: absolute;
+        left:84vw;
+        top:238vh;
+    
+        color: #000;
+    font-family: Inter;
+    font-size: 1vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    
+    .status-bar5{
+        position: absolute;
+        left:14vw;
+        top:240vh;
+    
+        border-radius: 15px;
+    
+        width:75vw;
+        height:2vw;
+        background-color: #000;
+    }
+    .status-fill5{
+        z-index: 1;
+        position: absolute;
+        left:14vw;
+        top:240vh;
+        box-shadow: 0px 1vh 2vh 0 #313131;
+    
+        border-radius: 15px;
+    
+        width:71.25vw;
+        height:2vw;
+        background-image: linear-gradient(270deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+    
+        background-size: 400% 100%;
+        animation-name: status-fill;
+        animation-duration: 4s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+        animation-direction:reverse;
+    }
+    
+    
+    
+    .text-html-light-mode{
+        position: absolute;
+        left:15vw;
+        top:242vh;
+        
+        color: #efefef;
+        font-family: Inter;
+        font-size: 1.25vh;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .text-html-dark-mode{
+        position: absolute;
+        left:15vw;
+        top:242vh;
+        
+        color: #000;
+        font-family: Inter;
+        font-size: 1.25vh;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    
+    .text-htmlp-light-mode{
+        position: absolute;
+        left:84vw;
+        top:242vh;
+    
+        color: #efefef;
+    font-family: Inter;
+    font-size: 1vh;
+    
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    
+    .text-htmlp-dark-mode{
+        position: absolute;
+        left:84vw;
+        top:242vh;
+    
+        color: #000;
+    font-family: Inter;
+    font-size: 1vh;
+    
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    
+    .status-bar6{
+        position: absolute;
+        left:14vw;
+        top:244vh;
+    
+        border-radius: 15px;
+    
+        width:75vw;
+        height:2vw;
+        background-color: #000;
+    }
+    .status-fill6{
+        z-index: 1;
+        position: absolute;
+        left:14vw;
+        top:244vh;
+        box-shadow: 0px 1vh 2vh 0 #313131;
+    
+        border-radius: 15px;
+    
+        width:75.25vw;
+        height:2.2vw;
+        background-image: linear-gradient(270deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+    
+        background-size: 400% 100%;
+        animation-name: status-fill;
+        animation-duration: 4s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+        animation-direction:reverse;
+    }
+    
+    
+    .text-photoshop-light-mode{
+        position: absolute;
+        left:15vw;
+        top:257vh;
+        
+        color: #efefef;
+        font-family: Inter;
+        font-size: 1.25vh;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .text-photoshop-dark-mode{
+        position: absolute;
+        left:15vw;
+        top:257vh;
+        
+        color: #000;
+        font-family: Inter;
+        font-size: 1.25vh;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    
+    .text-photoshopp-light-mode{
+        position: absolute;
+        left:84vw;
+        top:257vh;
+    
+        color: #efefef;
+    font-family: Inter;
+    font-size: 1vh;
+    
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    
+    .text-photoshopp-dark-mode{
+        position: absolute;
+        left:84vw;
+        top:257vh;
+    
+        color: #000;
+    font-family: Inter;
+    font-size: 1vh;
+    
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    
+    .status-bar7{
+        position: absolute;
+        left:14vw;
+        top:259vh;
+    
+        border-radius: 15px;
+    
+        width:75vw;
+        height:2vw;
+        background-color: #000;
+    }
+    
+    .status-fill7{
+        z-index: 1;
+        position: absolute;
+        left:14vw;
+        top:259vh;
+        box-shadow: 0px 1vh 2vh 0 #313131;
+    
+        border-radius: 15px;
+    
+        width:63.75vw;
+        height:2vw;
+        background-image: linear-gradient(270deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+    
+        background-size: 400% 100%;
+        animation-name: status-fill;
+        animation-duration: 4s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+        animation-direction:reverse;
+    }
+    
+    
+    .text-figma-light-mode{
+        position: absolute;
+        left:15vw;
+        top:261vh;
+        
+        color: #efefef;
+        font-family: Inter;
+        font-size: 1.25vh;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    
+    .text-figma-dark-mode{
+        position: absolute;
+        left:15vw;
+        top:261vh;
+        
+        color: #000;
+        font-family: Inter;
+        font-size: 1.25vh;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    
+    .text-figmap-light-mode{
+        position: absolute;
+        left:84vw;
+        top:261vh;
+    
+        color: #efefef;
+    font-family: Inter;
+    font-size: 1vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    
+    .text-figmap-dark-mode{
+        position: absolute;
+        left:84vw;
+        top:261vh;
+    
+        color: #000;
+    font-family: Inter;
+    font-size: 1vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    
+    .status-bar8{
+        position: absolute;
+        left:14vw;
+        top:263vh;
+    
+        border-radius: 15px;
+    
+        width:75vw;
+        height:2vw;
+        background-color: #000;
+    }
+    .status-fill8{
+        z-index: 1;
+        position: absolute;
+        left:14vw;
+        top:263vh;
+        box-shadow: 0px 1vh 2vh 0 #313131;
+    
+        border-radius: 15px;
+    
+        width:71.25vw;
+        height:2vw;
+        background-image: linear-gradient(270deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+    
+        background-size: 400% 100%;
+        animation-name: status-fill;
+        animation-duration: 4s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+        animation-direction:reverse;
+    }
+    
+    
+    .text-illustrator-light-mode{
+        position: absolute;
+        left:15vw;
+        top:265vh;
+        
+        color: #efefef;
+        font-family: Inter;
+        font-size: 1.25vh;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .text-illustrator-dark-mode{
+        position: absolute;
+        left:15vw;
+        top:265vh;
+        
+        color: #000;
+        font-family: Inter;
+        font-size: 1.25vh;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    
+    .text-illustratorp-light-mode{
+        position: absolute;
+        left:84vw;
+        top:265vh;
+    
+        color: #efefef;
+    font-family: Inter;
+    font-size: 1vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    
+    .text-illustratorp-dark-mode{
+        position: absolute;
+        left:84vw;
+        top:265vh;
+    
+        color: #000;
+    font-family: Inter;
+    font-size: 1vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    
+    .status-bar9{
+        position: absolute;
+        left:14vw;
+        top:267vh;
+    
+        border-radius: 15px;
+    
+        width:75vw;
+        height:2vw;
+        background-color: #000;
+    }
+    
+    .status-fill9{
+        z-index: 1;
+        position: absolute;
+        left:14vw;
+        top:267vh;
+        box-shadow: 0px 1vh 2vh 0 #313131;
+    
+        border-radius: 15px;
+    
+        width:60vw;
+        height:2.2vw;
+        background-image: linear-gradient(270deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+    
+        background-size: 400% 100%;
+        animation-name: status-fill;
+        animation-duration: 4s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+        animation-direction:reverse;
+    }
+    
+    
+    
+    @keyframes status-fill{
+        0% {
+            background-position: 0% 0%;
+        }
+        50%{
+            background-position: 25% 25%;
+        }
+        100% {
+            background-position: 100% 100%;
+        }
+    }
+    
+    
+    
+    
+
+
+}

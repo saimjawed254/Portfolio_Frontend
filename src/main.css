@@ -1,0 +1,11 @@
+html, body{
+    overflow-x: hidden;
+    width: 98.75vw;
+    scroll-behavior: smooth;
+    /* background-image: url('./public/FullbgWhite.png'); */
+    /* background-size: cover; */
+  }
+  
+  a{
+    color:white
+  }
