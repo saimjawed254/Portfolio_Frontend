@@ -1137,20 +1137,20 @@ line-height: normal;
     .Skills{
         background: linear-gradient(90deg, #FFF 25%, #808080 100%);
     
-        width: 98.75vw;
+        width: 100vw;
         height:90vh;
     }
     
     .Skills-light-mode{
         background: linear-gradient(90deg, #101010 25%, #808080 100%);
     
-        width: 98.75vw;
+        width: 100vw;
         height:90vh;
     }
     .Skills-dark-mode{
         background: linear-gradient(90deg, #FFF 25%, #808080 100%);
     
-        width: 98.75vw;
+        width: 100vw;
         height:90vh;
     }
     
@@ -1422,7 +1422,7 @@ line-height: normal;
     .text-design{
         position: absolute;
         top:231vh;
-          left:16vw;
+          left:14vw;
     
         display: flex;
         align-items: center;
@@ -1507,7 +1507,7 @@ line-height: normal;
     
     .text-javap-light-mode{
         position: absolute;
-        left:84vw;
+        left:80vw;
         top:205vh;
     
         color: #efefef;
@@ -1520,7 +1520,7 @@ line-height: normal;
     
     .text-javap-dark-mode{
         position: absolute;
-        left:84vw;
+        left:80vw;
         top:205vh;
     
         color: #000;
@@ -1595,7 +1595,7 @@ line-height: normal;
     
     .text-javascriptp-light-mode{
         position: absolute;
-        left:84vw;
+        left:80vw;
         top:209vh;
     
         color: #efefef;
@@ -1607,7 +1607,7 @@ line-height: normal;
     }
     .text-javascriptp-dark-mode{
         position: absolute;
-        left:84vw;
+        left:80vw;
         top:209vh;
     
         color: #000;
@@ -1679,7 +1679,7 @@ line-height: normal;
     
     .text-reactp-light-mode{
         position: absolute;
-        left:84vw;
+        left:80vw;
         top:213vh;
     
         color: #efefef;
@@ -1693,7 +1693,7 @@ line-height: normal;
     
     .text-reactp-dark-mode{
         position: absolute;
-        left:84vw;
+        left:80vw;
         top:213vh;
     
         color: #000;
@@ -1767,7 +1767,7 @@ line-height: normal;
     
     .text-cssp-light-mode{
         position: absolute;
-        left:84vw;
+        left:80vw;
         top:217vh;
     
         color: #efefef;
@@ -1781,7 +1781,7 @@ line-height: normal;
     
     .text-cssp-dark-mode{
         position: absolute;
-        left:84vw;
+        left:80vw;
         top:217vh;
     
         color: #000;
@@ -1854,7 +1854,7 @@ line-height: normal;
     
     .text-nodejsp-light-mode{
         position: absolute;
-        left:84vw;
+        left:80vw;
         top:221vh;
     
         color: #efefef;
@@ -1866,7 +1866,7 @@ line-height: normal;
     }
     .text-nodejsp-dark-mode{
         position: absolute;
-        left:84vw;
+        left:80vw;
         top:221vh;
     
         color: #000;
@@ -1939,7 +1939,7 @@ line-height: normal;
     
     .text-htmlp-light-mode{
         position: absolute;
-        left:84vw;
+        left:80vw;
         top:225vh;
     
         color: #efefef;
@@ -1953,7 +1953,7 @@ line-height: normal;
     
     .text-htmlp-dark-mode{
         position: absolute;
-        left:84vw;
+        left:80vw;
         top:225vh;
     
         color: #000;
@@ -2025,7 +2025,7 @@ line-height: normal;
     
     .text-photoshopp-light-mode{
         position: absolute;
-        left:84vw;
+        left:80vw;
         top:237vh;
     
         color: #efefef;
@@ -2039,7 +2039,7 @@ line-height: normal;
     
     .text-photoshopp-dark-mode{
         position: absolute;
-        left:84vw;
+        left:80vw;
         top:237vh;
     
         color: #000;
@@ -2114,7 +2114,7 @@ line-height: normal;
     
     .text-figmap-light-mode{
         position: absolute;
-        left:84vw;
+        left:80vw;
         top:241vh;
     
         color: #efefef;
@@ -2127,7 +2127,7 @@ line-height: normal;
     
     .text-figmap-dark-mode{
         position: absolute;
-        left:84vw;
+        left:80vw;
         top:241vh;
     
         color: #000;
@@ -2199,7 +2199,7 @@ line-height: normal;
     
     .text-illustratorp-light-mode{
         position: absolute;
-        left:84vw;
+        left:80vw;
         top:245vh;
     
         color: #efefef;
@@ -2212,7 +2212,7 @@ line-height: normal;
     
     .text-illustratorp-dark-mode{
         position: absolute;
-        left:84vw;
+        left:80vw;
         top:245vh;
     
         color: #000;

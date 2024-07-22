@@ -1269,7 +1269,7 @@ left:18vw;
     .contact-light-mode{
       z-index: -1;
       overflow: hidden;
-      width: 98.75vw;
+      width: 100vw;
     
       height: 99vh;
       color: aliceblue;
@@ -1279,7 +1279,7 @@ left:18vw;
     .contact-dark-mode{
       z-index: -1;
       overflow: hidden;
-      width: 98.75vw;
+      width: 100vw;
     
       height: 99vh;
       color: aliceblue;
@@ -2396,7 +2396,7 @@ left:18vw;
     
     .footer{
       width:90vw;
-      height:13vh;
+      height:0vh;
       position: relative;
     top:24vh;
     left:4vw;
@@ -2518,10 +2518,16 @@ left:18vw;
         }
       }
     
+      .bg{
+        position: relative;
+        top:10vh;
+        width: fit-content;
+        height: fit-content;
+      }
 
       .circleone{
         position: relative;
-        left:133vw;
+        left:85vw;
         top: 0vh;
         animation: circone 2s linear 1s infinite;
         animation-timing-function: ease-in-out;
@@ -2531,7 +2537,10 @@ left:18vw;
       }
       
       .circleone:hover{
-        transform: scale(3);
+        transform: scale(1);
+        position: relative;
+        left:45vw;
+  
       }
 
       @keyframes circone {
@@ -2553,8 +2562,10 @@ left:18vw;
       .circletwo{
         position: relative;
         bottom:22vh;
-        left: 46vw;
+        left: 0vw;
 
+        width: fit-content;
+        height: fit-content;
         animation: circtwo 2s linear 0s infinite;
         animation-timing-function: ease-in-out;
         transition: all 1s;
@@ -2564,6 +2575,8 @@ left:18vw;
 
       .circletwo:hover {
         transform: scale(1);
+        position: relative;
+        left:42vw;
       }
 
       @keyframes circtwo {
@@ -2586,8 +2599,10 @@ left:18vw;
       .circlethree{
         position: relative;
         bottom:36vh;
-        left:150vw;
+        left:50vw;
 
+        width: fit-content;
+        height: fit-content;
         animation: circthree 2s linear 0s infinite;
         animation-timing-function: ease-in-out;
         transition: all 1s;
@@ -2596,7 +2611,10 @@ left:18vw;
       }
 
       .circlethree:hover{
-        transform: scale(6);
+        transform: scale(2);
+        position: relative;
+        left:80vw;
+
       }
 
       @keyframes circthree {
@@ -2628,6 +2646,8 @@ left:18vw;
 
       .circlefour:hover{
         transform: scale(3);
+        position: relative;
+        left: 20vw;
       }
       @keyframes circfour {
         0% {

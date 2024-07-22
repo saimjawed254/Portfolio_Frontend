@@ -624,7 +624,7 @@ box-shadow: 0px 1vh 2vh 0 rgba(246, 0, 255,0.5);
 
 
   .project {
-    width: 98.75vw;
+    width: 100vw;
     height: 99vh;
     background: linear-gradient(90deg, #fff 25%, #808080 100%);
     overflow: hidden;
@@ -632,14 +632,14 @@ box-shadow: 0px 1vh 2vh 0 rgba(246, 0, 255,0.5);
   }
   
   .project-light-mode{
-    width: 98.75vw;
+    width: 100vw;
     height: 99vh;
     background: linear-gradient(90deg, #101010 25%, #808080 100%);
     overflow: hidden;
     display: flex;
   }
   .project-dark-mode{
-    width: 98.75vw;
+    width: 100vw;
     height: 99vh;
     background: linear-gradient(90deg, #fff 25%, #808080 100%);
     overflow: hidden;
@@ -953,13 +953,14 @@ box-shadow: 0px 1vh 2vh 0 rgba(246, 0, 255,0.5);
   }
   
   .gallery {
-    position: relative;
-    top: 51vh;
-    right: 76vw;
+    position: absolute;
+    top: 320vh;
+    left: 3vw;
     display: flex;
     align-items: center;
     width:100vw;
     height:30vh;
+    transform: scale(0.9);
   }
   
   .gallery-box1 {

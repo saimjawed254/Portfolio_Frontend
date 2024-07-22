@@ -1202,7 +1202,7 @@ box-shadow: 1vw 0 4vh 0 #ffffff inset;
     overflow: hidden;
   
     position: absolute;
-    bottom: 8vh;
+    bottom: 0vh;
     right: 0vw;
   }
   
@@ -1365,7 +1365,7 @@ box-shadow: 1vw 0 4vh 0 #ffffff inset;
     background-position: right bottom;
   
      position: absolute;
-     bottom: 8vh;
+     bottom: 0vh;
      right:0vw;
    
   }
