@@ -8,13 +8,13 @@
 .Skills-light-mode{
     background: linear-gradient(90deg, #101010 25%, #808080 100%);
 
-    width: 98.75vw;
+    width: 100vw;
     height:99vh;
 }
 .Skills-dark-mode{
     background: linear-gradient(90deg, #FFF 25%, #808080 100%);
 
-    width: 98.75vw;
+    width: 100vw;
     height:99vh;
 }
 

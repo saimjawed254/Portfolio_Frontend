@@ -9,7 +9,7 @@
 }
 .Hero-light-mode {
   overflow: hidden;
-  width: 98.75vw;
+  width: 100vw;
   height: 100vh;
   color: aliceblue;
   background: linear-gradient(90deg, #101010 25%, #808080 100%);
@@ -18,7 +18,7 @@
 }
 .Hero-dark-mode {
   overflow: hidden;
-  width: 98.75vw;
+  width: 100vw;
   height: 100vh;
   color: aliceblue;
   background: linear-gradient(90deg, #ffffff 25%, #808080 100%);

@@ -7,14 +7,14 @@
 }
 
 .project-light-mode{
-  width: 98.75vw;
+  width: 100vw;
   height: 99vh;
   background: linear-gradient(90deg, #101010 25%, #808080 100%);
   overflow: hidden;
   display: flex;
 }
 .project-dark-mode{
-  width: 98.75vw;
+  width: 100vw;
   height: 99vh;
   background: linear-gradient(90deg, #fff 25%, #808080 100%);
   overflow: hidden;
