@@ -30,7 +30,7 @@ function Hero() {
                    <a href="#AboutMe">
                     <button className={"button1-"+modeActive.mode}><div className={"text1"}>MORE ABOUT ME </div><FaRegArrowAltCircleDown className={'down-arrow'}/></button>
                     </a>
-                    <a href="/Resume1.pdf" download>
+                    <a href="/CVSaim.pdf" download>
                     <button className={"button2-"+modeActive.mode}><div className={"text2"}>DOWNLOAD CV</div><FaCloudDownloadAlt className={'download'}/></button>
                     </a>
                     <div className={"circles"}>

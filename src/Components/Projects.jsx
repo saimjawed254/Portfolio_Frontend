@@ -33,7 +33,7 @@ function Projects() {
 
                     <div className="project-buttons">
                         <div className="project-buttons-in">
-                            <a href="/Resume1.pdf" download>
+                            <a href="/CVSaim.pdf" download>
                                 <button className={"button-cv-project-"+modeActive.mode}><div className="text-inbutton2">DOWNLOAD CV</div><FaCloudDownloadAlt className='download-project' /></button>
                             </a>
                             <a href="#Contact">
