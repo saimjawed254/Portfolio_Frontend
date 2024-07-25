@@ -2,10 +2,50 @@ import './Header.css'
 import { FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
 import { useState } from 'react';
 import { useSelector } from 'react-redux';
+import { Link } from 'react-router-dom';
+
 
 function Header() {
 
   const modeActive=useSelector((store)=>store.mode)
+
+  const scrolltoTop = () => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+    });
+};
+
+
+const scrolltoAbout=()=>{
+    const elemen=document.getElementById('AboutMe')
+    elemen.scrollIntoView()
+}
+const timeA=()=>{
+    setTimeout(scrolltoAbout,100)
+}
+
+const scrolltoSkills=()=>{
+    const elemen=document.getElementById('Skills')
+    elemen.scrollIntoView()
+}
+const timeS=()=>{
+    setTimeout(scrolltoSkills,100)
+}
+const scrolltoProjects=()=>{
+    const elemen=document.getElementById('Projects')
+    elemen.scrollIntoView()
+}
+const timeP=()=>{
+    setTimeout(scrolltoProjects,100)
+}
+const scrolltoContact=()=>{
+    const elemen=document.getElementById('Contact')
+    elemen.scrollIntoView()
+}
+const timeC=()=>{
+    setTimeout(scrolltoContact,100)
+}
 
     let [toggle1, setToggle1] = useState(false);
     const handleClickglow1 = () => {
@@ -65,12 +105,12 @@ function Header() {
 
                 <div className={"navbar-"+modeActive.mode}>
 
-                    <a href='#Hero' className='elem' >HOME</a>
-                    <a href='#AboutMe' className='elem'>ABOUT ME</a>
-                    <a href='#Skills' className='elem'>SKILLS</a>
+                <Link to='/' onClick={scrolltoTop} className='elem'> HOME</Link>
+                    <Link to='/' onClick={timeA}  className='elem'>ABOUT ME</Link>
+                    <Link to='/' onClick={timeS} className='elem'>SKILLS</Link>
                     {/* <a href='#Education' className='elem'>EXPERIENCE</a> */}
-                    <a href='#Projects' className='elem'>PROJECTS</a>
-                    <a href='#Contact' className='elem'>GET IN TOUCH</a>
+                    <Link to='/' onClick={timeP} className='elem'>PROJECTS</Link>
+                    <Link to='/' onClick={timeC} className='elem'>GET IN TOUCH</Link>
                 </div>
                 <div className="social">
                     <a href="https://www.instagram.com/s._aim_jawed" target='_blank'><FaInstagram className={'instagram-icon-'+modeActive.mode} /></a>

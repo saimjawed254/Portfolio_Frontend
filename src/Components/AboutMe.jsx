@@ -4,8 +4,26 @@ import { FaGraduationCap } from "react-icons/fa";
 import { PiHandshakeFill } from "react-icons/pi";
 import { FaCodeBranch } from "react-icons/fa6";
 import { useSelector } from "react-redux";
+import { Link } from "react-router-dom";
 
 function AboutMe() {
+
+    const scrolltoContact=()=>{
+        const elemen=document.getElementById('Contact')
+        elemen.scrollIntoView()
+    }
+    const timeC=()=>{
+        setTimeout(scrolltoContact,100)
+    }
+
+
+    const scrolltoSkills=()=>{
+        const elemen=document.getElementById('Skills')
+        elemen.scrollIntoView()
+    }
+    const timeS=()=>{
+        setTimeout(scrolltoSkills,100)
+    }
 
   const modeActive=useSelector((store)=>store.mode)
 
@@ -29,12 +47,12 @@ function AboutMe() {
                                               very hopeful I will soon be able to start<br/>
                                                working on this amazing technology.<br/>
                     </div>
-                    <a href="#Skills">
+                    <Link to='/' onClick={timeS} >
                     <div className={"button-skills-"+modeActive.mode}><div className="text-skills">MY SKILLS<FaCodeBranch className="code-branch"/></div></div>
-                    </a>
-                    <a href="#Contact">
+                    </Link>
+                    <Link to='/' onClick={timeC} >
                     <div className={"button-contact-"+modeActive.mode}><div className="text-contact">CONTACT ME<PiHandshakeFill className='aboutme-contact' /></div></div>
-                    </a>
+                    </Link>
                 </div>
                 <div className="education">
                     <div className="text-ed">Ed</div>

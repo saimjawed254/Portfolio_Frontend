@@ -2,19 +2,38 @@
 import './Hero.css'
 import { useSelector } from 'react-redux';
 import { FaRegArrowAltCircleDown, FaCloudDownloadAlt } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 const width=screen.width;
 const height=screen.height;
 
 function Hero() {
 
+  const scrolltoAbout=()=>{
+    const elemen=document.getElementById('AboutMe')
+    elemen.scrollIntoView()
+}
+const timeA=()=>{
+    setTimeout(scrolltoAbout,100)
+}
+
+
+const scrolltoContact=()=>{
+  const elemen=document.getElementById('Contact')
+  elemen.scrollIntoView()
+}
+const timeC=()=>{
+  setTimeout(scrolltoContact,100)
+}
+
+
   const modeActive=useSelector((store)=>store.mode)
 
     return (
         <>
             <div className={"Hero-"+modeActive.mode} id="Hero">
-                <a href='#Contact' className={"sidebar-"+modeActive.mode}></a>
-                <a href='#Contact' className={"talk2-"+modeActive.mode}>LETS TALK </a>
+                <Link to='/' onClick={timeC} className={"sidebar-"+modeActive.mode}></Link>
+                <Link to='/' onClick={timeC} className={"talk2-"+modeActive.mode}>LETS TALK </Link>
                 <div className={"top-heading-"+modeActive.mode}>Hi! I'm <span className={"Saim"}>Saim Jawed</span></div>
                 <div className={"heading1-"+modeActive.mode}>I'm a</div>
                 <div className={"main-text-"+modeActive.mode}>
@@ -27,9 +46,9 @@ function Hero() {
                     focused on crafting clean & user-friendly experiences. <br />
                    I am passionate about building excellent software that <br />improves 
                    the lives of those around me.</div>
-                   <a href="#AboutMe">
+                   <Link to='/' onClick={timeA} >
                     <button className={"button1-"+modeActive.mode}><div className={"text1"}>MORE ABOUT ME </div><FaRegArrowAltCircleDown className={'down-arrow'}/></button>
-                    </a>
+                    </Link>
                     <a href="/CVSaim.pdf" download>
                     <button className={"button2-"+modeActive.mode}><div className={"text2"}>DOWNLOAD CV</div><FaCloudDownloadAlt className={'download'}/></button>
                     </a>

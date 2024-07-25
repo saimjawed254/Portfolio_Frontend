@@ -3,9 +3,18 @@ import { FaCloudDownloadAlt } from "react-icons/fa";
 import { PiHandshakeFill } from "react-icons/pi";
 import { BsArrowRight } from "react-icons/bs";
 import { useSelector } from 'react-redux';
-
+import {Link} from 'react-router-dom'
 
 function Projects() {
+
+
+    const scrolltoContact=()=>{
+        const elemen=document.getElementById('Contact')
+        elemen.scrollIntoView()
+    }
+    const timeC=()=>{
+        setTimeout(scrolltoContact,100)
+    }
 
   const modeActive=useSelector((store)=>store.mode)
 
@@ -33,18 +42,18 @@ function Projects() {
 
                     <div className="project-buttons">
                         <div className="project-buttons-in">
-                            <a href="/CVSaim.pdf" download>
+                            <a href="/Resume1.pdf" download>
                                 <button className={"button-cv-project-"+modeActive.mode}><div className="text-inbutton2">DOWNLOAD CV</div><FaCloudDownloadAlt className='download-project' /></button>
                             </a>
-                            <a href="#Contact">
+                            <Link to='/' onClick={timeC} >
                             <button className={"button-contact-project-"+modeActive.mode}><div className="text-inbutton1">CONTACT ME </div><PiHandshakeFill className='project-contact' /></button>
-                            </a>
+                            </Link>
                         </div>
 
-                        <div className={"show-all-button-"+modeActive.mode}>
+                        <Link to='/allprojects' className={"show-all-button-"+modeActive.mode}>
                             <div className="text-showall">Show all... <BsArrowRight className='right-arrow-projects' />
                             </div>
-                        </div>
+                        </Link>
                     </div>
                 </div>
 

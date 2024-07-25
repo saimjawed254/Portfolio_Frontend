@@ -357,8 +357,8 @@ box-shadow: 0px 1vh 2vh 0 rgba(246, 0, 255,0.5);
 
   border-radius: 1vw;
 
-  background-image: url("/IMG_7839.JPG");
-  background-position: center;
+  background-image: url("Project-Tabview.png");
+ background-position: -0.05vh -0.5vh;
   background-size: cover;
   transition: all 0.5s;
   transform-origin: 50% 50%;
@@ -396,11 +396,11 @@ box-shadow: 0px 1vh 2vh 0 rgba(246, 0, 255,0.5);
 
   border-radius: 1vw;
 
-  background-image: url("/GymPage.jpg");
-  background-position:left;
+  background-image: url("/Form-Mobileview.png");
+  background-position:top;
   background-size: cover;
   transition: all 0.5s;
-  transform-origin: 0% 70%;
+  transform-origin: 50% 50%;
 }
 .img-aero2:hover{
   transform: scale(1.2);
@@ -489,7 +489,7 @@ box-shadow: 0px 1vh 2vh 0 rgba(246, 0, 255,0.5);
 
   border-radius: 1vw;
 
-  background-image: url("/Contact.png");
+  background-image: url("/Expresso-Website.png");
   
   background-position:center;
   background-size: cover;
@@ -533,7 +533,7 @@ box-shadow: 0px 1vh 2vh 0 rgba(246, 0, 255,0.5);
 
   border-radius: 1vw;
 
-  background-image: url("/About.png");
+  background-image: url("/Gym-Website.png");
   
   background-position:center;
   background-size: cover;
@@ -570,7 +570,7 @@ box-shadow: 0px 1vh 2vh 0 rgba(246, 0, 255,0.5);
 
 
   border-radius: 1vw;
-  background-image: url("/HeroPage.png");
+  background-image: url("/Portfolio-Light.png");
   
   background-position:center;
   background-size: cover;
@@ -606,10 +606,10 @@ box-shadow: 0px 1vh 2vh 0 rgba(246, 0, 255,0.5);
 
 
   border-radius: 1vw;
-  background-image: url("/8e679c65b8a27475ee8b94420ac137c3.jpg");
+  background-image: url("Art.png");
 
   
-  background-position:center;
+  background-position:left;
   background-size: cover;
   transition: all 0.5s;
   transform-origin: 50% 50%;
@@ -992,7 +992,7 @@ box-shadow: 0px 1vh 2vh 0 rgba(246, 0, 255,0.5);
   
     border-radius: 1vw;
   
-    background-image: url("/IMG_7839.JPG");
+    background-image: url("Project-Tabview.png");
     background-position: center;
     background-size: cover;
     transition: all 0.5s;
@@ -1031,9 +1031,9 @@ box-shadow: 0px 1vh 2vh 0 rgba(246, 0, 255,0.5);
   
     border-radius: 1vw;
   
-    background-image: url("/GymPage.jpg");
+    background-image: url("Form-Mobileview.png");
     background-position:left;
-    background-size: cover;
+    background-size: contain;
     transition: all 0.5s;
     transform-origin: 0% 70%;
   }
@@ -1126,7 +1126,7 @@ box-shadow: 0px 1vh 2vh 0 rgba(246, 0, 255,0.5);
   
     border-radius: 1vw;
   
-    background-image: url("/Contact.png");
+    background-image: url("Expresso-Website.png");
     
     background-position:center;
     background-size: cover;
@@ -1169,7 +1169,7 @@ box-shadow: 0px 1vh 2vh 0 rgba(246, 0, 255,0.5);
   
     border-radius: 1vw;
   
-    background-image: url("/About.png");
+    background-image: url("/Gym-Website.png");
     
     background-position:center;
     background-size: cover;
@@ -1206,7 +1206,7 @@ box-shadow: 0px 1vh 2vh 0 rgba(246, 0, 255,0.5);
   
   
     border-radius: 1vw;
-    background-image: url("/HeroPage.png");
+    background-image: url("Portfolio-Light.png");
     
     background-position:center;
     background-size: cover;
@@ -1242,7 +1242,7 @@ box-shadow: 0px 1vh 2vh 0 rgba(246, 0, 255,0.5);
   
   
     border-radius: 1vw;
-    background-image: url("/8e679c65b8a27475ee8b94420ac137c3.jpg");
+    background-image: url("Art.png");
   
     
     background-position:center;
@@ -1272,14 +1272,14 @@ box-shadow: 0px 1vh 2vh 0 rgba(246, 0, 255,0.5);
   }
   
   .project-light-mode{
-    width: 98.75vw;
+    width: 100vw;
     height: 99vh;
     background: linear-gradient(90deg, #101010 25%, #808080 100%);
     overflow: hidden;
     display: flex;
   }
   .project-dark-mode{
-    width: 98.75vw;
+    width: 100vw;
     height: 99vh;
     background: linear-gradient(90deg, #fff 25%, #808080 100%);
     overflow: hidden;
@@ -1636,7 +1636,7 @@ box-shadow: 0px 1vh 2vh 0 rgba(246, 0, 255,0.5);
   
     border-radius: 1vw;
   
-    background-image: url("/IMG_7839.JPG");
+    background-image: url("Project-Tabview.png");
     background-position: center;
     background-size: cover;
     transition: all 0.5s;
@@ -1678,7 +1678,7 @@ box-shadow: 0px 1vh 2vh 0 rgba(246, 0, 255,0.5);
   
     border-radius: 1vw;
   
-    background-image: url("/GymPage.jpg");
+    background-image: url("/Form-Mobileview.png");
     background-position:left;
     background-size: cover;
     transition: all 0.5s;
@@ -1773,7 +1773,7 @@ box-shadow: 0px 1vh 2vh 0 rgba(246, 0, 255,0.5);
   
     border-radius: 1vw;
   
-    background-image: url("/Contact.png");
+    background-image: url("Expresso-Website.png");
     
     background-position:center;
     background-size: cover;
@@ -1816,7 +1816,7 @@ box-shadow: 0px 1vh 2vh 0 rgba(246, 0, 255,0.5);
   
     border-radius: 1vw;
   
-    background-image: url("/About.png");
+    background-image: url("/Gym-Website.png");
     
     background-position:center;
     background-size: cover;
@@ -1853,7 +1853,7 @@ box-shadow: 0px 1vh 2vh 0 rgba(246, 0, 255,0.5);
   
   
     border-radius: 1vw;
-    background-image: url("/HeroPage.png");
+    background-image: url("Portfolio-Light.png");
     
     background-position:center;
     background-size: cover;
@@ -1890,7 +1890,7 @@ box-shadow: 0px 1vh 2vh 0 rgba(246, 0, 255,0.5);
   
   
     border-radius: 1vw;
-    background-image: url("/8e679c65b8a27475ee8b94420ac137c3.jpg");
+    background-image: url("Art.png");
   
     
     background-position:center;

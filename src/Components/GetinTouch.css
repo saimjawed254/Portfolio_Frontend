@@ -2686,7 +2686,7 @@ left:18vw;
     .contact-light-mode{
       z-index: -1;
       overflow: hidden;
-      width: 98.75vw;
+      width: 100vw;
     
       height: 99vh;
       color: aliceblue;
@@ -2696,7 +2696,7 @@ left:18vw;
     .contact-dark-mode{
       z-index: -1;
       overflow: hidden;
-      width: 98.75vw;
+      width: 100vw;
     
       height: 99vh;
       color: aliceblue;

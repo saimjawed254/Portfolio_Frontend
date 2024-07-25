@@ -1768,21 +1768,21 @@ background: linear-gradient(0deg, #101010 0%, #808080 100%);
     .AboutMe{
         background: linear-gradient(90deg, #FFF 25%, #808080 100%);
         overflow: hidden;
-        width: 98.75vw;
+        width: 100vw;
         height:99vh;
     }
     
     .AboutMe-light-mode{
         background: linear-gradient(90deg, #101010 25%, #808080 100%);
         overflow: hidden;
-        width: 98.75vw;
+        width: 100vw;
         height:99vh;
     }
     
     .AboutMe-dark-mode{
         background: linear-gradient(90deg, #FFF 25%, #808080 100%);
         overflow: hidden;
-        width: 98.75vw;
+        width: 100vw;
         height:99vh;
     }
     
