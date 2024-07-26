@@ -434,9 +434,11 @@ color: #fff;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
+color: #000;
 }
 
 .right-arr{
+  cursor: pointer;
     position: relative;
     top:0.3vh;
     left:8vw;

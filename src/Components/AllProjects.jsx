@@ -76,9 +76,11 @@ function AllProjects() {
                             <div className={"title-"+modeActive.mode}>Portfolio Website</div>
                             <a href='https://saimjawed.vercel.app' target='_blank' className={"text-"+modeActive.mode}>https://saimjawed.vercel.app</a>
                             <div className={"line2-"+modeActive.mode}></div>
+                            <Link to='/blog-portfolio-saim-jawed'>
                             <div className={"text-read-"+modeActive.mode}>Read More...
                                 <span ><MdKeyboardArrowRight className="right-arr"/></span>
                             </div>
+                            </Link>
                         </div>
                         <div className={"cards-"+modeActive.mode}>
                             <div className="img-board"><div className="img-window-dev2"></div></div>
@@ -91,24 +93,25 @@ function AllProjects() {
                             <div className={"title-"+modeActive.mode}>BMI Calculator Website</div>
                             <a href="https://gym-bmi-contact-app.netlify.app" target='_blank' className={"text-"+modeActive.mode}> https://gym-app.netlify.app</a>
                             <div className={"line2-"+modeActive.mode}></div>
+                            <Link to='/blog-gym-website'>    
                             <div className={"text-read-"+modeActive.mode}>Read More...
                                 <span ><MdKeyboardArrowRight className="right-arr"/></span>
                             </div>
+                            </Link>
+
                         </div>
                         <div className={"cards-"+modeActive.mode}>
                             <div className="img-board"><div className="img-window-dev3"></div></div>
                             <div className="tag">
-                                <div className="tags1"></div>
-                                <div className="tags2"></div>
-                                <div className="tags3"></div>
-                                <div className="tags1"></div>
+                                <div className="tags1">Support</div>
                             </div>
                             <div className={"title-"+modeActive.mode}>Club Website</div>
                             <a href="https://expressonitp.vercel.app" target='_blank' className={"text-"+modeActive.mode}> https://expressonitp.vercel.app</a>
                             <div className={"line2-"+modeActive.mode}></div>
-                            <div className={"text-read-"+modeActive.mode}>Read More...
+                            <Link to='/blog-expresso-website'>                           <div className={"text-read-"+modeActive.mode}>Read More...
                                 <span ><MdKeyboardArrowRight className="right-arr"/></span>
                             </div>
+                            </Link>
                         </div>
                        
                     </div>
@@ -125,9 +128,11 @@ function AllProjects() {
                     
                     <a href="https://www.figma.com/design/qkhGdw4T1DK43on5gBgy3i/Untitled?node-id=0-1&t=w0IjIBTY9aqzFWBl-1" target='_blank' className={"text-"+modeActive.mode}>View Figma file!</a>
                             <div className={"line2-"+modeActive.mode}></div>
+                            <Link to='/blog-portfolio-design'>
                             <div className={"text-read-"+modeActive.mode}>Read More...
                                 <span ><MdKeyboardArrowRight className="right-arr"/></span>
                             </div>
+                            </Link>
                         </div>
                        
                       

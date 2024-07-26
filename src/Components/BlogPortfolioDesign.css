@@ -1,0 +1,812 @@
+.blogPortfolio-Design-light-mode{
+    overflow: hidden;
+    z-index: -1;
+    position: absolute;
+    width :100vw;
+    height: 100vh;
+    background: linear-gradient(90deg, #101010 0%, #808080 100%);
+}
+
+.blogPortfolio-Design-dark-mode{
+    overflow: hidden;
+    z-index: -1;
+    position:absolute;
+    width :100vw;
+    height: 100vh;
+    background: linear-gradient(90deg, #ffffff 0%, #808080 100%);
+}
+
+.back-arrow-light-mode{
+    cursor: pointer;
+    position: absolute;
+    top:0vh;
+    right:13vw;
+    transition: all 0.5s;
+    color: #ffffff;
+}
+
+.back-arrow-light-mode:hover{
+    transform: scale(1.2);
+}
+
+.back-arrow-dark-mode{
+    cursor: pointer;
+    position: absolute;
+    top:0vh;
+    right:13vw;
+    transition: all 0.5s;
+    color: #000;
+}
+
+.back-arrow-dark-mode:hover{
+    transform: scale(1.2);
+}
+
+.blog-title-light-mode{
+    position: relative;
+    left:6vw;
+    top: 12vh;
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 4.5vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  }
+
+  .blog-title-dark-mode{
+    position: relative;
+    left:5vw;
+    top: 12vh;
+  color: #000000;
+  font-family: Inter;
+  font-size: 4.5vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  }
+
+  .blog-tag{
+    position: relative;
+    top: 12vh;
+    left: 10vh;
+     width: 30vw;
+     height:4vh;
+     border-radius: 0.625vw;
+     display: flex;
+     align-items: center;
+ }
+ 
+ .blog-tags1{
+     margin-top: 1.25vh;
+     margin-left: 1vh;
+     width: 6vw;
+     height: 3vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ 
+     border-radius: 1vw;
+     background-color: aqua;
+     font-family: Inter;
+     font-size: 1vw;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+     color: #000;
+ }
+ 
+ .blog-tags2{
+     margin-top: 1.25vh;
+     margin-left: 1vh;
+     width: 6vw;
+     height: 3vh;
+ 
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ 
+     border-radius: 1vw;
+     background-color: #00fd69;
+ 
+     font-family: Inter;
+     font-size: 1vw;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+     color: #000;
+ }
+ 
+ .blog-tags3{
+     margin-top: 1.25vh;
+     margin-left: 1vh;
+     width: 6vw;
+     height: 3vh;
+ 
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     
+     border-radius: 1vw;
+     background-color: #f600f9;
+ 
+     font-family: Inter;
+     font-size: 1vw;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+     color: #000;
+ }
+
+ .text-KeyFeatures-light-mode{
+    position: relative;
+    left:6vw;
+    top: 15vh;
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 3vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  }
+
+  .text-KeyFeatures-dark-mode{
+    position: relative;
+    left:5vw;
+    top: 15vh;
+  color: #000000;
+  font-family: Inter;
+  font-size: 3vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  }
+
+.blog-lists-light-mode{
+    width: 90vw;
+    position: relative;
+    left:5vw;
+    top: 15vh;
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 1.25vw;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.blog-lists-dark-mode{
+    width: 90vw;
+    position: relative;
+    left:5vw;
+    top: 15vh;
+  color: #000000;
+  font-family: Inter;
+  font-size: 1.25vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.blog-Intro-light-mode{
+    margin-bottom: 2vh;
+    width: 80vw;
+    position: relative;
+    left:5vw;
+    top: 15vh;
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 1.25vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.blog-Intro-light-mode a{
+    color: #f600f9;
+    }
+
+
+.blog-Intro-dark-mode{
+    margin-bottom: 2vh;
+    width: 80vw;
+    position: relative;
+    left:5vw;
+    top: 15vh;
+  color: #000000;
+  font-family: Inter;
+  font-size: 1.25vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.blog-Intro-dark-mode a{
+color: #0004ff;
+}
+
+.blogHero-light-mode{
+    width: 80vw;
+    position: relative;
+    left:5vw;
+    top: 15vh;
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 1.25vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.blogHero-dark-mode{
+    width: 80vw;
+    position: relative;
+    left:5vw;
+    top: 15vh;
+  color: #000000;
+  font-family: Inter;
+  font-size: 1.25vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.blogHero-Heading-light-mode{
+    width: 80vw;
+    position: relative;
+    
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 2vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.blogHero-Heading-dark-mode{
+    width: 80vw;
+    position: relative;
+
+  color: #000000;
+  font-family: Inter;
+  font-size: 2vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.footer-blog{
+    position: absolute;
+    bottom: -10vh;
+    left: 4.5vw;
+}
+
+.up-arrow-blog{
+    cursor: pointer;
+    position: relative;
+    bottom:16.8vh;
+    left:45vw;
+    
+}
+
+
+@media (max-aspect-ratio:10/16){
+  .blogPortfolio-Design-light-mode{
+    overflow: hidden;
+    z-index: -1;
+    position: absolute;
+    width :100vw;
+    height: 100vh;
+    background: linear-gradient(90deg, #101010 0%, #808080 100%);
+}
+
+.blogPortfolio-Design-dark-mode{
+    overflow: hidden;
+    z-index: -1;
+    position:absolute;
+    width :100vw;
+    height: 100vh;
+    background: linear-gradient(90deg, #ffffff 0%, #808080 100%);
+}
+
+
+.blog-title-light-mode{
+    position: relative;
+    left:7vw;
+    top: 15vh;
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 4.5vh;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  }
+
+  .blog-title-dark-mode{
+    position: relative;
+    left:7vw;
+    top: 15vh;
+  color: #000000;
+  font-family: Inter;
+  font-size: 4.5vh;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  }
+
+  .blog-tag{
+    position: relative;
+    top: 15vh;
+    left:5vw;
+     width: 100vw;
+     height:2vh;
+     border-radius: 0.625vw;
+     display: flex;
+     align-items: center;
+ }
+ 
+ .blog-tags1{
+     margin-top: 1.25vh;
+     margin-left: 1vh;
+     width: 12vw;
+     height: 2vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ 
+     border-radius: 1vh;
+     background-color: aqua;
+     font-family: Inter;
+     font-size: 1vh;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+     color: #000;
+ }
+ 
+ .blog-tags2{
+     margin-top: 1.25vh;
+     margin-left: 1vh;
+     width: 12vw;
+     height: 2vh;
+ 
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ 
+     border-radius: 1vh;
+     background-color: #00fd69;
+ 
+     font-family: Inter;
+     font-size: 1vh;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+     color: #000;
+ }
+ 
+ .blog-tags3{
+     margin-top: 1.25vh;
+     margin-left: 1vh;
+     width: 12vw;
+     height: 2vh;
+ 
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     
+     border-radius: 1vh;
+     background-color: #f600f9;
+ 
+     font-family: Inter;
+     font-size: 1vh;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+     color: #000;
+ }
+
+ .text-KeyFeatures-light-mode{
+    position: relative;
+    left:8vw;
+    top: 15vh;
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 3vh;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  }
+
+  .text-KeyFeatures-dark-mode{
+    position: relative;
+    left:8vw;
+    top: 15vh;
+  color: #000000;
+  font-family: Inter;
+  font-size: 3vh;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  }
+
+.blog-lists-light-mode{
+    width: 90vw;
+    position: relative;
+    left:0vw;
+    top: 15vh;
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 1.25vh;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.blog-lists-dark-mode{
+    width: 90vw;
+    position: relative;
+    left:0vw;
+    top: 15vh;
+  color: #000000;
+  font-family: Inter;
+  font-size: 1.25vh;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.blog-Intro-light-mode{
+    margin-bottom: 2vh;
+    width: 80vw;
+    position: relative;
+    left:8vw;
+    top: 17vh;
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 1.25vh;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.blog-Intro-dark-mode{
+    margin-bottom: 2vh;
+    width: 80vw;
+    position: relative;
+    left:8vw;
+    top: 17vh;
+  color: #000000;
+  font-family: Inter;
+  font-size: 1.25vh;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.blogHero-light-mode{
+    width: 80vw;
+    position: relative;
+    left:8vw;
+    top: 15vh;
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 1.25vh;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.blogHero-dark-mode{
+    width: 80vw;
+    position: relative;
+    left:8vw;
+    top: 15vh;
+  color: #000000;
+  font-family: Inter;
+  font-size: 1.25vh;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.blogHero-Heading-light-mode{
+    width: 80vw;
+    position: relative;
+    
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 2vh;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.blogHero-Heading-dark-mode{
+    width: 80vw;
+    position: relative;
+
+  color: #000000;
+  font-family: Inter;
+  font-size: 2vh;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.footer-blog{
+    position: absolute;
+    bottom: -10vh;
+    left: 4.5vw;
+}
+
+.up-arrow-blog{
+    cursor: pointer;
+    position: relative;
+    bottom:16.8vh;
+    left:45vw;
+    
+}
+}
+
+
+@media (min-aspect-ratio:10/16) and (max-aspect-ratio:1){
+
+  .blogPortfolio-Design-light-mode{
+    overflow: hidden;
+    z-index: -1;
+    position: absolute;
+    width :100vw;
+    height: 100vh;
+    background: linear-gradient(90deg, #101010 0%, #808080 100%);
+}
+
+.blogPortfolio-Design-dark-mode{
+    overflow: hidden;
+    z-index: -1;
+    position:absolute;
+    width :100vw;
+    height: 100vh;
+    background: linear-gradient(90deg, #ffffff 0%, #808080 100%);
+}
+
+
+.blog-title-light-mode{
+    position: relative;
+    left:7vw;
+    top: 15vh;
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 5vh;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  }
+
+  .blog-title-dark-mode{
+    position: relative;
+    left:7vw;
+    top: 15vh;
+  color: #000000;
+  font-family: Inter;
+  font-size: 5vh;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  }
+
+  .blog-tag{
+    position: relative;
+    top: 15vh;
+    left:5vw;
+     width: 100vw;
+     height:2vh;
+     border-radius: 0.625vw;
+     display: flex;
+     align-items: center;
+ }
+ 
+ .blog-tags1{
+     margin-top: 1.25vh;
+     margin-left: 1vh;
+     width: 12vw;
+     height: 2vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ 
+     border-radius: 1vh;
+     background-color: aqua;
+     font-family: Inter;
+     font-size: 1.25vh;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+     color: #000;
+ }
+ 
+ .blog-tags2{
+     margin-top: 1.25vh;
+     margin-left: 1vh;
+     width: 12vw;
+     height: 2vh;
+ 
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ 
+     border-radius: 1vh;
+     background-color: #00fd69;
+ 
+     font-family: Inter;
+     font-size: 1.25vh;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+     color: #000;
+ }
+ 
+ .blog-tags3{
+     margin-top: 1.25vh;
+     margin-left: 1vh;
+     width: 12vw;
+     height: 2vh;
+ 
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     
+     border-radius: 1vh;
+     background-color: #f600f9;
+ 
+     font-family: Inter;
+     font-size: 1.25vh;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+     color: #000;
+ }
+
+ .text-KeyFeatures-light-mode{
+    position: relative;
+    left:8vw;
+    top: 15vh;
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 3vh;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  }
+
+  .text-KeyFeatures-dark-mode{
+    position: relative;
+    left:8vw;
+    top: 15vh;
+  color: #000000;
+  font-family: Inter;
+  font-size: 3vh;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  }
+
+.blog-lists-light-mode{
+    width: 90vw;
+    position: relative;
+    left:6vw;
+    top: 15vh;
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 1.5vh;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.blog-lists-dark-mode{
+    width: 90vw;
+    position: relative;
+    left:6vw;
+    top: 15vh;
+  color: #000000;
+  font-family: Inter;
+  font-size: 1.5vh;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.blog-Intro-light-mode{
+    margin-bottom: 2vh;
+    width: 80vw;
+    position: relative;
+    left:8vw;
+    top: 17vh;
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 1.5vh;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.blog-Intro-dark-mode{
+    margin-bottom: 2vh;
+    width: 80vw;
+    position: relative;
+    left:8vw;
+    top: 17vh;
+  color: #000000;
+  font-family: Inter;
+  font-size: 1.5vh;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.blogHero-light-mode{
+    width: 80vw;
+    position: relative;
+    left:8vw;
+    top: 15vh;
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 1.5vh;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.blogHero-dark-mode{
+    width: 80vw;
+    position: relative;
+    left:8vw;
+    top: 15vh;
+  color: #000000;
+  font-family: Inter;
+  font-size: 1.5vh;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.blogHero-Heading-light-mode{
+    width: 80vw;
+    position: relative;
+    
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 2.5vh;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.blogHero-Heading-dark-mode{
+    width: 80vw;
+    position: relative;
+
+  color: #000000;
+  font-family: Inter;
+  font-size: 2.5vh;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.footer-blog{
+    position: absolute;
+    bottom: -10vh;
+    left: 4.5vw;
+}
+
+.up-arrow-blog{
+    cursor: pointer;
+    position: relative;
+    bottom:14vh;
+    left:45vw;
+    
+}
+
+}
