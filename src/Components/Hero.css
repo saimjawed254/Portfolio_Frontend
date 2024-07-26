@@ -299,9 +299,10 @@ overflow:hidden;
 
 .content-light-mode{
   position: absolute;
-  top: 48vh;
+  top: 47vh;
   left: 9.6vw;
 
+  width: 40vw;
   color: #efefef;
   font-family: Inter;
   font-size: 1.5vw;
@@ -312,9 +313,10 @@ overflow:hidden;
 
 .content-dark-mode{
   position: absolute;
-  top: 48vh;
+  top: 47vh;
   left: 9.6vw;
 
+  width: 40vw;
   color: #000;
   font-family: Inter;
   font-size: 1.5vw;
@@ -1039,6 +1041,7 @@ box-shadow: 1vw 0 4vh 0 #ffffff inset;
     top: 30vh;
     left: 9.6vw;
   
+    width: 80vw;
     color: #efefef;
     font-family: Inter;
     font-size: 1.5vh;
@@ -1051,7 +1054,7 @@ box-shadow: 1vw 0 4vh 0 #ffffff inset;
     position: absolute;
     top: 30vh;
     left: 9.6vw;
-  
+  width: 80vw;
     color: #000;
     font-family: Inter;
     font-size: 1.5vh;
@@ -1775,6 +1778,7 @@ box-shadow: 1vw 0 4vh 0 #ffffff inset;
     position: absolute;
     top: 30vh;
     left: 9.6vw;
+    width: 80vw;
   
     color: #efefef;
     font-family: Inter;
@@ -1789,6 +1793,7 @@ box-shadow: 1vw 0 4vh 0 #ffffff inset;
     top: 30vh;
     left: 9.6vw;
   
+    width: 80vw;
     color: #000;
     font-family: Inter;
     font-size: 2vh;

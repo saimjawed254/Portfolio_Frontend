@@ -42,10 +42,10 @@ const timeC=()=>{
                 <span className={"heading4"}>&#707;</span>
                 </div>
               
-                <div className={"content-"+modeActive.mode}>I’m an Indian based Web Developer and UI/UX Designer <br />
-                    focused on crafting clean & user-friendly experiences. <br />
-                   I am passionate about building excellent software that <br />improves 
-                   the lives of those around me.</div>
+                <div className={"content-"+modeActive.mode}>I’m an Indian-based Web Developer and an aspiring UI/UX Designer
+                    trying to make the most out of my creative thoughts.
+                   I want to design amazing web apps and write clean solutions for achieving those designs and functionalities.
+                   </div>
                    <Link to='/' onClick={timeA} >
                     <button className={"button1-"+modeActive.mode}><div className={"text1"}>MORE ABOUT ME </div><FaRegArrowAltCircleDown className={'down-arrow'}/></button>
                     </Link>
