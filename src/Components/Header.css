@@ -245,14 +245,7 @@ animation: header-reveal 1s linear ;
    
     width:2.2vw;
     height:4.5vh;
-    background:linear-gradient(120deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
-	background-size: 400% 400%;
-    animation-name: icons-hover;
-    animation-duration: 2s;
-    animation-timing-function:linear;
-    animation-iteration-count: infinite;
-    animation-direction:alternate-reverse;
-    box-shadow: 0px 0.5vh 1vh 0px rgba(246, 0, 255,1);
+   
 }
 
 .instagram-icon-dark-mode{
@@ -275,13 +268,7 @@ animation: header-reveal-light 1s linear ;
    
     width:2.2vw;
     height:4.5vh;
-    background:linear-gradient(120deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
-	background-size: 400% 400%;
-    animation-name: icons-hover;
-    animation-duration: 2s;
-    animation-timing-function:linear;
-    animation-iteration-count: infinite;
-    animation-direction:alternate-reverse;
+
 }
 
 .linkedin-icon-light-mode{
@@ -303,14 +290,7 @@ animation: header-reveal 1s linear ;
 .linkedin-icon-light-mode:hover{
     width:2.2vw;
     height:4.5vh;
-    background:linear-gradient(120deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
-	background-size: 400% 400%;
-    animation-name: icons-hover;
-    animation-duration: 2s;
-    animation-timing-function:linear;
-    animation-iteration-count: infinite;
-    animation-direction:alternate-reverse;
-    box-shadow: 0px 0.5vh 1vh 0px rgba(246, 0, 255,1);
+
 }
 
 .linkedin-icon-dark-mode{
@@ -332,13 +312,6 @@ animation: header-reveal-light 1s linear ;
 .linkedin-icon-dark-mode:hover{
     width:2.2vw;
     height:4.5vh;
-    background:linear-gradient(120deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
-	background-size: 400% 400%;
-    animation-name: icons-hover;
-    animation-duration: 2s;
-    animation-timing-function:linear;
-    animation-iteration-count: infinite;
-    animation-direction:alternate-reverse;
 }
 
 .github-icon-light-mode{
@@ -361,14 +334,7 @@ animation: header-reveal 1s linear ;
 .github-icon-light-mode:hover{
 width:2.2vw;
     height:4.5vh;
-    background:linear-gradient(120deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
-	background-size: 400% 400%;
-    animation-name: icons-hover;
-    animation-duration: 2s;
-    animation-timing-function:linear;
-    animation-iteration-count: infinite;
-    animation-direction:alternate-reverse;
-    box-shadow: 0px 0.5vh 1vh 0px rgba(246, 0, 255,1);
+
 }
 
 .github-icon-dark-mode{
@@ -392,20 +358,13 @@ animation: header-reveal-light 1s linear ;
 .github-icon-dark-mode:hover{
 width:2.2vw;
     height:4.5vh;
-    background:linear-gradient(120deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
-	background-size: 400% 400%;
-    animation-name: icons-hover;
-    animation-duration: 2s;
-    animation-timing-function:linear;
-    animation-iteration-count: infinite;
-    animation-direction:alternate-reverse;
 }
 
 .elem-text{
     backdrop-filter: blur(400px);
 }
 
-@keyframes icons-hover{
+/* @keyframes icons-hover{
 	0% {
 		background-position: 0% 0%;
 	}
@@ -415,7 +374,7 @@ width:2.2vw;
 	100% {
 		background-position: 100% 100%;
 	}
-}
+} */
 
 
 @media (max-aspect-ratio: 10/16){

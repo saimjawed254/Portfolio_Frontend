@@ -35,13 +35,6 @@ border-radius: 50%;
 
 .leetcode-light-mode:hover {
     transform: scale(0.8);
-    background:linear-gradient(120deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
-	background-size: 400% 400%;
-    animation-name: icons-hover;
-    animation-duration: 2s;
-    animation-timing-function:linear;
-    animation-iteration-count: infinite;
-    animation-direction:alternate-reverse;
 box-shadow: 0px 0.5vh 1vh 0px rgba(246, 0, 255,0.75);
 
   }
@@ -63,13 +56,7 @@ border-radius: 50%;
 
 .leetcode-dark-mode:hover {
     transform: scale(0.8);
-    background:linear-gradient(120deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
-	background-size: 400% 400%;
-    animation-name: icons-hover;
-    animation-duration: 2s;
-    animation-timing-function:linear;
-    animation-iteration-count: infinite;
-    animation-direction:alternate-reverse;
+   
   }
 
 @keyframes icons-hover{
@@ -103,13 +90,7 @@ border-radius: 50%;
 
 .github-light-mode:hover {
     transform: scale(0.8);
-    background:linear-gradient(120deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
-	background-size: 400% 400%;
-    animation-name: icons-hover;
-    animation-duration: 2s;
-    animation-timing-function:linear;
-    animation-iteration-count: infinite;
-    animation-direction:alternate-reverse;
+
 box-shadow: 0px 0.5vh 1vh 0px rgba(246, 0, 255,0.75);
 
   }
@@ -131,13 +112,6 @@ border-radius: 50%;
 
 .github-dark-mode:hover {
     transform: scale(0.8);
-    background:linear-gradient(120deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
-	background-size: 400% 400%;
-    animation-name: icons-hover;
-    animation-duration: 2s;
-    animation-timing-function:linear;
-    animation-iteration-count: infinite;
-    animation-direction:alternate-reverse;
   }
 
   .text-development{
