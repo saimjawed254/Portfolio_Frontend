@@ -311,8 +311,146 @@ line-height: normal;
 }
 
 
+.text-dsa{
+    position: absolute;
+    top:265vh;
+      left:55vw;
+
+    display: flex;
+    align-items: center;
+}
+
+.text-DSA{
+
+    /* position: absolute;
+    top:224.5vh;
+      left:55vw; */
+
+    font-family: Inter;
+    font-size: 3.375vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    
+        background: linear-gradient(100deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-SA-light-mode{
+    /* position: absolute;
+    top:224.5vh;
+      left:57.3vw; */
+
+color: #efefef;
+font-family: Inter;
+font-size: 3.375vw;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.text-SA-dark-mode{
+    /* position: absolute;
+    top:224.5vh;
+      left:57.3vw; */
+
+color: #000;
+font-family: Inter;
+font-size: 3.375vw;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
 
 .text-java-light-mode{
+    position: absolute;
+    left:57.3vw;
+    top:277vh;
+    
+    color: #efefef;
+    font-family: Inter;
+    font-size: 1.125vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.text-java-dark-mode{
+    position: absolute;
+    left:57.3vw;
+    top:277vh;
+    
+    color: #000;
+    font-family: Inter;
+    font-size: 1.125vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.text-javap-light-mode{
+    position: absolute;
+    left:89.7vw;
+    top:277vh;
+
+    color: #efefef;
+font-family: Inter;
+font-size: 0.984375vw;
+
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.text-javap-dark-mode{
+    position: absolute;
+    left:89.7vw;
+    top:277vh;
+
+    color: #000;
+font-family: Inter;
+font-size: 0.984375vw;
+
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.status-bar10{
+    position: absolute;
+    left:57vw;
+    top:280vh;
+
+    border-radius: 15px;
+
+    width:35vw;
+    height:2vh;
+    background-color: #000;
+}
+
+.status-fill10{
+    z-index: 1;
+    position: absolute;
+    left:56.9vw;
+    top:280vh;
+    box-shadow: 0px 1vh 2vh 0 #313131;
+
+    border-radius: 15px;
+
+    width:29.75vw;
+    height:2vh;
+    background-image: linear-gradient(270deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+
+    background-size: 400% 100%;
+    animation-name: status-fill;
+    animation-duration: 4s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-direction:reverse;
+}
+
+
+.text-mongodb-light-mode{
     position: absolute;
     left:8.5vw;
     top:237vh;
@@ -324,7 +462,7 @@ line-height: normal;
     font-weight: 400;
     line-height: normal;
 }
-.text-java-dark-mode{
+.text-mongodb-dark-mode{
     position: absolute;
     left:8.5vw;
     top:237vh;
@@ -337,7 +475,7 @@ line-height: normal;
     line-height: normal;
 }
 
-.text-javap-light-mode{
+.text-mongodbp-light-mode{
     position: absolute;
     left:41vw;
     top:237vh;
@@ -350,7 +488,7 @@ font-weight: 400;
 line-height: normal;
 }
 
-.text-javap-dark-mode{
+.text-mongodbp-dark-mode{
     position: absolute;
     left:41vw;
     top:237vh;
@@ -384,7 +522,7 @@ line-height: normal;
 
     border-radius: 15px;
 
-    width:31.5vw;
+    width:29.75vw;
     height:2vh;
     background-image: linear-gradient(270deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
 
@@ -470,7 +608,7 @@ line-height: normal;
 
     border-radius: 15px;
 
-    width:33.25vw;
+    width:28vw;
     height:2vh;
     background-image: linear-gradient(270deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
 
@@ -645,7 +783,7 @@ line-height: normal;
     border-radius: 15px;
     box-shadow: 0px 1vh 2vh 0 #313131;
 
-    width:31.5vw;
+    width:29.75vw;
     height:2vh;
     background-image: linear-gradient(270deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
 
@@ -729,7 +867,7 @@ line-height: normal;
 
     border-radius: 15px;
 
-    width:33.25vw;
+    width:28vw;
     height:2vh;
     background-image: linear-gradient(270deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
 
@@ -817,7 +955,7 @@ line-height: normal;
 
     border-radius: 15px;
 
-    width:35.15vw;
+    width:33.25vw;
     height:2vh;
     background-image: linear-gradient(270deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
 
@@ -904,7 +1042,7 @@ line-height: normal;
 
     border-radius: 15px;
 
-    width:29.75vw;
+    width:26.25vw;
     height:2vh;
     background-image: linear-gradient(270deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
 
@@ -990,7 +1128,7 @@ line-height: normal;
 
     border-radius: 15px;
 
-    width:33.25vw;
+    width:28vw;
     height:2vh;
     background-image: linear-gradient(270deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
 
@@ -1076,7 +1214,7 @@ line-height: normal;
 
     border-radius: 15px;
 
-    width:28vw;
+    width:26.25vw;
     height:2vh;
     background-image: linear-gradient(270deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
 
@@ -1453,11 +1591,63 @@ line-height: normal;
     }
     
     
+    .text-dsa{
+        position: absolute;
+        top:252vh;
+          left:14vw;
+    
+        display: flex;
+        align-items: center;
+    }
+    
+    .text-DSA{
+    
+        /* position: absolute;
+        top:224.5vh;
+          left:55vw; */
+    
+        font-family: Inter;
+        font-size: 3.375vh;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        
+            background: linear-gradient(100deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .text-SA-light-mode{
+        /* position: absolute;
+        top:224.5vh;
+          left:57.3vw; */
+    
+    color: #efefef;
+    font-family: Inter;
+    font-size: 3.375vh;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
+    .text-SA-dark-mode{
+        /* position: absolute;
+        top:224.5vh;
+          left:57.3vw; */
+    
+    color: #000;
+    font-family: Inter;
+    font-size: 3.375vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    }
+    
     
     .text-java-light-mode{
         position: absolute;
         left:15vw;
-        top:205vh;
+        top:258vh;
         
         color: #efefef;
         font-family: Inter;
@@ -1466,10 +1656,11 @@ line-height: normal;
         font-weight: 400;
         line-height: normal;
     }
+    
     .text-java-dark-mode{
         position: absolute;
         left:15vw;
-        top:205vh;
+        top:258vh;
         
         color: #000;
         font-family: Inter;
@@ -1482,7 +1673,7 @@ line-height: normal;
     .text-javap-light-mode{
         position: absolute;
         left:80vw;
-        top:205vh;
+        top:258vh;
     
         color: #efefef;
     font-family: Inter;
@@ -1493,6 +1684,92 @@ line-height: normal;
     }
     
     .text-javap-dark-mode{
+        position: absolute;
+        left:80vw;
+        top:258vh;
+    
+        color: #000;
+    font-family: Inter;
+    font-size: 0.984375vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    
+    .status-bar10{
+        position: absolute;
+        left:14vw;
+        top:260vh;
+    
+        border-radius: 15px;
+    
+        width:35vh;
+        height:2vw;
+        background-color: #000;
+    }
+    
+    .status-fill10{
+        z-index: 1;
+        position: absolute;
+        left:14vw;
+        top:260vh;
+        box-shadow: 0px 1vh 2vh 0 #313131;
+    
+        border-radius: 15px;
+    
+        width:28vh;
+        height:2.2vw;
+        background-image: linear-gradient(270deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+    
+        background-size: 400% 100%;
+        animation-name: status-fill;
+        animation-duration: 4s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+        animation-direction:reverse;
+    }
+    
+
+
+    .text-mongodb-light-mode{
+        position: absolute;
+        left:15vw;
+        top:205vh;
+        
+        color: #efefef;
+        font-family: Inter;
+        font-size: 1.125vh;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .text-mongodb-dark-mode{
+        position: absolute;
+        left:15vw;
+        top:205vh;
+        
+        color: #000;
+        font-family: Inter;
+        font-size: 1.125vh;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    
+    .text-mongodbp-light-mode{
+        position: absolute;
+        left:80vw;
+        top:205vh;
+    
+        color: #efefef;
+    font-family: Inter;
+    font-size: 0.984375vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    
+    .text-mongodbp-dark-mode{
         position: absolute;
         left:80vw;
         top:205vh;
@@ -1526,7 +1803,7 @@ line-height: normal;
     
         border-radius: 15px;
     
-        width:31.5vh;
+        width:29.75vh;
         height:2vw;
         background-image: linear-gradient(270deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
     
@@ -1612,7 +1889,7 @@ line-height: normal;
     
         border-radius: 15px;
     
-        width:33.25vh;
+        width:28vh;
         height:2vw;
         background-image: linear-gradient(270deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
     
@@ -1787,7 +2064,7 @@ line-height: normal;
         border-radius: 15px;
         box-shadow: 0px 1vh 2vh 0 #313131;
     
-        width:31.5vh;
+        width:29.75vh;
         height:2vw;
         background-image: linear-gradient(270deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
     
@@ -1871,7 +2148,7 @@ line-height: normal;
     
         border-radius: 15px;
     
-        width:33.25vh;
+        width:28vh;
         height:2vw;
         background-image: linear-gradient(270deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
     
@@ -1946,7 +2223,7 @@ line-height: normal;
     
         border-radius: 15px;
     
-        width:35vh;
+        width:33.25vh;
         height:2vw;
         background-color: #000;
     }
@@ -2046,7 +2323,7 @@ line-height: normal;
     
         border-radius: 15px;
     
-        width:29.75vh;
+        width:26.25vh;
         height:2vw;
         background-image: linear-gradient(270deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
     
@@ -2132,7 +2409,7 @@ line-height: normal;
     
         border-radius: 15px;
     
-        width:33.25vh;
+        width:28vh;
         height:2vw;
         background-image: linear-gradient(270deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
     
@@ -2218,7 +2495,7 @@ line-height: normal;
     
         border-radius: 15px;
     
-        width:28vh;
+        width:24.5vh;
         height:2.2vw;
         background-image: linear-gradient(270deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
     
@@ -2601,11 +2878,63 @@ line-height: normal;
     }
     
     
+    .text-dsa{
+        position: absolute;
+        top:272vh;
+          left:10.5vw;
+    
+        display: flex;
+        align-items: center;
+    }
+    
+    .text-DSA{
+    
+        /* position: absolute;
+        top:224.5vh;
+          left:55vw; */
+    
+        font-family: Inter;
+        font-size: 4vh;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        
+            background: linear-gradient(100deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .text-SA-light-mode{
+        /* position: absolute;
+        top:224.5vh;
+          left:57.3vw; */
+    
+    color: #efefef;
+    font-family: Inter;
+    font-size: 4vh;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
+    .text-SA-dark-mode{
+        /* position: absolute;
+        top:224.5vh;
+          left:57.3vw; */
+    
+    color: #000;
+    font-family: Inter;
+    font-size: 4vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    }
+    
     
     .text-java-light-mode{
         position: absolute;
         left:15vw;
-        top:222vh;
+        top:280vh;
         
         color: #efefef;
         font-family: Inter;
@@ -2614,10 +2943,11 @@ line-height: normal;
         font-weight: 400;
         line-height: normal;
     }
+    
     .text-java-dark-mode{
         position: absolute;
         left:15vw;
-        top:222vh;
+        top:280vh;
         
         color: #000;
         font-family: Inter;
@@ -2630,7 +2960,7 @@ line-height: normal;
     .text-javap-light-mode{
         position: absolute;
         left:84vw;
-        top:222vh;
+        top:280vh;
     
         color: #efefef;
     font-family: Inter;
@@ -2641,6 +2971,91 @@ line-height: normal;
     }
     
     .text-javap-dark-mode{
+        position: absolute;
+        left:84vw;
+        top:280vh;
+    
+        color: #000;
+    font-family: Inter;
+    font-size: 1vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    
+    .status-bar10{
+        position: absolute;
+        left:14vw;
+        top:282vh;
+    
+        border-radius: 15px;
+    
+        width:75vw;
+        height:2vw;
+        background-color: #000;
+    }
+    
+    .status-fill10{
+        z-index: 1;
+        position: absolute;
+        left:14vw;
+        top:282vh;
+        box-shadow: 0px 1vh 2vh 0 #313131;
+    
+        border-radius: 15px;
+    
+        width:60vw;
+        height:2.2vw;
+        background-image: linear-gradient(270deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
+    
+        background-size: 400% 100%;
+        animation-name: status-fill;
+        animation-duration: 4s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+        animation-direction:reverse;
+    }
+    
+    
+    .text-mongodb-light-mode{
+        position: absolute;
+        left:15vw;
+        top:222vh;
+        
+        color: #efefef;
+        font-family: Inter;
+        font-size: 1.25vh;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .text-mongodb-dark-mode{
+        position: absolute;
+        left:15vw;
+        top:222vh;
+        
+        color: #000;
+        font-family: Inter;
+        font-size: 1.25vh;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    
+    .text-mongodbp-light-mode{
+        position: absolute;
+        left:84vw;
+        top:222vh;
+    
+        color: #efefef;
+    font-family: Inter;
+    font-size: 1vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    
+    .text-mongodbp-dark-mode{
         position: absolute;
         left:84vw;
         top:222vh;
@@ -2674,7 +3089,7 @@ line-height: normal;
     
         border-radius: 15px;
     
-        width:67.5vw;
+        width:63.75vw;
         height:2vw;
         background-image: linear-gradient(270deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
     
@@ -2760,7 +3175,7 @@ line-height: normal;
     
         border-radius: 15px;
     
-        width:71.25vw;
+        width:60vw;
         height:2vw;
         background-image: linear-gradient(270deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
     
@@ -2935,7 +3350,7 @@ line-height: normal;
         border-radius: 15px;
         box-shadow: 0px 1vh 2vh 0 #313131;
     
-        width:67.5vw;
+        width:63.75vw;
         height:2vw;
         background-image: linear-gradient(270deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
     
@@ -3019,7 +3434,7 @@ line-height: normal;
     
         border-radius: 15px;
     
-        width:71.25vw;
+        width:60vw;
         height:2vw;
         background-image: linear-gradient(270deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
     
@@ -3107,7 +3522,7 @@ line-height: normal;
     
         border-radius: 15px;
     
-        width:75.25vw;
+        width:71.25vw;
         height:2.2vw;
         background-image: linear-gradient(270deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
     
@@ -3194,7 +3609,7 @@ line-height: normal;
     
         border-radius: 15px;
     
-        width:63.75vw;
+        width:56.25vw;
         height:2vw;
         background-image: linear-gradient(270deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
     
@@ -3280,7 +3695,7 @@ line-height: normal;
     
         border-radius: 15px;
     
-        width:71.25vw;
+        width:60vw;
         height:2vw;
         background-image: linear-gradient(270deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
     
@@ -3366,7 +3781,7 @@ line-height: normal;
     
         border-radius: 15px;
     
-        width:60vw;
+        width:52.5vw;
         height:2.2vw;
         background-image: linear-gradient(270deg, #0DF 14.3%, #F600FF 50%, #00FF09 89.3%);
     
