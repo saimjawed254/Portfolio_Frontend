@@ -1463,6 +1463,7 @@ box-shadow: 1vw 0 4vh 0 #ffffff inset;
   }
   
   .button2-light-mode{
+    z-index: 10;
     cursor: pointer;
     width: 36vw;
     height: 3.85vh;
@@ -1488,6 +1489,7 @@ box-shadow: 1vw 0 4vh 0 #ffffff inset;
   }
   
   .button2-dark-mode{
+    z-index: 10;
     cursor: pointer;
     width: 36vw;
     height: 3.85vh;
@@ -1558,7 +1560,7 @@ box-shadow: 1vw 0 4vh 0 #ffffff inset;
   .circles-light-mode {
     z-index: 1;
     width: 80vw;
-    height: 42vh;
+    height: 44vh;
     overflow: hidden;
   
     position: absolute;
@@ -1570,7 +1572,7 @@ box-shadow: 1vw 0 4vh 0 #ffffff inset;
   .circles-dark-mode {
     z-index: 1;
     width: 80vw;
-    height: 42vh;
+    height: 44vh;
     overflow: hidden;
   
     position: absolute;
