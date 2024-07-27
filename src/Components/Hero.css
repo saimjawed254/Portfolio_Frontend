@@ -1558,7 +1558,7 @@ box-shadow: 1vw 0 4vh 0 #ffffff inset;
   .circles-light-mode {
     z-index: 1;
     width: 80vw;
-    height: 44vh;
+    height: 42vh;
     overflow: hidden;
   
     position: absolute;
@@ -1570,7 +1570,7 @@ box-shadow: 1vw 0 4vh 0 #ffffff inset;
   .circles-dark-mode {
     z-index: 1;
     width: 80vw;
-    height: 44vh;
+    height: 42vh;
     overflow: hidden;
   
     position: absolute;
