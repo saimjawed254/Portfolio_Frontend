@@ -4,6 +4,27 @@
     flex-direction: row;
 align-items: center;
 justify-content: space-between;
+
+animation: header-reveal 1s linear ;
+}
+
+@keyframes header-reveal{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+@keyframes header-reveal-light{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
 
 
@@ -56,6 +77,8 @@ background: linear-gradient(90deg, #ffffff 0%, #808080 100%);
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
+animation: header-reveal 1s linear ;
+
 
 }
 
@@ -82,6 +105,7 @@ background: linear-gradient(90deg, #000 0%, #BDB2B2 100%);
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
+animation: header-reveal-light 1s linear ;
 
 }
 
@@ -147,6 +171,8 @@ box-shadow: 0px 1.3vh 3vh 0px rgba(246, 0, 255,0.25);
 
 /* font-size: 16px; */
 font-size: 1.125vw;
+animation: header-reveal 1s linear ;
+
 }
 
 
@@ -171,6 +197,8 @@ box-shadow: 0px 1.3vh 3vh 0px #101010;
 
 /* font-size: 16px; */
 font-size: 1.125vw;
+animation: header-reveal-light 1s linear ;
+
 }
 
 
@@ -193,6 +221,7 @@ top:2.25%;
 display:flex;
 align-items:center;
 justify-content: space-around;
+
 }
 
 
@@ -209,6 +238,8 @@ box-shadow: 0px 0.5vh 1vh 0px rgba(246, 0, 255,0.5);
 
 transition: all 0.5s;
 transform-origin: 50% 50%;
+animation: header-reveal 1s linear ;
+
 }
 .instagram-icon-light-mode:hover{
    
@@ -237,6 +268,8 @@ box-shadow: 0px 0.5vh 1vh 0px #ffffff;
 
 transition: all 0.5s;
 transform-origin: 50% 50%;
+animation: header-reveal-light 1s linear ;
+
 }
 .instagram-icon-dark-mode:hover{
    
@@ -264,6 +297,8 @@ box-shadow: 0px 0.5vh 1vh 0px rgba(246, 0, 255,0.5);
 
 transition: all 0.5s;
 transform-origin: 50% 50%;
+animation: header-reveal 1s linear ;
+
 }
 .linkedin-icon-light-mode:hover{
     width:2.2vw;
@@ -291,6 +326,8 @@ box-shadow: 0px 0.5vh 1vh 0px #ffffff;
 
 transition: all 0.5s;
 transform-origin: 50% 50%;
+animation: header-reveal-light 1s linear ;
+
 }
 .linkedin-icon-dark-mode:hover{
     width:2.2vw;
@@ -318,6 +355,8 @@ color:#000;
 
 transition: all 0.5s;
 transform-origin: 50% 50%;
+animation: header-reveal 1s linear ;
+
 }
 .github-icon-light-mode:hover{
 width:2.2vw;
@@ -346,6 +385,9 @@ color:#000;
 
 transition: all 0.5s;
 transform-origin: 50% 50%;
+animation: header-reveal-light 1s linear ;
+
+
 }
 .github-icon-dark-mode:hover{
 width:2.2vw;

@@ -37,7 +37,7 @@ function Projects() {
                         feel free to ping me. <br />
                         <br />
                         To read detailed insights of the featured projects, <br />
-                        click on the show all button or directly click on the project <br />previews.
+                        click on the show all button. <br /> <br />
                     </div>
 
                     <div className="project-buttons">

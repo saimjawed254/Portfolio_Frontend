@@ -120,12 +120,12 @@ function GetinTouch() {
           </a>
           <a className="threads-logo"><a href="">
             <BsFillThreadsFill className='thlogo' /></a>
-            <a href="" className={"text-threads-" + modeActive.mode}>Threads</a>
+            <a href="https://www.threads.net/@s._aim_jawed" target='_blank' className={"text-threads-" + modeActive.mode}>Threads</a>
           </a>
 
           <a className="x-logo"><a href="">
             <BsTwitterX className={'xlogo-' + modeActive.mode} /></a>
-            <a href="" className={"text-twitter-" + modeActive.mode}>Twitter-<span className="text-x">X</span></a>
+            <a href="https://x.com/saim_jawed?t=Snp2aooRuoDLqz2Vfar35w&s=09" target='_blank' className={"text-twitter-" + modeActive.mode}>Twitter-<span className="text-x">X</span></a>
           </a>
         </div>
         <div className="show-form">

@@ -42,9 +42,12 @@ const timeC=()=>{
                 <span className={"heading4"}>&#707;</span>
                 </div>
               
-                <div className={"content-"+modeActive.mode}>I’m an Indian-based Web Developer and an aspiring UI/UX Designer
-                    trying to make the most out of my creative thoughts.
-                   I want to design amazing web apps and write clean solutions for achieving those designs and functionalities.
+                <div className={"content-"+modeActive.mode}> 
+                  <span className={"first-line-"+modeActive.mode}>I’m an Indian-based Web Developer and an aspiring <br /> </span> 
+                  <span className={"second-line-"+modeActive.mode}> UI/UX Designer trying to make the most out of my <br /> </span>
+                  <span className={"third-line-"+modeActive.mode}> creative thoughts. I want to design amazing web apps <br /> </span>
+                  <span className={"fourth-line-"+modeActive.mode}> and write clean solutions for achieving those designs <br /> </span>
+                   <span className={"fifth-line-"+modeActive.mode}> and functionalities. <br /> </span>
                    </div>
                    <Link to='/' onClick={timeA} >
                     <button className={"button1-"+modeActive.mode}><div className={"text1"}>MORE ABOUT ME </div><FaRegArrowAltCircleDown className={'down-arrow'}/></button>
@@ -52,13 +55,13 @@ const timeC=()=>{
                     <a href="/CVSaim.pdf" download>
                     <button className={"button2-"+modeActive.mode}><div className={"text2"}>DOWNLOAD CV</div><FaCloudDownloadAlt className={'download'}/></button>
                     </a>
-                    <div className={"circles"}>
+                    <div className={"circles-"+modeActive.mode}>
                     <div className={"circle-cover1-"+modeActive.mode}>
                       <div className={"circle-cover2-"+modeActive.mode}></div>
                     </div>
                     
                     </div>
-                    <div className={"image-box"}>
+                    <div className={"image-box-"+modeActive.mode}>
                     <div className={'image'}></div>
                     <div className="circle1"><svg classname="circletry" xmlns="http://www.w3.org/2000/svg" width="11vw" height="19.53vh" viewBox="0 0 245 245" fill="none">
   <g filter="url(#filter0_ii_26_4)">

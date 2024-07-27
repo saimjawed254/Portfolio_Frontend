@@ -42,6 +42,8 @@
   left: -3.125vw;
 
   transition:width 2s;
+  animation: header-reveal 1s linear ;
+
 }
 
 
@@ -58,6 +60,16 @@
   left: -3.125vw;
 
   transition:width 2s;
+  animation: header-reveal-light 1s linear ;
+}
+
+@keyframes header-reveal{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
 
 .talk2-light-mode{
@@ -147,6 +159,8 @@ overflow: hidden;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  animation: top-heading-reveal 1s ease-in-out ;
+
 }
 
 .top-heading-dark-mode{
@@ -160,6 +174,30 @@ overflow: hidden;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  animation: top-heading-reveal-light 1s ease-in-out ;
+
+}
+
+@keyframes top-heading-reveal{
+  0%{
+    position: absolute;
+    left: -30vw;
+  }
+  100%{
+    position: absolute;
+    left: 9.65vw;
+  }
+}
+
+@keyframes top-heading-reveal-light{
+  0%{
+    position: absolute;
+    left: -30vw;
+  }
+  100%{
+    position: absolute;
+    left: 9.65vw;
+  }
 }
 
 .Saim {
@@ -178,6 +216,8 @@ overflow: hidden;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  animation: top-heading-reveal 1s ease-in-out ;
+
 }
 
 .heading1-dark-mode{
@@ -191,6 +231,8 @@ overflow: hidden;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  animation: top-heading-reveal-light 1s ease-in-out ;
+
 }
 
 
@@ -241,6 +283,7 @@ overflow:hidden;
   font-style: normal;
   font-weight: 450;
   line-height: normal;
+  animation: main-text-reveal 1s ease-in-out ;
 
 
 }
@@ -261,9 +304,31 @@ overflow:hidden;
   font-weight: 600;
   line-height: normal;
 
+  animation: main-text-reveal-light 1s ease-in-out ;
 
 }
 
+@keyframes main-text-reveal{
+  0%{
+    position: absolute;
+    left: -30vw;
+  }
+  100%{
+    position: absolute;
+    left: 20.3vw;
+  }
+}
+
+@keyframes main-text-reveal-light{
+  0%{
+    position: absolute;
+    left: -30vw;
+  }
+  100%{
+    position: absolute;
+    left: 20.3vw;
+  }
+}
 
 .heading2 {
   /* position: absolute;
@@ -325,6 +390,83 @@ overflow:hidden;
   line-height: normal;
 }
 
+.first-line-light-mode{
+  animation: first-line-reveal 1s ease-in-out ;
+}
+.first-line-dark-mode{
+  animation: first-line-reveal-light 1s ease-in-out ;
+}
+@keyframes first-line-reveal{
+  0%{
+    position: relative;
+    top: 0vh;
+    left: -30vw;
+    opacity: 0.1;
+  }
+  100%{
+    position: relative;
+    top: 0vh;
+    left: 0vw;
+    opacity: 1;
+  }
+}
+
+@keyframes first-line-reveal-light{
+  0%{
+    position: relative;
+    top: 0vh;
+    left: -30vw;
+    opacity: 0.1;
+  }
+  100%{
+    position: relative;
+    top: 0vh;
+    left: 0vw;
+    opacity: 1;
+  }
+}
+
+.second-line-light-mode{
+  animation: first-line-reveal 1.2s ease-in-out ;
+
+
+}
+
+.third-line-light-mode{
+  animation: first-line-reveal 1.4s ease-in-out ;
+
+}
+
+.fourth-line-light-mode{
+  animation: first-line-reveal 1.6s ease-in-out ;
+
+}
+
+.fifth-line-light-mode{
+  animation: first-line-reveal 1.8s ease-in-out ;
+
+}
+.second-line-dark-mode{
+  animation: first-line-reveal-light 1.2s ease-in-out ;
+
+
+}
+
+.third-line-dark-mode{
+  animation: first-line-reveal-light 1.4s ease-in-out ;
+
+}
+
+.fourth-line-dark-mode{
+  animation: first-line-reveal-light 1.6s ease-in-out ;
+
+}
+
+.fifth-line-dark-mode{
+  animation: first-line-reveal-light 1.8s ease-in-out ;
+
+}
+
 .button1-light-mode{
   width: 16.67vw;
   height: 8.33vh;
@@ -342,6 +484,8 @@ box-shadow: 0px 1vh 2vh 0 rgba(246, 0, 255,0.25);
 
   transition: all 0.5s;
 transform-origin: 50% 50%;
+animation: button-left-reveal 1s ease-out;
+
 }
 .button1-light-mode:hover{
 transform:scale(0.9);
@@ -365,11 +509,34 @@ box-shadow: 0px 1vh 2vh 0 #313131;
 
   transition: all 0.5s;
 transform-origin: 50% 50%;
+
+animation: button-left-reveal-light 1s ease-out;
 }
 .button1-dark-mode:hover{
 transform:scale(0.9)
 }
 
+@keyframes button-left-reveal{
+  0%{
+    position: absolute;
+    left: -30vw;
+  }
+  100%{
+    position: absolute;
+    left: 9.3vw;
+  }
+}
+
+@keyframes button-left-reveal-light{
+  0%{
+    position: absolute;
+    left: -30vw;
+  }
+  100%{
+    position: absolute;
+    left: 9.3vw;
+  }
+}
 
 .text1{
   position: relative;
@@ -408,6 +575,8 @@ box-shadow: 0px 1vh 2vh 0 rgba(246, 0, 255,0.25);
   left: 27.5vw;
   transition: all 0.5s;
 transform-origin: 50% 50%;
+animation: button-right-reveal 1s ease-out;
+
 }
 .button2-light-mode:hover{
 transform:scale(0.9);
@@ -431,11 +600,34 @@ box-shadow: 0px 1vh 2vh 0 #313131;
   left: 27.5vw;
   transition: all 0.5s;
 transform-origin: 50% 50%;
+
+animation: button-right-reveal-light 1s ease-out;
 }
 .button2-dark-mode:hover{
 transform:scale(0.9)
 }
 
+@keyframes button-right-reveal{
+  0%{
+    position: absolute;
+    left: 120vw;
+  }
+  100%{
+    position: absolute;
+    left: 27.5vw;
+  }
+}
+
+@keyframes button-right-reveal-light{
+  0%{
+    position: absolute;
+    left: 120vw;
+  }
+  100%{
+    position: absolute;
+    left: 27.5vw;
+  }
+}
 
 .text2 {
   position: relative;
@@ -460,7 +652,7 @@ transform:scale(0.9)
 
 
 
-.circles {
+.circles-light-mode {
   z-index: 1;
   width: 46.12vw;
   height: 90vh;
@@ -469,6 +661,49 @@ transform:scale(0.9)
   position: absolute;
   bottom: 0vh;
   right: 0vw;
+
+  animation: circles-reveal 1s ease-out;
+}
+
+.circles-dark-mode {
+  z-index: 1;
+  width: 46.12vw;
+  height: 90vh;
+  overflow: hidden;
+
+  position: absolute;
+  bottom: 0vh;
+  right: 0vw;
+
+  animation: circles-reveal-light 1s ease-out;
+}
+
+
+@keyframes circles-reveal{
+  0%{
+    position: absolute;
+    bottom:-90vh;
+    right: -50vw;
+  }
+  100%{
+    position: absolute;
+    bottom: 0vh;
+    right: 0vw;
+  }
+}
+
+
+@keyframes circles-reveal-light{
+  0%{
+    position: absolute;
+    bottom:-90vh;
+    right: -50vw;
+  }
+  100%{
+    position: absolute;
+    bottom: 0vh;
+    right: 0vw;
+  }
 }
 
 .circle-cover1-light-mode{
@@ -511,7 +746,7 @@ box-shadow: -1vw 0 4vh 0 #101010;
   animation-duration: 5s;
   animation-timing-function: cubic-bezier(0.99, 0.1, 0.001, 0.999);
   animation-iteration-count: infinite;
-  animation-delay: 2s;
+  animation-delay: -3s;
   animation-direction: alternate-reverse;
 }
 
@@ -555,7 +790,7 @@ box-shadow: -1vw 0 4vh 0 #ffffff;
   animation-duration: 5s;
   animation-timing-function: cubic-bezier(0.99, 0.1, 0.001, 0.999);
   animation-iteration-count: infinite;
-  animation-delay: 2s;
+  animation-delay: -3s;
   animation-direction: alternate-reverse;
 }
 
@@ -607,7 +842,7 @@ box-shadow: 1vw 0 4vh 0 #ffffff inset;
   
 }
 
-.image-box{
+.image-box-light-mode{
   z-index: 10;
   overflow: hidden;
  width:50vw;
@@ -615,6 +850,51 @@ box-shadow: 1vw 0 4vh 0 #ffffff inset;
  position: absolute;
  bottom:0vh;
  right:0vw; 
+
+ animation: image-reveal 1s ease-out;
+}
+
+.image-box-dark-mode{
+  z-index: 10;
+  overflow: hidden;
+ width:50vw;
+ height:90vh;
+ position: absolute;
+ bottom:0vh;
+ right:0vw; 
+
+ animation: image-reveal-light 1s ease-out;
+}
+
+
+@keyframes image-reveal{
+  0%{
+    position: absolute;
+    bottom:0vh;
+    right:-50vw; 
+   
+  }
+  100%{
+    position: absolute;
+    bottom:0vh;
+    right:0vw; 
+   
+  }
+}
+
+@keyframes image-reveal-light{
+  0%{
+    position: absolute;
+    bottom:0vh;
+    right:-50vw; 
+   
+  }
+  100%{
+    position: absolute;
+    bottom:0vh;
+    right:0vw; 
+   
+  }
 }
 
 .image{
@@ -886,6 +1166,9 @@ box-shadow: 1vw 0 4vh 0 #ffffff inset;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+
+    animation: top-heading-reveal 1s ease-in-out ;
+
   }
   
   .top-heading-dark-mode{
@@ -899,6 +1182,29 @@ box-shadow: 1vw 0 4vh 0 #ffffff inset;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    animation: top-heading-reveal-light 1s ease-in-out ;
+
+  }
+  
+  @keyframes top-heading-reveal{
+    0%{
+      position: absolute;
+      left: -30vw;
+    }
+    100%{
+      position: absolute;
+      left: 9.65vw;
+    }
+  }
+  @keyframes top-heading-reveal-light{
+    0%{
+      position: absolute;
+      left: -30vw;
+    }
+    100%{
+      position: absolute;
+      left: 9.65vw;
+    }
   }
   
   .Saim {
@@ -981,6 +1287,7 @@ box-shadow: 1vw 0 4vh 0 #ffffff inset;
     font-weight: 450;
     line-height: normal;
   
+    animation: main-text-reveal 1s ease-in-out ;
   
   }
   
@@ -1001,9 +1308,34 @@ box-shadow: 1vw 0 4vh 0 #ffffff inset;
     line-height: normal;
   
   
+    animation: main-text-reveal-light 1s ease-in-out ;
+
+}
+
+@keyframes main-text-reveal{
+  0%{
+    position: absolute;
+    left: -30vw;
   }
+  100%{
+    position: absolute;
+    left: 32vw;
+  }
+}
   
   
+@keyframes main-text-reveal-light{
+  0%{
+    position: absolute;
+    left: -30vw;
+  }
+  100%{
+    position: absolute;
+    left: 32vw;
+  }
+}
+
+
   .heading2 {
     /* position: absolute;
     top: 34.6vh;
@@ -1041,7 +1373,7 @@ box-shadow: 1vw 0 4vh 0 #ffffff inset;
     top: 30vh;
     left: 9.6vw;
   
-    width: 80vw;
+    width: 85vw;
     color: #efefef;
     font-family: Inter;
     font-size: 1.5vh;
@@ -1054,7 +1386,7 @@ box-shadow: 1vw 0 4vh 0 #ffffff inset;
     position: absolute;
     top: 30vh;
     left: 9.6vw;
-  width: 80vw;
+  width: 85vw;
     color: #000;
     font-family: Inter;
     font-size: 1.5vh;
@@ -1103,12 +1435,12 @@ box-shadow: 1vw 0 4vh 0 #ffffff inset;
   
     transition: all 0.5s;
   transform-origin: 50% 50%;
+
   }
   .button1-dark-mode:hover{
   transform:scale(0.9)
   }
-  
-  
+ 
   .text1{
     position: relative;
     left: -1vw;
@@ -1146,6 +1478,8 @@ box-shadow: 1vw 0 4vh 0 #ffffff inset;
     left:54vw;
     transition: all 0.5s;
   transform-origin: 50% 50%;
+  animation: button-right-reveal 1s ease-out;
+
   }
   .button2-light-mode:hover{
   transform:scale(0.9);
@@ -1169,11 +1503,34 @@ box-shadow: 1vw 0 4vh 0 #ffffff inset;
     left:54vw;
     transition: all 0.5s;
   transform-origin: 50% 50%;
+  animation: button-right-reveal-light 1s ease-out;
+
   }
   .button2-dark-mode:hover{
   transform:scale(0.9)
   }
   
+  @keyframes button-right-reveal{
+    0%{
+      position: absolute;
+      left: 120vw;
+    }
+    100%{
+      position: absolute;
+      left: 54vw;
+    }
+  }
+  
+  @keyframes button-right-reveal-light{
+    0%{
+      position: absolute;
+      left: 120vw;
+    }
+    100%{
+      position: absolute;
+      left: 54vw;
+    }
+  }
   
   .text2 {
     position: relative;
@@ -1198,7 +1555,19 @@ box-shadow: 1vw 0 4vh 0 #ffffff inset;
   
   
   
-  .circles {
+  .circles-light-mode {
+    z-index: 1;
+    width: 80vw;
+    height: 44vh;
+    overflow: hidden;
+  
+    position: absolute;
+    bottom: 0vh;
+    right: 0vw;
+
+  }
+  
+  .circles-dark-mode {
     z-index: 1;
     width: 80vw;
     height: 44vh;
@@ -1208,7 +1577,7 @@ box-shadow: 1vw 0 4vh 0 #ffffff inset;
     bottom: 0vh;
     right: 0vw;
   }
-  
+
   .circle-cover1-light-mode{
     z-index: 2;
     display: flex;
@@ -1343,7 +1712,17 @@ box-shadow: 1vw 0 4vh 0 #ffffff inset;
     
   }
   
-  .image-box{
+  .image-box-light-mode{
+    z-index: 10;
+    overflow: hidden;
+   width:70vw;
+   height:50vh;
+   position: absolute;
+   bottom:0vh;
+   right:0vw; 
+  }
+
+  .image-box-dark-mode{
     z-index: 10;
     overflow: hidden;
    width:70vw;
@@ -1719,6 +2098,7 @@ box-shadow: 1vw 0 4vh 0 #ffffff inset;
     font-weight: 450;
     line-height: normal;
   
+    animation: main-text-reveal 1s ease-in-out ;
   
   }
   
@@ -1738,7 +2118,30 @@ box-shadow: 1vw 0 4vh 0 #ffffff inset;
     font-weight: 600;
     line-height: normal;
   
+    animation: main-text-reveal-light 1s ease-in-out ;
+
+  }
   
+  @keyframes main-text-reveal{
+    0%{
+      position: absolute;
+      left: -30vw;
+    }
+    100%{
+      position: absolute;
+      left: 28vw;
+    }
+  }
+
+  @keyframes main-text-reveal-light{
+    0%{
+      position: absolute;
+      left: -30vw;
+    }
+    100%{
+      position: absolute;
+      left: 28vw;
+    }
   }
   
   
@@ -1885,6 +2288,8 @@ box-shadow: 1vw 0 4vh 0 #ffffff inset;
     left:54vw;
     transition: all 0.5s;
   transform-origin: 50% 50%;
+  animation: button-right-reveal 1s ease-out;
+
   }
   .button2-light-mode:hover{
   transform:scale(0.9);
@@ -1908,12 +2313,35 @@ box-shadow: 1vw 0 4vh 0 #ffffff inset;
     left:54vw;
     transition: all 0.5s;
   transform-origin: 50% 50%;
+
+  animation: button-right-reveal-light 1s ease-out;
   }
   .button2-dark-mode:hover{
   transform:scale(0.9)
   }
   
-  
+  @keyframes button-right-reveal{
+    0%{
+      position: absolute;
+      left: 120vw;
+    }
+    100%{
+      position: absolute;
+      left: 54vw;
+    }
+  }
+
+  @keyframes button-right-reveal-light{
+    0%{
+      position: absolute;
+      left: 120vw;
+    }
+    100%{
+      position: absolute;
+      left: 54vw;
+    }
+  }
+
   .text2 {
     position: relative;
     left: -1vw;
@@ -1937,7 +2365,18 @@ box-shadow: 1vw 0 4vh 0 #ffffff inset;
   
   
   
-  .circles {
+  .circles-light-mode {
+    z-index: 1;
+    width: 70vw;
+    height: 48vh;
+    overflow: hidden;
+  
+    position: absolute;
+    bottom: 0vh;
+    right: 0vw;
+  }
+ 
+  .circles-dark-mode {
     z-index: 1;
     width: 70vw;
     height: 48vh;
@@ -2085,7 +2524,7 @@ box-shadow: 1vw 0 4vh 0 #ffffff inset;
     
   }
   
-  .image-box{
+  .image-box-light-mode{
     z-index: 10;
     overflow: hidden;
    width:70vw;
@@ -2095,6 +2534,16 @@ box-shadow: 1vw 0 4vh 0 #ffffff inset;
    right:0vw; 
   }
   
+  .image-box-dark-mode{
+    z-index: 10;
+    overflow: hidden;
+   width:70vw;
+   height:46vh;
+   position: absolute;
+   bottom:0vh;
+   right:0vw; 
+  }
+
   .image{
     overflow: hidden;
     z-index: 4;
