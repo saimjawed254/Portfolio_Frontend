@@ -258,6 +258,21 @@ transform: scale(0.92);
     transform: scale(1.25);
 }
 
+.img-window-dev4{
+  width: 20vw;
+  height: 18vh;
+
+  border-top-left-radius: 0.625vw;
+  border-top-right-radius: 0.625vw;
+
+  background: url('/Social-Crap.png');
+  background-size: cover;
+  transition: all 0.5s;
+}
+.img-window-dev4:hover{
+  transform: scale(1.25);
+}
+
 .img-window-d1{
     width: 20vw;
     height: 18vh;
@@ -272,6 +287,22 @@ transform: scale(0.92);
 }
 .img-window-d1:hover{
     transform: scale(1.25);
+}
+
+.img-window-d2{
+  width: 20vw;
+  height: 18vh;
+
+  border-top-left-radius: 0.625vw;
+  border-top-right-radius: 0.625vw;
+
+  background: url('/Social-crap-design.png');
+  background-size: cover;
+  transition: all 0.5s;
+
+}
+.img-window-d2:hover{
+  transform: scale(1.25);
 }
 
 .tag{
@@ -824,6 +855,22 @@ background-clip: text;
     .img-window-dev3:hover{
         transform: scale(1.25);
     }
+
+    .img-window-dev4{
+      width: 40vw;
+      height: 8vh;
+  
+      border-top-left-radius: 0.625vw;
+      border-top-right-radius: 0.625vw;
+  
+      background: url('/Social-Crap.png');
+      background-size: cover;
+      transition: all 0.5s;
+  
+  }
+  .img-window-dev4:hover{
+      transform: scale(1.25);
+  }    
     
     .img-window-d1{
         width: 40vw;
@@ -840,6 +887,22 @@ background-clip: text;
     .img-window-d1:hover{
         transform: scale(1.25);
     }
+
+    .img-window-d2{
+      width: 40vw;
+      height: 8vh;
+  
+      border-top-left-radius: 0.625vw;
+      border-top-right-radius: 0.625vw;
+  
+    background: url('/Social-crap-design.png');
+      background-size: cover;
+      transition: all 0.5s;
+  
+  }
+  .img-window-d2:hover{
+      transform: scale(1.25);
+  }
     
     .tag{
        position: relative;
@@ -1389,6 +1452,22 @@ background-clip: text;
         transform: scale(1.25);
     }
     
+    .img-window-dev4{
+      width: 40vw;
+      height: 14vh;
+  
+      border-top-left-radius: 0.625vw;
+      border-top-right-radius: 0.625vw;
+  
+      background: url('/Social-Crap.png');
+      background-size: cover;
+      transition: all 0.5s;
+  
+  }
+  .img-window-dev4:hover{
+      transform: scale(1.25);
+  }
+
     .img-window-d1{
         width: 40vw;
         height: 14vh;
@@ -1405,6 +1484,22 @@ background-clip: text;
         transform: scale(1.25);
     }
     
+    .img-window-d2{
+      width: 40vw;
+      height: 14vh;
+  
+      border-top-left-radius: 0.625vw;
+      border-top-right-radius: 0.625vw;
+  
+      background: url('/Social-crap-design.png');
+      background-size: cover;
+      transition: all 0.5s;
+  
+  }
+  .img-window-d2:hover{
+      transform: scale(1.25);
+  }
+  
     .tag{
        position: relative;
        left: 0vh;

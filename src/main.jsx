@@ -11,6 +11,8 @@ import BlogPortfolio from './Components/BlogPortfolio.jsx';
 import BlogPortfolioDesign from './Components/BlogPortfolioDesign.jsx';
 import BlogExpresso from './Components/BlogExpresso.jsx';
 import BlogGym from './Components/BlogGym.jsx';
+import BlogSocialCrap from './Components/BlogSocialCrap.jsx';
+import BlogSocialCrapDesign from './Components/BlogSocialCrapDesign.jsx';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -23,6 +25,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path='/allprojects' element={<AllProjects/>}/>
         <Route path='/blog-portfolio-saim-jawed' element={<BlogPortfolio/>}/>
         <Route path='/blog-portfolio-design' element={<BlogPortfolioDesign/>}/>
+        <Route path='/blog-social-crap-design' element={<BlogSocialCrapDesign/>}/>
+        <Route path='/blog-social-crap' element={<BlogSocialCrap/>}/>
         <Route path='/blog-gym-website' element={<BlogGym/>}/>
         <Route path='/blog-expresso-website' element={<BlogExpresso/>}/>
     </Routes>
