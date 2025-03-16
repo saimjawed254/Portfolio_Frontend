@@ -25,7 +25,7 @@ function GetinTouch() {
   const [hello, setHello] = useState("All Good")
   useEffect(() => {
     const fetchdata = async () => {
-      const data = await fetch("https://portfolio-backend-wu3j.onrender.com/")
+      const data = await fetch("http://54.174.198.26:4000/")
       const mess = await data.json()
       setHello(mess.hell)
     }
@@ -46,7 +46,7 @@ function GetinTouch() {
     const message = messageRef.current.value
     console.log("done " + name + " " + number + " " + mail + " " + message)
     try {
-      const { data } = await axios.post("https://portfolio-backend-wu3j.onrender.com/send", {
+      const { data } = await axios.post("http://54.174.198.26:4000/send", {
         name,
         number,
         mail,
