@@ -43,9 +43,9 @@ function AboutMe() {
                                                Computer Science and Engineering from the<br/>
                                                National Institute of Technology, Patna.<br/>
                         <br/>
-                                               Recently, I have started learning about Blockchain  and I am <br/>
+                                               Recently, I have started learning about Cloud Computing and I am <br/>
                                               very hopeful I will soon be able to start<br/>
-                                               working on this amazing technology.<br/>
+                                            building with this amazing technology.<br/>
                     </div>
                     <Link to='/' onClick={timeS} >
                     <div className={"button-skills-"+modeActive.mode}><div className="text-skills">MY SKILLS<FaCodeBranch className="code-branch"/></div></div>
