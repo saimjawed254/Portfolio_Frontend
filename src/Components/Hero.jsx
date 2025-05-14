@@ -52,7 +52,7 @@ const timeC=()=>{
                    <Link to='/' onClick={timeA} >
                     <button className={"button1-"+modeActive.mode}><div className={"text1"}>MORE ABOUT ME </div><FaRegArrowAltCircleDown className={'down-arrow'}/></button>
                     </Link>
-                    <a href="/RESUME_2306049_SAIM_JAWED_CSE.pdf" download>
+                    <a href="/Resume_Saim_Jawed.pdf" download>
                     <button className={"button2-"+modeActive.mode}><div className={"text2"}>DOWNLOAD CV</div><FaCloudDownloadAlt className={'download'}/></button>
                     </a>
                     <div className={"circles-"+modeActive.mode}>
